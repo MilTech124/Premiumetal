@@ -31,7 +31,7 @@ function ItemsSmallContainer() {
         }
     ]
   return (
-    <div className='flex justify-evenly md:mt-[-150px] flex-wrap'>
+    <div className='flex justify-evenly md:mt-[-250px] flex-wrap'>
         {items.map((item)=>(
             <SmallItem key={item.number} number={item.number} title={item.title} image={item.image} />
         ))

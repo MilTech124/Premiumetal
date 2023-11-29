@@ -8,7 +8,11 @@
 }
 
 :root{
-  @apply text-white;
+  color:#2B2D42; background-color:#F9F9F8 ;
+}
+
+.text-primary{
+  color:#2B2D42;
 }
 
 h1{
