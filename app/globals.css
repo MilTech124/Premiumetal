@@ -19,10 +19,14 @@ h1{
   @apply md:text-6xl font-bold text-3xl
 }
 h2{
-  @apply md:text-4xl font-bold text-xl
+  @apply md:text-5xl font-bold text-xl
 }
 h3{
   @apply md:text-lg font-bold text-lg text-white
+}
+h4{
+  @apply md:text-lg font-bold text-lg
+
 }
 
 .bg-red{
@@ -39,4 +43,25 @@ nav li a:hover{
 
 .small-item::before{
     @apply content-[''] block w-full h-full rounded-md bg-red-700 absolute -z-10 -bottom-0 left-0  hover:-bottom-3 hover:left-3 transition-all duration-300 ;
+}
+
+.loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.loader__spinner {
+  border: 16px solid #f3f3f3;
+  border-top: 16px solid #3498db;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
 }

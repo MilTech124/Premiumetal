@@ -3,7 +3,7 @@ import Image from "next/image";
 
 function AboutPremium() {
   return (
-    <div className="flex   bg-[#2B2D42] text-white">
+    <div id="ofirmie" className="flex   bg-[#2B2D42] text-white px-2">
       <div className="flex flex-wrap container items-center justify-evenly mx-auto md:py-20 py-10">
         <div className="max-w-xl gap">
           <h2>Premiumetal</h2>

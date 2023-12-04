@@ -1,5 +1,5 @@
 import React from "react";
-import ItemRealization from "../ItemRealization";
+import ItemRealization from "./ItemRealization";
 import axios from "axios";
 const https = require('https');
 
@@ -30,7 +30,7 @@ async function HomeRealization() {
   } 
 
   return (
-    <div className="container py-10 mx-auto">
+    <div className="container py-10 mx-auto px-2">
       <h2 className="text-5xl">Przykładowe realizacje</h2>
       <p className="py-10 max-w-2xl">
         W Premiumetal każda realizacja jest odzwierciedleniem naszej pasji i

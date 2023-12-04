@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Colours() {
   return (
-    <div className="flex flex-wrap py-10 mx-auto container">
+    <div className="flex flex-wrap py-10 mx-auto container px-2">
       <div className="md:w-1/2">
         <h2>Nasza Paleta Kolorów</h2>
         <h4 className="text-xl font-semibold pt-1 pb-5">
