@@ -1,4 +1,3 @@
-import React from "react";
 import ItemRealization from "./ItemRealization";
 import axios from "axios";
 const https = require('https');

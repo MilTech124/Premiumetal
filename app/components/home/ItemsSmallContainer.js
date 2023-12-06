@@ -1,5 +1,6 @@
-import React from 'react'
+'use client'
 import SmallItem from './ItemSmall'
+import { Fade } from 'react-awesome-reveal'
 
 
 function ItemsSmallContainer() {
@@ -33,7 +34,10 @@ function ItemsSmallContainer() {
   return (
     <div className='flex justify-evenly md:mt-[-250px] flex-wrap'>
         {items.map((item)=>(
-            <SmallItem key={item.number} number={item.number} title={item.title} image={item.image} />
+            <Fade key={item.number} delay={item.number*100}>
+             <SmallItem key={item.number} number={item.number} title={item.title} image={item.image} />
+            </Fade>
+          
         ))
         }
     </div>
