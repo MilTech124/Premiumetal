@@ -21,7 +21,7 @@ function Footer() {
                 </ul>
                 
                 <div className='flex pt-5 gap-5 whitespace-nowrap items-center'>
-                <Link href='/' className='flex gap-2 hover:scale-105 transition-all'><img src="/images/Facebook.svg" alt="" />Facebook</Link>
+                <Link href='https://www.facebook.com/PremiuMetal' className='flex gap-2 hover:scale-105 transition-all'><img src="/images/Facebook.svg" alt="" />Facebook</Link>
                 <Link href='/' className='flex gap-2 hover:scale-105 transition-all'><img src="/images/info.svg" alt="" />Polityka prywatnosci</Link>
 
                 </div>
@@ -29,6 +29,7 @@ function Footer() {
         </div>
 
        </footer>
+       <div className='text-center text-red-600 bg-primary text-3xl font-bold p-2'>Szybki termin realizacji 14 dni od zamówienia !!!</div>
        <div>
         <div className="bg-red-800">
           <div className="container mx-auto py-2 text-center text-white">

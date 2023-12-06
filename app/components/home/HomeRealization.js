@@ -10,7 +10,7 @@ const Data = async () => {
   try {
     process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = 0;
     const data = await axios.get(process.env.NEXT_PUBLIC_HOST + "?pages=galeria", { httpsAgent: agent });
-    return data.data;
+    return data.data[1];
   } catch (error) {
     console.log(error);
     return error;
@@ -23,7 +23,7 @@ async function HomeRealization() {
   const data = await  Data()
 
   const firstElements =()=>{
-    const elements=data[0].acf.galeria
+    const elements=data.acf.galeria
     const firstElements = elements.slice(0, 6)
     return firstElements
   } 

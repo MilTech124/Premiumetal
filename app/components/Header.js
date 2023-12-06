@@ -15,14 +15,15 @@ function Header() {
             <ul className='md:flex max-sm:flex-col max-sm:flex max-sm:gap-2  gap-5 font-semibold max-md:justify-center'>
                 <li> <Link href="/">Strona główna</Link></li>
                 <li> <Link href="/galeria">Galeria</Link></li>
+                <li> <Link href="/smietniki">Śmietniki</Link></li>
                 <li> <Link href="/#ofirmie">O firmie</Link></li>
-                <li> <Link href="/informacje">Informacje</Link></li>
+                <li> <Link href="/informacje">Informacje</Link></li>           
                 <li> <Link href="/kontakt">Kontakt</Link></li>
 
             </ul>
         </nav>
         <div className='socials pr-5'>
-            <img className='hover:cursor-pointer hover:scale-110' src="/Facebook.svg" alt="" />
+            <Link href='https://www.facebook.com/PremiuMetal'><img className='hover:cursor-pointer hover:scale-110' src="/Facebook.svg" alt="" /></Link>
         </div>
         <button onClick={()=>setIsOpen(!isOpen)} className="btn btn-square btn-ghost md:invisible">
         {isOpen ? "X" : "☰"}
