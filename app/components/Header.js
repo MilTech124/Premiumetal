@@ -15,7 +15,7 @@ function Header() {
             <ul className='md:flex max-sm:flex-col max-sm:flex max-sm:gap-2  gap-5 font-semibold max-md:justify-center'>
                 <li> <Link href="/">Strona główna</Link></li>
                 <li> <Link href="/galeria">Galeria</Link></li>
-                <li> <Link href="/smietniki">Śmietniki</Link></li>
+                <li> <Link href="/smietniki">Wiaty Śmietnikowe</Link></li>
                 <li> <Link href="/#ofirmie">O firmie</Link></li>
                 <li> <Link href="/informacje">Informacje</Link></li>           
                 <li> <Link href="/kontakt">Kontakt</Link></li>

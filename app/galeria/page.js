@@ -12,8 +12,8 @@ const agent = new https.Agent({
 
 const getData = async () =>{  
   try {    
-    const data = await axios.get(process.env.NEXT_PUBLIC_HOST + "?pages=galeria", { httpsAgent: agent });
-    return data.data[1];    
+    const data = await axios.get(process.env.NEXT_PUBLIC_HOST + "?slug=galeria", { httpsAgent: agent });
+    return data.data[0];    
   } catch (error) {
     console.log(error);
     return error;
@@ -22,7 +22,6 @@ const getData = async () =>{
 
 async function index() {
   const data = await getData()
-  console.log("DATA !!!!!!!!!!!",data);
   
   return (
     <div>
