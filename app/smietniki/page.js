@@ -47,7 +47,7 @@ async function page() {
       <div className="flex flex-wrap">
         {data[0].acf.photo_gallery.smietnik[0].map((item) => {
           return (
-            <div className="w-1/3">
+            <div key={item.id} className="w-1/3">
               <img
                 src={item.full_image_url}
                 className="w-full h-[400px]"
