@@ -9,7 +9,7 @@ function Accesories() {
                <h4>1. Brama, posiadamy obecnie 2 rodzaje bram </h4>
                <p>- uchylna </p>
                <p>- na boki </p>
-               <h4 className='pt-2'>2. Drzwi w róznych koloraz wraz z osprzętem</h4>
+               <h4 className='pt-2'>2. Drzwi w róznych kolorach wraz z osprzętem</h4>
                <p>- prawe</p>
                <p>- lewe</p>
                 <h4 className='pt-2'>3. Obróbka tzw. opierzenie</h4>
@@ -17,7 +17,7 @@ function Accesories() {
                 <h4 className='pt-2'>4. Okna</h4>
                 <p>-60x100</p>
                 <p>-80x100</p> 
-                <h4 className='pt-2'>5. Rynny</h4>
+                <h4 className='pt-2'>5. Rynny PCV</h4>
                 <h4 className='pt-4'>Filc antykondensacyjny</h4>
                 <img src="/images/filc.jpg" alt="" />
                 <h4 className='pt-4'>Automaty do bram</h4>
