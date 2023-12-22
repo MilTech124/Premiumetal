@@ -1,5 +1,6 @@
 import Hero from "../components/galeria/Hero";
 import axios from "axios";
+
 const https = require("https");
 
 const agent = new https.Agent({
@@ -7,7 +8,6 @@ const agent = new https.Agent({
 });
 
 const getData = async () => {
-  process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
   const res = await axios.get(
     process.env.NEXT_PUBLIC_HOST + "?slug=smietniki",
     { httpsAgent: agent }
