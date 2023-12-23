@@ -26,7 +26,7 @@ async function index() {
   return (
     <div>
       <Hero title='Galeria' />
-      <div className='flex justify-center container mx-auto flex-wrap gap-2 -mt-10'>
+      <div className='flex justify-center container mx-auto flex-wrap gap-2 -mt-12'>
           {
             data.acf.galeria.map((item)=>{
               return <ItemRealization key={item.id} src={item.full_image_url} />

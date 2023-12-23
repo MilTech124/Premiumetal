@@ -39,8 +39,8 @@ async function HomeRealization() {
       <div className="flex flex-col pb-5 gap-2">
       {/* //arrow */}
 
-      <Link className="underline hover:text-red-500 hover:font-bold" href="/galeria">Przejdz do Garaży</Link>
-      <Link className="underline hover:text-red-500 hover:font-bold" href="/smietniki">Przejdz do Wiat Śmietnikowych</Link>
+      <Link className="underline font-bold text-red-400 hover:text-red-500 hover:font-bold" href="/galeria">Przejdz do Garaży</Link>
+      <Link className="underline font-bold text-red-400 hover:text-red-500 hover:font-bold" href="/smietniki">Przejdz do Wiat Śmietnikowych</Link>
       </div>
     
 
