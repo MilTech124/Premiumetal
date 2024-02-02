@@ -5,7 +5,7 @@ import { Fade,Slide } from "react-awesome-reveal";
 
 function Hero() {
   return (
-    <div className="bg-[url(/images/hero2.webp)] bg-cover flex  bg-no-repeat md:h-[400px] bg-bottom ">
+    <div className="bg-[url(/images/hero2.webp)] bg-cover flex  bg-no-repeat lg:h-[500px] md:h-[600px] bg-bottom ">
       <div className="flex items-end w-full justify-between  max-md:flex-col relative" >
         <div className="flex  flex-col  items-start justify-center h-full md:pl-[10%] pl-2 max-sm:pt-10">
             <Fade triggerOnce direction="left" delay={500}>
