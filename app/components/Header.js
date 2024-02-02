@@ -38,7 +38,7 @@ function Header() {
             </ul>
         </nav>
         <div className='socials max-sm:hidden max-sm:py-2 md:pr-5'>
-            <Link href='https://www.facebook.com/PremiuMetal'><img className='hover:cursor-pointer w-10 hover:scale-110' src="/Facebook.png" alt="facebook" /></Link>
+            <Link href='https://www.facebook.com/PremiuMetal'><img className='hover:cursor-pointer w-10 hover:scale-110' src="/facebook.png" alt="facebook" /></Link>
         </div>
         <button onClick={()=>setIsOpen(!isOpen)} className="btn btn-square btn-ghost md:invisible">
         {isOpen ? "X" : "☰"}
