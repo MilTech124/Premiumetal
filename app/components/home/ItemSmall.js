@@ -9,7 +9,7 @@ function SmallItem({ number, title,image }) {
        
       </div>
       <div className=" relative  small-item">
-        <Image src={image} width={200} height={200} className="max-sm:w-[100px]" />
+        <Image src={image} width={200} height={200} className="max-sm:w-[100px]" alt={title} />
         <h3 className="drop-shadow-md text-red text-[22px] text-center">{title}</h3>
       </div>
     </div>

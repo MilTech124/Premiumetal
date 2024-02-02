@@ -13,7 +13,7 @@ function Header() {
     <div className='sticky top-0 z-50 flex w-full bg-red md:h-[80px] '>
 
     <div className='mx-auto container flex w-full pr-5 justify-between items-center max-md:flex-col text-white shadow-xl '>
-        <Link href='/'><img src="/PREMIUM.jpg" alt="logo" className='w-[75px]' /></Link>
+       <img src="/PREMIUM.jpg" alt="logo" className='w-[75px]' />
         <nav className='md:ml-auto pr-4 md:!flex'style={{ display: isOpen ? "flex" : "none" }}>
             <ul className='md:flex text-xl max-sm:flex-col max-sm:flex max-sm:gap-2 items-center  gap-10 font-semibold max-md:justify-center'>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/" ><HomeIcon/></Link></li>

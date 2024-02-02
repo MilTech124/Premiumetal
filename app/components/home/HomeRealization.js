@@ -1,28 +1,7 @@
 import Link from "next/link";
-import ItemRealization from "./ItemRealization";
-import axios from "axios";
-const https = require("https");
-
-const agent = new https.Agent({
-  rejectUnauthorized: false,
-});
-
-const Data = async () => {
-  try {
-    process.env["NODE_TLS_REJECT_UNAUTHORIZED"] = 0;
-    const data = await axios.get(
-      process.env.NEXT_PUBLIC_HOST + "?slug=glowna",
-      { httpsAgent: agent }
-    );
-    return data.data;
-  } catch (error) {
-    console.log(error);
-    return error;
-  }
-};
 
 async function HomeRealization() {
-  const data = await Data();
+
 
   return (
     <div className="container py-10 mx-auto px-2">
@@ -39,7 +18,11 @@ async function HomeRealization() {
       <div className="flex flex-col pb-5 gap-2">
         <div className="flex justify-around max-md:flex-wrap gap-5">
           <div className="flex  relative flex-col max-w-lg">
-            <img src="/images/garaz_premium.webp"  className="w-full h-full object-cover " alt="garaz" />
+            <img
+              src="/images/garaz_premium.webp"
+              className="w-full h-full object-cover "
+              alt="garaz"
+            />
             {/* //centered title and button */}
             <div className="flex absolute inset-0 m-auto flex-col items-center justify-center">
               <h3 className="text-4xl pb-2 ">Garaże Premium</h3>
@@ -49,7 +32,11 @@ async function HomeRealization() {
             </div>
           </div>
           <div className="flex relative flex-col max-w-lg ">
-            <img src="/images/smietniki-hero.webp" className="w-full h-full object-cover " alt="smietnik" />
+            <img
+              src="/images/smietniki-hero.webp"
+              className="w-full h-full object-cover "
+              alt="smietnik"
+            />
             {/* //centered title and button */}
             <div className="flex absolute inset-0 m-auto flex-col items-center justify-center">
               <h3 className="text-4xl pb-2 ">Wiaty Śmietnikowe</h3>
@@ -60,14 +47,6 @@ async function HomeRealization() {
           </div>
         </div>
       </div>
-
-      {/* <div className="flex gap-5 flex-wrap justify-between max-sm:justify-center">
-        {data[0].acf.glowna.map((item) => {
-          return <ItemRealization key={item.id} src={item.full_image_url} />;
-        })}
-      </div> */}
-
-      {/*  Zmiany w realizacji */}
     </div>
   );
 }

@@ -3,10 +3,8 @@ import Hero from "./components/home/Hero";
 import ItemsSmallContainer from "./components/home/ItemsSmallContainer";
 import HomeRealization from "./components/home/HomeRealization";
 import AboutPremium from "./components/home/AboutPremium";
-import Colours from "./components/home/Colours";
 import SelfConfigGarage from "./components/home/SelfConfigGarage";
 import HomeAccesories from "./components/home/HomeAccesories";
-
 
 function page() {
   return (
@@ -14,14 +12,14 @@ function page() {
       <Hero />
       <div className="w-full">
         <div className="flex pt-20 justify-end">
-          <ItemsSmallContainer />
+          <ItemsSmallContainer />{" "}
         </div>
 
         <div className="w-full bg-szary h-[75px] -mt-[55px]"></div>
       </div>
       <HomeRealization />
       <AboutPremium />
-      {/* <Colours /> */}
+
       <SelfConfigGarage />
       <HomeAccesories />
     </div>

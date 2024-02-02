@@ -60,8 +60,8 @@ function page() {
           {/* ITEM 3 */}
         </div>
         <div className="md:w-1/2 ">
-        <img src="/images/kolorystyka.webp" alt="" />
-        <img src="/images/kolorystyka_2.webp" alt="" />
+        <img src="/images/kolorystyka.webp" alt="kolor1" />
+        <img src="/images/kolorystyka_2.webp" alt="kolor2" />
       </div>
       </div>
       

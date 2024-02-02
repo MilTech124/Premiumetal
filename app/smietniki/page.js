@@ -1,16 +1,17 @@
 import Hero from "../components/galeria/Hero";
 import axios from "axios";
 
-const https = require("https");
+// const https = require("https");
 
-const agent = new https.Agent({
-  rejectUnauthorized: false,
-});
+// const agent = new https.Agent({
+//   rejectUnauthorized: false,
+// });
+
+    // ,{ httpsAgent: agent } do axiosa
 
 const getData = async () => {
   const res = await axios.get(
-    process.env.NEXT_PUBLIC_HOST + "?slug=smietniki",
-    { httpsAgent: agent }
+    process.env.NEXT_PUBLIC_HOST + "?slug=smietniki"
   );
   return res.data;
 };

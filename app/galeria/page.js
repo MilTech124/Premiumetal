@@ -3,16 +3,18 @@ import Hero from '../components/galeria/Hero'
 import axios from 'axios'
 import ItemRealization from '../components/home/ItemRealization';
 
-const https = require('https');
+// const https = require('https');
 
 
-const agent = new https.Agent({  
-  rejectUnauthorized: false
-});
+// const agent = new https.Agent({  
+//   rejectUnauthorized: false
+// });
+
+// , { httpsAgent: agent }  do axiosa
 
 const getData = async () =>{  
   try {    
-    const data = await axios.get(process.env.NEXT_PUBLIC_HOST + "?slug=galeria", { httpsAgent: agent });
+    const data = await axios.get(process.env.NEXT_PUBLIC_HOST + "?slug=galeria"); 
     return data.data[0];    
   } catch (error) {
     console.log(error);
