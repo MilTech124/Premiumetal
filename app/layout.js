@@ -5,14 +5,14 @@ import Footer from './components/Footer'
 
 const inter = Inter({ subsets: ['latin'] })
 
-// export const metadata = {
-//   title: 'PREMIUMETAL',
-//   description: 'Garaże Klasy Premium',
-//   keywords: 'garaże blaszane, garaże, blaszaki,kojce, kojce dla psów, kojce dla psów blaszane',
-//   openGraph: {
-//     images: '/og-image.png',
-//   },
-// }
+export const metadata = {
+  title: 'PREMIUMETAL',
+  description: 'Garaże Klasy Premium',
+  keywords: 'garaże blaszane, garaże, blaszaki,kojce, kojce dla psów, kojce dla psów blaszane',
+  openGraph: {
+    images: '/og-image.png',
+  },
+}
 
 export default function RootLayout({ children }) {
   return (

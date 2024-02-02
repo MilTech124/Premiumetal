@@ -43,7 +43,7 @@ function SelfConfigGarage() {
       <div className="flex justify-evenly flex-wrap">
         {items.map((item,index)=>(
             <div key={index} className="flex max-sm:scale-90 flex-col justify-center text-red font-bold items-center pt-5">
-              <Fade className="text-2xl pb-2 ">{item.title}</Fade>
+              <Fade><p className="text-2xl pb-2 ">{item.title}</p></Fade>
               <Fade delay={100+index*100} ><img src={item.image} alt={item.title} className="w-80 h-80 object-cover"/> </Fade>              
               <Fade delay={300+index*100} className="!-mt-5" ><a href={item.link}><button className="btn bg-red">Więcej</button></a> </Fade> 
             </div>
