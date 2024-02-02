@@ -7,32 +7,23 @@ function ItemsSmallContainer() {
     const items = [
         {
             number:"1",
-            title:"Kontakt",
-            image:"/images/kontakt.png",
+            title:"Darmowa wycena",
+            image:"/images/kontakt2.png",
         },
         {
             number:"2",
-            title:"Wycena",
-            image:"/images/wycena.png",
+            title:"Darmowa dostawa",
+            image:"/images/dostawa.png",
         },
         {
             number:"3",
-            title:"Zamówienie",
-            image:"/images/zamowienie.png",
+            title:"Darmowy montaż",
+            image:"/images/zamowienie2.png",
         },
-        {
-            number:"4",
-            title:"Produkcja",
-            image:"/images/produkcja.png",
-        },
-        {
-            number:"5",
-            title:"Montaż",
-            image:"/images/montaz.png",
-        }
+      
     ]
   return (
-    <div className='flex justify-evenly md:mt-[-250px] max-sm:hidden flex-wrap'>
+    <div className='flex justify-evenly md:mt-[-150px] pl-4 '>
         {items.map((item)=>(
             <Fade key={item.number} delay={item.number*100}>
              <SmallItem key={item.number} number={item.number} title={item.title} image={item.image} />

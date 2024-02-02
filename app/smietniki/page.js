@@ -20,7 +20,7 @@ async function page() {
   return (
     <div>
       <Hero title={"Wiaty Śmietnikowe"} />
-      <div className="container mx-auto md:-mt-[100px]">
+      <div className="container mx-auto ">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-5 p-5">
           <div className="col-span-2">
             <h2 className="text-4xl font-semibold">Wiata Śmietnikowa</h2>

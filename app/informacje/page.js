@@ -1,28 +1,66 @@
-import React from 'react'
-import Hero from '../components/galeria/Hero'
-import Accesories from '../components/info/Accesories'
-import Colours from '../components/home/Colours'
-import Link from 'next/link'
-import Terrain from '../components/info/Terrain'
+import React from "react";
 
 function page() {
   return (
-    <div className='mx-auto bg-white'>
-        <Hero title='Informacje' />
-        <div className='flex gap-5 justify-center -mt-[200px] z-30'>
-            <button className='btn'><Link href="#akcesoria">Akcesoria</Link></button>
-            <button className='btn'><Link href="#kolory">Kolorystyka</Link></button>
-            <button className='btn'><Link href="#podloze">Podłoże</Link></button>
+    <div className="mx-auto container">
+      <div className="flex max-md:flex-wrap max-md:-order-2 justify-between pb-10">
+        <div className="px-2">
+          <h1 className="text-red pt-5">Informacje</h1>
+
+          <p className="text-xl pt-10 pr-10">
+            Firma PREMIUMetal produkuje garaże najwyższej jakości.<br></br>
+            Służymy fachowym doradztwem oraz pomocą w znalezieniu najlepszej
+            oferty. Gwarantujemy wszystkim klientom kompleksową obsługę, a nasi
+            eksperci służą radą od momentu zamówienia po dostawę oraz montaż
+            naszych produktów. Dzięki szerokiej ofercie jesteśmy w stanie
+            zaspokoić potrzeby najbardziej wymagających klientów. Jako producent
+            garaży klasy Premium zapewniamy wysoką jakość wykonania w
+            atrakcyjnej cenie. Zapoznaj się z naszą ofertą
+          </p>
         </div>
+        <img
+          src="/images/informacje.webp"
+          className=" w-[400px] max-md:-order-1"
+          alt="informacje"
+        />
+      </div>
 
-        <div id='akcesoria'><Accesories /></div>
-        <div id='kolory' className='bg-[#F9F9F8] '> <Colours /></div>
-        <div id='podloze'><Terrain/></div>
+      <h2 className="text-center text-white bg-red py-5 ">Brama</h2>
 
-       
-
+      <div className="flex py-10 justify-evenly">
+        <div>
+            <img src="/images/uchylna.webp" alt="uchylna" />
+            <h4 className="text-center">Uchylna podnoszona do góry</h4>
+        </div>
+        <div>
+            <img src="/images/uchylna.webp" alt="podnoszona" />
+            <h4 className="text-center">Dwuskrzydłowa</h4>
+        </div>
+      </div>
+      <h2 className="text-center text-white bg-red py-5  ">Przetłoczenia blachy</h2>
+      <div className="flex py-10 gap-5 justify-evenly px-2">
+        <div>
+            <img src="/images/pion.webp" alt="uchylna" />
+            <h4 className="text-center">Pionowe</h4>
+        </div>
+        <div>
+            <img src="/images/poziom.webp" alt="podnoszona" />
+            <h4 className="text-center">Poziome</h4>
+        </div>
+      </div>
+      <h2 className="text-center text-white bg-red py-5 ">Pokrycia dachowe</h2>
+      <div className="flex py-10 justify-evenly">
+        <div>
+            <img src="/images/dachowka.webp" alt="uchylna" />
+            <h4 className="text-center">Blachodachówka</h4>
+        </div>
+        <div>
+            <img src="/images/trapez.webp" alt="podnoszona" />
+            <h4 className="text-center">Blachą trapezową</h4>
+        </div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default page
+export default page;

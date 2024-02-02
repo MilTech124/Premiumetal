@@ -6,20 +6,33 @@
 .bg-primary{
     background-color: #EDF2F4;
 }
+.bg-red{
+  background-color: #800316;
+}
+.bg-szary{
+  background-color:#efefef;
+}
 
 :root{
-  color:#2B2D42; background-color:#F9F9F8 ;
+  color:#2B2D42; background-color:white ;
 }
 
 .text-primary{
   color:#2B2D42;
+}
+.text-red{
+  color:#800316;
+}
+.bg-black{
+  background-color:#171e23;
+
 }
 
 h1{
   @apply md:text-6xl font-bold text-3xl
 }
 h2{
-  @apply md:text-5xl font-bold text-xl
+  @apply md:text-6xl font-bold text-xl
 }
 h3{
   @apply md:text-lg font-bold text-lg text-white
@@ -29,20 +42,18 @@ h4{
 
 }
 
-.bg-red{
-    background-color: #D80032;
-}
+
 
 nav li a:hover{
     @apply cursor-pointer text-red-800  transition-colors duration-300;
 }
 
 .btn{
-    @apply bg-red-700 text-white font-bold  py-2 rounded-md hover:bg-red-900 transition-colors duration-300 px-10;
+    @apply  text-white bg-red border-none font-bold text-lg py-2 rounded-full hover:bg-red-600 transition-colors duration-300 px-10;
 }
 
 .small-item::before{
-    @apply content-[''] block w-full h-full rounded-md bg-red-700 absolute -z-10 -bottom-0 left-0  hover:-bottom-3 hover:left-3 transition-all duration-300 ;
+    /* @apply content-[''] block w-full h-full rounded-md bg-red-700 absolute -z-10 -bottom-0 left-0  hover:-bottom-3 hover:left-3 transition-all duration-300 ; */
 }
 
 .loader {
@@ -54,7 +65,7 @@ nav li a:hover{
 
 .loader__spinner {
   border: 16px solid #f3f3f3;
-  border-top: 16px solid #3498db;
+  border-top: 16px solid red;
   border-radius: 50%;
   width: 120px;
   height: 120px;

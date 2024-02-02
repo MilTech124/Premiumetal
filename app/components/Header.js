@@ -2,28 +2,43 @@
 import Link from 'next/link'
 import React from 'react'
 import { useState } from 'react'
+import HomeIcon from '../components/home/HomeIcon'
+
+
 
 function Header() {
     const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <div className='absolute z-50 flex w-full justify-end  md:h-[80px] text-stone-900'>
+    <div className='sticky top-0 z-50 flex w-full bg-red md:h-[80px] '>
 
-    <div className='bg-primary flex md:w-[60%] p-1 px-5 justify-between items-center max-md:flex-col shadow-xl '>
-        <img src="/logo.png" alt="logo" className='w-[75px]' />
-        <nav className='ml-auto pr-4 md:!flex'style={{ display: isOpen ? "flex" : "none" }}>
-            <ul className='md:flex max-sm:flex-col max-sm:flex max-sm:gap-2  gap-5 font-semibold max-md:justify-center'>
-                <li> <Link href="/">Strona główna</Link></li>
-                <li> <Link href="/galeria">Galeria</Link></li>
-                <li> <Link href="/smietniki">Wiaty Śmietnikowe</Link></li>
-                <li> <Link href="/#ofirmie">O firmie</Link></li>
-                <li> <Link href="/informacje">Informacje</Link></li>           
+    <div className='mx-auto container flex w-full pr-5 justify-between items-center max-md:flex-col text-white shadow-xl '>
+        <Link href='/'><img src="/PREMIUM.jpg" alt="logo" className='w-[75px]' /></Link>
+        <nav className='md:ml-auto pr-4 md:!flex'style={{ display: isOpen ? "flex" : "none" }}>
+            <ul className='md:flex text-xl max-sm:flex-col max-sm:flex max-sm:gap-2 items-center  gap-10 font-semibold max-md:justify-center'>
+                <li onClick={()=>{setIsOpen(false)}}> <Link href="/" ><HomeIcon/></Link></li>
+                <li onClick={()=>{setIsOpen(false)}}> <Link href="/galeria">Galeria</Link></li>
+                <li onClick={()=>{setIsOpen(false)}}> <Link href="/smietniki">Wiaty Śmietnikowe</Link></li>
+                <li onClick={()=>{setIsOpen(false)}}> <Link href="/#ofirmie">O firmie</Link></li>
+                {/* ON HOVER DROPDOWN */}
+                <li  onClick={()=>{setIsOpen(false)}}className='relative group'>Poradnik
+                <div className='absolute opacity-0 hidden text-sm group-hover:flex  group-hover:opacity-100 top-7 -left-5 bg-red w-[150px] '>
+                    <ul className='flex flex-col gap-5 p-5'>
+                        <li onClick={()=>{setIsOpen(false)}}> <Link href="/przygotowanie-podloza">Przygotowanie podłoża</Link></li>
+                        <li onClick={()=>{setIsOpen(false)}}> <Link href="/paleta-kolorow">Paleta kolorów</Link></li>
+                        <li onClick={()=>{setIsOpen(false)}}> <Link href="/informacje">Informacje</Link></li>
+                    </ul>
+                </div>                  
+                    
+                 
+
+                </li>          
                 <li> <Link href="/kontakt">Kontakt</Link></li>
 
             </ul>
         </nav>
-        <div className='socials pr-5'>
-            <Link href='https://www.facebook.com/PremiuMetal'><img className='hover:cursor-pointer hover:scale-110' src="/Facebook.svg" alt="" /></Link>
+        <div className='socials max-sm:hidden max-sm:py-2 md:pr-5'>
+            <Link href='https://www.facebook.com/PremiuMetal'><img className='hover:cursor-pointer w-10 hover:scale-110' src="/Facebook.png" alt="facebook" /></Link>
         </div>
         <button onClick={()=>setIsOpen(!isOpen)} className="btn btn-square btn-ghost md:invisible">
         {isOpen ? "X" : "☰"}

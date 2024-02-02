@@ -49,9 +49,9 @@ function Colours() {
         </ul>
       </div>
       <div>
-      <img src="/images/image 1.png" alt="" />
-      <img src="/images/image 3.png" alt="" />
-      <img src="/images/image 2.png" alt="" />
+      <img src="/images/image 1.png" alt="color1" />
+      <img src="/images/image 3.png" alt="color2" />
+      <img src="/images/image 2.png" alt="color3" />
       </div>
     </div>
   );
