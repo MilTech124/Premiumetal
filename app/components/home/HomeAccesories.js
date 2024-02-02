@@ -20,7 +20,7 @@ function HomeAccesories() {
             bardziej praktycznym w użytkowaniu.
           </p>
           </Fade>
-          <a href="/poradnik" className="md:absolute right-[-75px] z-20 bottom-[-20px]"><button className="btn"> Więcej</button></a>
+          <a href="/akcesoria" className="md:absolute right-[-75px] z-20 bottom-[-20px]"><button className="btn"> Więcej</button></a>
         </div>
         <Fade direction="right" className="md:w-3/5 p-5 min-w-40" >
           <img className="w-full" src="/images/garaz_akcesoria.webp" alt="akcesoria" />

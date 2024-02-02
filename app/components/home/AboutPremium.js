@@ -9,7 +9,7 @@ function AboutPremium() {
         <img className="w-24" src="/PREMIUM.jpg" alt="logo" />
         <Fade direction="left" triggerOnce>
           <h2 className="text-center text-red">
-            PREMIU<span className="text-black">Mmetal</span>
+            PREMIU<span className="text-black">Metal</span>
           </h2>
         </Fade>
       </div>
