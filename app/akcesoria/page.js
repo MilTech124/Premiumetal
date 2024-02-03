@@ -9,7 +9,7 @@ function page() {
 
           <p className="text-xl pt-10 pr-10">
             Zamawiając garaż blaszany warto pomyśleć o zakupie dodatkowych
-            akcesoriów, które nie tylko ulepszą twój garaż ale uczynią go
+            akcesoriów, które nie tylko ulepszą twój garaż, ale uczynią go
             bardziej praktycznym w użytkowaniu.
           </p>
         </div>
@@ -108,7 +108,7 @@ function page() {
             </div>
           </div>
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
-            <h4>Automat do bramy:</h4>   
+            <h4>Automat do bramy</h4>   
             <p>W skład zestawu wchodzi</p>        
             <ul className="list-disc list-inside">
               <li>1 siłownik HOME z wbudowaną centralą i odbiornikiem</li>
@@ -132,7 +132,7 @@ function page() {
              wartości estetycznej garażu, używamy nitów i śrub w kolorze
               zgodnym z kolorem blachy garażowej.</p>      
             <ul className="list-disc list-inside">
-              <li>Dopasowane do koloru garaż</li>             
+              <li>Dopasowane do koloru garażu</li>             
             </ul>
           </div>
           <img src="/images/nity.webp" className="md:w-60 w-20 pt-10 h-full" alt="" />

@@ -2,25 +2,48 @@
 import Image from "next/image";
 import Link from "next/link";
 import { Fade,Slide } from "react-awesome-reveal";
+import React, { useState, useEffect } from 'react';
 
-function Hero() {
+const Hero = () => {
+  const [scale, setScale] = useState(1);
+  const [rotate, setRotate] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+      const newScale = 1 + scrollTop / 1000; // Adjust this to control the rate of scaling
+      const newRotate = scrollTop / 100; // Adjust this to control the rate of rotation
+      setScale(newScale);
+      setRotate(newRotate);
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
-    <div className="bg-[url(/images/hero2.webp)] bg-cover flex  bg-no-repeat lg:h-[500px] md:h-[600px] bg-bottom ">
-      <div className="flex items-end w-full justify-between  max-md:flex-col relative" >
+    <div className="bg-[url(/images/hero2.webp)] bg-cover flex  bg-no-repeat lg:h-[500px] md:h-[400px] bg-bottom ">
+      <div className="flex md:items-end w-full justify-between  max-md:flex-col relative" >
         <div className="flex  flex-col  items-start justify-center h-full md:pl-[10%] pl-2 max-sm:pt-10">
             <Fade triggerOnce direction="left" delay={500}>
             <h1 className="font-bold max-w-md text-white">Garaże <br />Klasy Premium </h1>
             </Fade>
             <Fade triggerOnce direction="left" delay={1000}>
-            <p className="text-2xl text-white max-w-md py-10 max-md:text-lg">Wyjątkowe Garaże od Premiumetal Jakość i Styl dla Twojego Domu</p>
+            <p className="text-2xl text-white max-w-md py-10 max-md:text-lg">Wyjątkowe Garaże od Premiumetal <br className="sm:hidden"></br> Jakość i Styl dla Twojego Domu</p>
             </Fade>
             
         </div>
         <Slide triggerOnce direction="right" delay={1500}>
-        <Image src="/images/garaz.webp" width={800} height={567}  className="hover:-translate-x-10 hover:scale-105 transition-all" alt="garage" />
+        <Image src="/images/garaz2.webp" width={800} height={567}  
+        className="hover:-translate-x-10 hover:scale-105 transition-all" 
+        style={{ transform: `scale(${scale}) rotateY(${rotate}deg)` }}
+        alt="garage" />
         </Slide>
-        <Fade triggerOnce delay={1500}>
-            <Link href="/kontakt"><button className="btn md:absolute left-[10%]  -bottom-5  bg-red">Kontakt</button></Link>
+        <Fade triggerOnce delay={1500} style={{ perspective: '1000px' }}>
+            <Link href="/kontakt"><button className="btn absolute left-[10%]  -bottom-5 bg-red" >Kontakt</button></Link>
             </Fade>
     </div>
     

@@ -4,7 +4,7 @@ async function HomeRealization() {
 
 
   return (
-    <div className="container py-10 mx-auto px-2">
+    <div className="container pt-10 mx-auto px-2">
       <h2 className="text-6xl text-center text-red ">Realizujemy</h2>
       <p className="py-5 md:text-xl ">
         Specjalizujemy się w tworzeniu wysokiej jakości{" "}

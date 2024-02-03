@@ -45,7 +45,7 @@ function page() {
               wykopanie niewielkich otworów pod bloczki.
             </p>
           </div>
-          <img src="/images/wylewka_betonowa.webp" alt="" />
+          <img src="/images/betonowe_bloczki.webp" alt="" />
         </div>
         {/* ITEM 2 */}
         {/* ITEM 3 */}
@@ -58,7 +58,7 @@ function page() {
               jest szczególnie polecany dla trwalszych konstrukcji garażowych.
             </p>
           </div>
-          <img src="/images/wylewka_betonowa.webp" alt="" />
+          <img src="/images/fundament_obrys.webp" alt="" />
         </div>
         {/* ITEM 3 */}
       </div>

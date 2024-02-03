@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 function AboutPremium() {
   return (
     <div id="ofirmie">
-      <div className="flex gap-5 justify-center items-center">
+      <div className="flex md:gap-5 justify-center items-center">
         <img className="w-24" src="/PREMIUM.jpg" alt="logo" />
         <Fade direction="left" triggerOnce>
           <h2 className="text-center text-red">

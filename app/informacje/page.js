@@ -33,7 +33,7 @@ function page() {
             <h4 className="text-center">Uchylna podnoszona do góry</h4>
         </div>
         <div>
-            <img src="/images/uchylna.webp" alt="podnoszona" />
+            <img src="/images/otwierana.webp" alt="podnoszona" />
             <h4 className="text-center">Dwuskrzydłowa</h4>
         </div>
       </div>
