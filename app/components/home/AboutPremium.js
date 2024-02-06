@@ -31,9 +31,7 @@ function AboutPremium() {
                 są zaangażowani w dostarczanie produktów i usług najwyższej
                 klasy. Naszym celem jest przekraczanie oczekiwań klientów i
                 ciągłe doskonalenie naszych garaży, aby były one nie tylko
-                praktyczne, ale również inspirujące. Zapraszamy do współpracy i
-                odkrycia, jak nasze garaże mogą przekształcić przestrzeń Twojego
-                domu.
+                praktyczne, ale również inspirujące.
               </p>
               <p className="md:pt-10 pt-5">
                 Zapraszamy do współpracy i odkrycia, jak nasze garaże mogą

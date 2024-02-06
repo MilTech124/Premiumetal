@@ -12,8 +12,8 @@ async function HomeRealization() {
         sobie zarówno estetykę, jak i funkcjonalność. Nasze realizacje są
         idealnym rozwiązaniem dla tych, którzy cenią sobie wytrzymałość, styl
         oraz indywidualne podejście do każdego projektu. Oferujemy również
-        profesjonalne usługi<strong> wiat śmietnikowych</strong>, które są nie
-        tylko praktyczne, ale i estetycznie dopasowane do otoczenia
+        profesjonalne usługi wykonania<strong> wiat śmietnikowych</strong>, które są nie
+        tylko praktyczne, ale i estetycznie dopasowane do otoczenia.
       </p>
       <div className="flex flex-col pb-5 gap-2">
         <div className="flex justify-around max-md:flex-wrap gap-5">

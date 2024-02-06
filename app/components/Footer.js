@@ -14,9 +14,9 @@ function Footer() {
               <li>Sob: 9:00 - 13:00</li>
             </ul>
           </div>
-          <div className="flex gap-2 text-xl flex-col  pt-4 mr-auto">
+          <div className="flex gap-2  text-xl flex-col  pt-4 mr-auto">
             <div className="flex items-center gap-5 ">
-              <img src="/images/red_mail.webp" className="w-15" alt="icon" />{" "}
+              <img src="/images/red_mail.webp" className="w-16" alt="icon" />
               <Link
                 className="hover:scale-105 transition-all"
                 href="mailto:garaze@premiumetal.pl"
@@ -25,7 +25,7 @@ function Footer() {
               </Link>
             </div>
             <div className="flex items-center gap-5 ">
-              <img src="/images/red_phone.webp" className="w-15" alt="icon" />{" "}
+              <img src="/images/red_phone.webp" className="w-16" alt="icon" />
               <Link
                 className="hover:scale-105 transition-all"
                 href="tel:517330176"
@@ -34,7 +34,7 @@ function Footer() {
               </Link>
             </div>
             <div className="flex items-center gap-5 ">
-              <img src="/images/red_phone.webp" className="w-15" alt="icon" />{" "}
+              <img src="/images/red_phone.webp" className="w-16" alt="icon" />
               <Link
                 className="hover:scale-105 transition-all"
                 href="tel:665983244"
@@ -43,7 +43,7 @@ function Footer() {
               </Link>
             </div>
             <div className="flex items-center gap-5 ">
-              <img src="/images/red_adress.webp" className="w-15" alt="icon" />{" "}
+              <img src="/images/red_adress.webp" className="w-16" alt="icon" />
               <div>
                 <p className="font-semibold">Rupniów</p>
                 <p>34-652 Nowe Rybie</p>

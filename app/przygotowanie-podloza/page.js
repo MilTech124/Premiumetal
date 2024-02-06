@@ -26,10 +26,10 @@ function page() {
               Zalecamy wykonanie wylewki betonowej, szczególnie gdy garaż będzie
               służyć jako miejsce parkingowe dla samochodu. Wylewka powinna być
               większa o 15-30 cm od każdego boku garażu, z optymalną głębokością
-              warstwy betonu wynoszą
+              warstwy betonu wynoszącą 10-15cm.
             </p>
           </div>
-          <img src="/images/wylewka_betonowa.webp" alt="" />
+          <img src="/images/wylewka_betonowa.webp" className="w-[200px]" alt="" />
         </div>
         {/* ITEM 1 */}
         {/* ITEM 2 */}
@@ -45,7 +45,7 @@ function page() {
               wykopanie niewielkich otworów pod bloczki.
             </p>
           </div>
-          <img src="/images/betonowe_bloczki.webp" alt="" />
+          <img src="/images/betonowe_bloczki.webp" className="w-[200px]" alt="" />
         </div>
         {/* ITEM 2 */}
         {/* ITEM 3 */}
@@ -58,7 +58,7 @@ function page() {
               jest szczególnie polecany dla trwalszych konstrukcji garażowych.
             </p>
           </div>
-          <img src="/images/fundament_obrys.webp" alt="" />
+          <img src="/images/fundament_obrys.webp" className="w-[200px]" alt="" />
         </div>
         {/* ITEM 3 */}
       </div>

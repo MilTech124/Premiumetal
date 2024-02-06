@@ -15,7 +15,7 @@ function page() {
             naszych produktów. Dzięki szerokiej ofercie jesteśmy w stanie
             zaspokoić potrzeby najbardziej wymagających klientów. Jako producent
             garaży klasy Premium zapewniamy wysoką jakość wykonania w
-            atrakcyjnej cenie. Zapoznaj się z naszą ofertą
+            atrakcyjnej cenie. Zapoznaj się z naszą ofertą.
           </p>
         </div>
         <img
@@ -29,22 +29,22 @@ function page() {
 
       <div className="flex py-10 justify-evenly">
         <div>
-            <img src="/images/uchylna.webp" alt="uchylna" />
+            <img src="/images/uchylna.webp" className="w-[350px]" alt="uchylna" />
             <h4 className="text-center">Uchylna podnoszona do góry</h4>
         </div>
         <div>
-            <img src="/images/otwierana.webp" alt="podnoszona" />
+            <img src="/images/otwierana.webp" className="w-[350px]" alt="podnoszona" />
             <h4 className="text-center">Dwuskrzydłowa</h4>
         </div>
       </div>
       <h2 className="text-center text-white bg-red py-5  ">Przetłoczenia blachy</h2>
       <div className="flex py-10 gap-5 justify-evenly px-2">
         <div>
-            <img src="/images/pion.webp" alt="uchylna" />
+            <img src="/images/pion.webp" alt="pionowe" />
             <h4 className="text-center">Pionowe</h4>
         </div>
         <div>
-            <img src="/images/poziom.webp" alt="podnoszona" />
+            <img src="/images/poziom.webp" alt="poziome" />
             <h4 className="text-center">Poziome</h4>
         </div>
       </div>

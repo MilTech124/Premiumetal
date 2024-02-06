@@ -6,7 +6,7 @@ function page() {
       <div className="flex max-md:flex-wrap max-md:-order-2 justify-between">
         <div className="px-2">
           <h1 className="text-red pt-5">Nasza paleta kolorów</h1>
-          <h4 className="pt-5 pb-2">Spełniamy Twoje wizjwe</h4>
+          <h4 className="pt-5 pb-2">Spełniamy Twoje wizje</h4>
           <p className="text-xl pr-10">
             W PREMIUMetal rozumiemy, jak ważne jest dopasowanie koloru garażu do
             stylu i charakteru Twojej nieruchomości. Dlatego oferujemy szeroką
@@ -42,7 +42,7 @@ function page() {
               Aby sprostać oczekiwaniom miłośników naturalnych wykończeń,
               oferujemy również garaże w odcieniach drewnopodobnych. Nasze
               wykończenia imitujące drewno łączą w sobie ciepło i estetykę
-              naturalnego materiału z wytrzymałością i łatwością konse
+              naturalnego materiału z wytrzymałością i łatwością konserwacji.
             </p>
           </div>
           {/* ITEM 2 */}
