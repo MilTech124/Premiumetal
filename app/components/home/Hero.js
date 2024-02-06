@@ -5,24 +5,24 @@ import { Fade,Slide } from "react-awesome-reveal";
 import React, { useState, useEffect } from 'react';
 
 const Hero = () => {
-  const [scale, setScale] = useState(1);
-  const [rotate, setRotate] = useState(0);
+  // const [scale, setScale] = useState(1);
+  // const [rotate, setRotate] = useState(0);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-      const newScale = 1 + scrollTop / 1000; // Adjust this to control the rate of scaling
-      const newRotate = scrollTop / 100; // Adjust this to control the rate of rotation
-      setScale(newScale);
-      setRotate(newRotate);
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+  //     const newScale = 1 + scrollTop / 1000; // Adjust this to control the rate of scaling
+  //     const newRotate = scrollTop / 100; // Adjust this to control the rate of rotation
+  //     setScale(newScale);
+  //     setRotate(newRotate);
+  //   };
 
-    window.addEventListener('scroll', handleScroll);
+  //   window.addEventListener('scroll', handleScroll);
 
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
 
   return (
     <div className="bg-[url(/images/hero2.webp)] bg-cover flex  bg-no-repeat lg:h-[500px] md:h-[400px] bg-bottom ">
@@ -39,7 +39,7 @@ const Hero = () => {
         <Slide triggerOnce direction="right" delay={1500}>
         <Image src="/images/garaz2.webp" width={800} height={567}  
         className="hover:-translate-x-10 hover:scale-105 transition-all" 
-        style={{ transform: `scale(${scale}) rotateY(${rotate}deg)` }}
+        // style={{ transform: `scale(${scale}) rotateY(${rotate}deg)` }}
         alt="garage" />
         </Slide>
         <Fade triggerOnce delay={1500} style={{ perspective: '1000px' }}>
