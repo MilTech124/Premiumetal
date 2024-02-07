@@ -56,7 +56,7 @@ function page() {
           <p className="font-semibold">Gotowy na Garaż Swoich Marzeń?</p>
           <p className="font-normal pt-5">
             Skontaktuj się z nami już dziś, aby omówić Twoje potrzeby i zacząć
-            tworzyć idealny garaż!<br></br> Jesteśmy tutaj, aby pomóc Ci w każdym kroku.
+            tworzyć idealny garaż!<br></br> Jesteśmy tutaj, aby pomóc Ci na każdym kroku.
           </p>
         </div>
         </Fade>

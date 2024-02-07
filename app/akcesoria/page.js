@@ -93,7 +93,7 @@ function page() {
             <ul className="list-disc list-inside">
               <li>Produkcja z najwyższej jakości tworzyw sztucznych</li>
               <li>Wysoka odporność produktów na warunki atmosferyczne</li>
-              <li>Najwyższa estetyka wykonania, precyzja w połączeniach odcinków rynien oraz rur.</li>
+              <li>Najwyższa estetyka wykonania, precyzja w połączeniach odcinków rynien oraz rur</li>
            
             </ul>
           </div>

@@ -16,7 +16,7 @@ function AboutPremium() {
       <div className="flex">
         <div className="flex flex-wrap container items-center justify-center mx-auto ">
           <Fade className="md:w-1/2">
-            <img src="/images/garaz_premium.webp" className="w-full" alt="garage" />            
+            <img src="/images/About_premium.webp" className="w-full" alt="garage" />            
           </Fade>
           <div className="md:w-1/2 h-full max-md:h-fit text-white p-5 bg-black">
             <Fade direction="right" >

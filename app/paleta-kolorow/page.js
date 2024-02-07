@@ -37,7 +37,7 @@ function page() {
           {/* ITEM 1 */}
           {/* ITEM 2 */}
           <div className="p-2 bg-szary ">
-            <h4>Opcje Drewnopodobne::</h4>
+            <h4>Opcje Drewnopodobne:</h4>
             <p>
               Aby sprostać oczekiwaniom miłośników naturalnych wykończeń,
               oferujemy również garaże w odcieniach drewnopodobnych. Nasze

@@ -32,7 +32,7 @@ const Hero = () => {
             <h1 className="font-bold max-w-md text-white">Garaże <br />Klasy Premium </h1>
             </Fade>
             <Fade triggerOnce direction="left" delay={1000}>
-            <p className="text-2xl text-white max-w-md py-10 max-md:text-lg">Wyjątkowe Garaże od Premiumetal <br className="sm:hidden"></br> Jakość i Styl dla Twojego Domu</p>
+            <p className="text-2xl text-white max-w-md py-10 max-md:text-lg">Wyjątkowe Garaże od <span className="font-bold">PREMIUMetal</span> <br className="sm:hidden"></br> Jakość i Styl dla Twojego Domu</p>
             </Fade>
             
         </div>
@@ -42,8 +42,8 @@ const Hero = () => {
         // style={{ transform: `scale(${scale}) rotateY(${rotate}deg)` }}
         alt="garage" />
         </Slide>
-        <Fade triggerOnce delay={1500} style={{ perspective: '1000px' }}>
-            <Link href="/kontakt"><button className="btn absolute left-[10%]  -bottom-5 bg-red" >Kontakt</button></Link>
+        <Fade className="absolute left-[10%]  -bottom-5" triggerOnce delay={1500} style={{ perspective: '1000px' }}>
+            <Link href="/kontakt"><button className="btn  bg-red" >Kontakt</button></Link>
             </Fade>
     </div>
     

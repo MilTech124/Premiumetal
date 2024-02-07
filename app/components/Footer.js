@@ -6,10 +6,10 @@ function Footer() {
     <div>
       <footer className="bg-black ">
         <div className="container flex flex-wrap  mx-auto text-white justify-center">
-          <div className="pr-10">
+          <div className="md:pr-10">
             <img src="/PREMIUM.jpg" className="w-60" alt="logo" />
-            <h4 className="font-bold pl-2 py-2 text-red">Godziny Otwarcia</h4>
-            <ul className="flex pl-2 flex-col ml-5 ">
+            <h4 className="font-bold pl-2 py-2 text-center text-red">Godziny Otwarcia</h4>
+            <ul className="flex pl-2 text-center flex-col  ">
               <li>Pon - Pt: 8:00 - 16:00</li>
               <li>Sob: 9:00 - 13:00</li>
             </ul>
@@ -42,6 +42,7 @@ function Footer() {
                 +48 665983244
               </Link>
             </div>
+            
             <div className="flex items-center gap-5 ">
               <img src="/images/red_adress.webp" className="w-16" alt="icon" />
               <div>
@@ -49,7 +50,13 @@ function Footer() {
                 <p>34-652 Nowe Rybie</p>
               </div>
             </div>
-          </div>
+            <Link href="/polityka" className="flex items-center gap-5 hover:scale-105 ">
+              <img src="/info.svg" className="w-16" alt="icon" />
+              <div>
+               Polityka prywatności
+              </div>
+            </Link>
+          </div>  
           <div>
             <div className="bg-white p-5 text-black">
               <h3 className="text-red text-xl">Napisz do nas</h3>
@@ -94,8 +101,8 @@ function Footer() {
               </form>
             </div>
             <div className="text-center py-2">
-                <h4>PREMIUMetal S.C</h4>
-                <p>Waldemar Juszczak, Mirosław Węgrzynowicz</p>
+                <h4>PREMIUMetal</h4>
+                <p>Mirosław Węgrzynowicz</p>
             </div>
           </div>
         </div>

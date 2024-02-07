@@ -24,9 +24,9 @@ async function page() {
       <div className="container mx-auto ">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-5 p-5">
           <div className="col-span-2">
-            <h2 className="text-4xl font-semibold">Wiata Śmietnikowa</h2>
+            <h2 className="text-4xl pb-2 font-semibold">Wiata Śmietnikowa</h2>
             <p className="text-lg">
-              Wiata śmietnikowa to praktyczna konstrukcja do przechowywania
+               to praktyczna konstrukcja do przechowywania
               pojemników na odpady, chroniąca je przed czynnikami zewnętrznymi i
               utrzymująca porządek. Wykonana z materiałów odpornych na
               warunki atmosferyczne, może mieć drzwi lub bramę, ograniczając
