@@ -21,21 +21,15 @@ function AboutPremium() {
           <div className="md:w-1/2 h-full max-md:h-fit text-white p-5 bg-black">
             <Fade direction="right" >
               <h4 className="text-xl font-semibold pt-2 pb-5">
-                Pasja do Perfekcji w Tworzeniu Garaży
+              Garázsépítésben Tökéletesség iránti Elhivatottság
               </h4>
             </Fade>
             <Fade direction="right" delay={300} className="text-xl">
               <p>
-                W <b>PREMIUMetal</b> cenimy jakość, innowacyjność i dbałość o detale.
-                Nasz zespół składa się z wykwalifikowanych specjalistów, którzy
-                są zaangażowani w dostarczanie produktów i usług najwyższej
-                klasy. Naszym celem jest przekraczanie oczekiwań klientów i
-                ciągłe doskonalenie naszych garaży, aby były one nie tylko
-                praktyczne, ale również inspirujące.
+              A <b>PREMIUMetal</b> nagyra értékeljük a minőséget, az innovációt és a részletekre való odafigyelést. Csapatunk képzett szakemberekből áll, akik elkötelezettek az első osztályú termékek és szolgáltatások nyújtása iránt. Célunk az ügyfeleink elvárásainak túlszárnyalása, valamint a garázsaink folyamatosan fejlesztése, hogy azok ne csak praktikusak, hanem inspirálóak is legyenek.
               </p>
               <p className="md:pt-10 pt-5">
-                Zapraszamy do współpracy i odkrycia, jak nasze garaże mogą
-                przekształcić przestrzeń Twojego domu.
+              Szeretettel várunk, fedezd fel, hogyan tudják garázsaink átalakítani otthonod terét.
               </p>
             </Fade>
           </div>

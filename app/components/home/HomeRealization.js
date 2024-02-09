@@ -5,15 +5,9 @@ async function HomeRealization() {
 
   return (
     <div className="container pt-10 mx-auto px-2">
-      <h2 className="text-6xl text-center text-red ">Realizujemy</h2>
+      <h2 className="text-6xl text-center text-red ">Kivitelezéseink</h2>
       <p className="py-5 md:text-xl ">
-        Specjalizujemy się w tworzeniu wysokiej jakości{" "}
-        <strong>garaży drewnopodobnych i akrylowych</strong>, które łączą w
-        sobie zarówno estetykę, jak i funkcjonalność. Nasze realizacje są
-        idealnym rozwiązaniem dla tych, którzy cenią sobie wytrzymałość, styl
-        oraz indywidualne podejście do każdego projektu. Oferujemy również
-        profesjonalne usługi wykonania<strong> wiat śmietnikowych</strong>, które są nie
-        tylko praktyczne, ale i estetycznie dopasowane do otoczenia.
+      Szakterületünk az esztétikát és a funkcionalitást ötvöző, kiváló minőségű fa- és akrilgarázsok gyártása. Megvalósításaink mindazok számára jelentenek tökéletes megoldást, akik a tartósságot, a stílust, valamint projektek egyedi megközelítését értékelik. Professzionális szeméttároló fészereket is kínálunk, amelyek nem csak praktikusak, hanem esztétikusan illeszkednek a környezethez
       </p>
       <div className="flex flex-col pb-5 gap-2">
         <div className="flex justify-around max-md:flex-wrap gap-5">
@@ -25,9 +19,9 @@ async function HomeRealization() {
             />
             {/* //centered title and button */}
             <div className="flex absolute inset-0 m-auto flex-col items-center justify-center">
-              <h3 className="text-4xl pb-2 ">Garaże Premium</h3>
+              <h3 className="text-4xl pb-2 ">Prémium garázsok</h3>
               <Link href="/galeria">
-                <button className="btn bg-red">Więcej</button>
+                <button className="btn bg-red">Bővebben</button>
               </Link>
             </div>
           </div>
@@ -39,9 +33,9 @@ async function HomeRealization() {
             />
             {/* //centered title and button */}
             <div className="flex absolute inset-0 m-auto flex-col items-center justify-center">
-              <h3 className="text-4xl pb-2 ">Wiaty Śmietnikowe</h3>
+              <h3 className="text-4xl pb-2 ">Szeméttároló fészer</h3>
               <Link href="/smietniki">
-                <button className="btn bg-red">Więcej</button>
+                <button className="btn bg-red">Bővebben</button>
               </Link>
             </div>
           </div>

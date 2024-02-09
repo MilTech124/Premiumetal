@@ -7,17 +7,17 @@ function ItemsSmallContainer() {
     const items = [
         {
             number:"1",
-            title:"Darmowa wycena",
+            title:"Ingyenes Árajánlat",
             image:"/images/kontakt2.png",
         },
         {
             number:"2",
-            title:"Darmowa dostawa",
+            title:"Ingyenes szállítás",
             image:"/images/dostawa.png",
         },
         {
             number:"3",
-            title:"Darmowy montaż",
+            title:"Ingyenes telepítés",
             image:"/images/zamowienie2.png",
         },
       
