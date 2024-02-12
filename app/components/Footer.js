@@ -8,10 +8,10 @@ function Footer() {
         <div className="container flex flex-wrap  mx-auto text-white justify-center">
           <div className="md:pr-10">
             <img src="/PREMIUM.jpg" className="w-60" alt="logo" />
-            <h4 className="font-bold pl-2 py-2 text-center text-red">Godziny Otwarcia</h4>
+            <h4 className="font-bold pl-2 py-2 text-center text-red">Nyitva tartás</h4>
             <ul className="flex pl-2 text-center flex-col  ">
-              <li>Pon - Pt: 8:00 - 16:00</li>
-              <li>Sob: 9:00 - 13:00</li>
+              <li>Hétfőtől péntekig: 8:00 - 16:00</li>
+              <li>Szombat: 9:00 - 13:00</li>
             </ul>
           </div>
           <div className="flex gap-2  text-xl flex-col  pt-4 mr-auto">
@@ -19,27 +19,18 @@ function Footer() {
               <img src="/images/red_mail.webp" className="w-16" alt="icon" />
               <Link
                 className="hover:scale-105 transition-all"
-                href="mailto:garaze@premiumetal.pl"
+                href="mailto:garázsok@premiumetal.hu"
               >
-                garaze@premiumetal.pl
+                garázsok@premiumetal.hu
               </Link>
             </div>
             <div className="flex items-center gap-5 ">
               <img src="/images/red_phone.webp" className="w-16" alt="icon" />
               <Link
                 className="hover:scale-105 transition-all"
-                href="tel:517330176"
+                href="tel:+36305102127"
               >
-                +48 517330176
-              </Link>
-            </div>
-            <div className="flex items-center gap-5 ">
-              <img src="/images/red_phone.webp" className="w-16" alt="icon" />
-              <Link
-                className="hover:scale-105 transition-all"
-                href="tel:665983244"
-              >
-                +48 665983244
+                +36 305 102 127
               </Link>
             </div>
             
@@ -50,12 +41,12 @@ function Footer() {
                 <p>34-652 Nowe Rybie</p>
               </div>
             </div>
-            <Link href="/polityka" className="flex items-center gap-5 hover:scale-105 ">
+            {/* <Link href="/polityka" className="flex items-center gap-5 hover:scale-105 ">
               <img src="/info.svg" className="w-16" alt="icon" />
               <div>
                Polityka prywatności
               </div>
-            </Link>
+            </Link> */}
           </div>  
           <div>
             <div className="bg-white p-5 text-black">
@@ -108,7 +99,7 @@ function Footer() {
         </div>
       </footer>
       <div className="text-center text-red bg-primary text-3xl font-bold p-2">
-        Szybki termin realizacji 14 dni od zamówienia !!!
+        Gyors kivitelezési idő - a megrendeléstől számítva 14 nap !!! 
       </div>
       <div>
         <div className="bg-red">
