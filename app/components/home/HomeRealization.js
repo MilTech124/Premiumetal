@@ -5,7 +5,7 @@ async function HomeRealization() {
 
   return (
     <div className="container pt-10 mx-auto px-2">
-      <h2 className="text-6xl text-center text-red ">Kivitelezéseink</h2>
+      <h2 className="md:text-6xl text-4xl text-center text-red ">Kivitelezéseink</h2>
       <p className="py-5 md:text-xl ">
       Szakterületünk az esztétikát és a funkcionalitást ötvöző, kiváló minőségű fa- és akrilgarázsok gyártása. Megvalósításaink mindazok számára jelentenek tökéletes megoldást, akik a tartósságot, a stílust, valamint projektek egyedi megközelítését értékelik. Professzionális szeméttároló fészereket is kínálunk, amelyek nem csak praktikusak, hanem esztétikusan illeszkednek a környezethez
       </p>
