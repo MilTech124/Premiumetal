@@ -34,13 +34,13 @@ function Footer() {
               </Link>
             </div>
             
-            <div className="flex items-center gap-5 ">
+            {/* <div className="flex items-center gap-5 ">
               <img src="/images/red_adress.webp" className="w-16" alt="icon" />
               <div>
                 <p className="font-semibold">Rupniów</p>
                 <p>34-652 Nowe Rybie</p>
               </div>
-            </div>
+            </div> */}
             {/* <Link href="/polityka" className="flex items-center gap-5 hover:scale-105 ">
               <img src="/info.svg" className="w-16" alt="icon" />
               <div>
@@ -50,7 +50,7 @@ function Footer() {
           </div>  
           <div>
             <div className="bg-white p-5 text-black">
-              <h3 className="text-red text-xl">Napisz do nas</h3>
+              <h3 className="text-red text-xl">Írj nekünk</h3>
               <form className="max-w-lg pr-2"   action="https://formspree.io/f/moqgepar" method="POST">
               <textarea
                   name="message"
@@ -58,7 +58,7 @@ function Footer() {
                   cols="10"
                   rows="1"
                   required
-                  placeholder="Wiadomość"
+                  placeholder="Üzenet"
                   className="w-full bg-white p-2 my-2 border-4 border-red-900"
                 ></textarea>
                 <input
@@ -66,7 +66,7 @@ function Footer() {
                   id="name"
                   required
                   name="name"
-                  placeholder="Imię i Nazwisko"
+                  placeholder="Név"
                   className="w-full bg-white p-2  my-2 border-4 border-red-900"
                 />
                 <input
@@ -87,7 +87,7 @@ function Footer() {
                 />
                 <br></br>
                 <button type="submit" className="border-4 border-red-900 p-2 hover:bg-red-900">
-                  Wyślij
+                Küldés
                 </button>
               </form>
             </div>
@@ -104,8 +104,8 @@ function Footer() {
       <div>
         <div className="bg-red">
           <div className="container mx-auto flex max-sm:text-xs max-sm:flex-wrap justify-evenly py-2 text-center text-white">
-            <p>© 2021 Premiumetal. Wszelkie prawa zastrzeżone.</p>
-            <a href="https://www.mil-tech.pl"><p>Reazacja Mil-TECH</p></a>
+            <p>© 2024 Premiumetal. Minden jog fenntartva</p>
+            <a href="https://www.mil-tech.pl"><p>Megvalósítás Mil-TECH</p></a>
           </div>
         </div>
       </div>

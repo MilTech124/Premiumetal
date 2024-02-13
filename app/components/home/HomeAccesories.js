@@ -24,7 +24,7 @@ function HomeAccesories() {
             href="/akcesoria"
             className="md:absolute right-[-75px] z-20 bottom-[-20px]"
           >
-            <button className="btn"> Więcej</button>
+            <button className="btn"> Bővebben</button>
           </a>
         </div>
         <Fade direction="right" className="md:w-3/5 p-5 min-w-40">

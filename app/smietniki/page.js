@@ -7,12 +7,10 @@ import axios from "axios";
 //   rejectUnauthorized: false,
 // });
 
-    // ,{ httpsAgent: agent } do axiosa
+// ,{ httpsAgent: agent } do axiosa
 
 const getData = async () => {
-  const res = await axios.get(
-    process.env.NEXT_PUBLIC_HOST + "?slug=smietniki"
-  );
+  const res = await axios.get(process.env.NEXT_PUBLIC_HOST + "?slug=smietniki");
   return res.data;
 };
 
@@ -20,20 +18,23 @@ async function page() {
   const data = await getData();
   return (
     <div>
-      <Hero title={"Wiaty Śmietnikowe"} />
+      <Hero title={"Szemetes tárolók"} />
       <div className="container mx-auto ">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-5 p-5">
           <div className="col-span-2">
-            <h2 className="text-4xl pb-2 font-semibold">Wiata Śmietnikowa</h2>
+            <h2 className="text-4xl pb-2 font-semibold">Szemetes tárolók</h2>
             <p className="text-lg">
-               to praktyczna konstrukcja do przechowywania
-              pojemników na odpady, chroniąca je przed czynnikami zewnętrznymi i
-              utrzymująca porządek. Wykonana z materiałów odpornych na
-              warunki atmosferyczne, może mieć drzwi lub bramę, ograniczając
-              dostęp zwierząt i rozprzestrzenianie się zapachów. Są ważne w
-              miastach, gdzie pomagają utrzymać czystość i estetykę. Ich
-              projektowanie wymaga uwzględnienia wielu czynników, w tym
-              przepisów dotyczących gospodarowania odpadami.
+              A szemetes tároló egy olyan praktikus konstrukció, amely a
+              hulladékos kukák rendezett eltakarására szolgál, védve azokat a
+              környezeti hatásoktól. Wykonana z materiałów odpornych na A tároló
+              tartós és az időjárási viszonyoknak ellenálló anyagokból készült.
+              Zárható ajtóval vagy ráccsal lehet felszerelni, hogy a szemetestől
+              távol tartsa a kisállatokat, a kellemetlen szagokat pedig nem
+              engedi terjedni. Są ważne w A tárolók alkalmazhatósága fontos
+              lehet a városokban is, ahol segíthenek fenntartani a rendezett
+              tisztaságot a lakókörnyezetben. A tároló tervezésénél számos
+              szempontot kell figyelembe venni, többek között a
+              hulladéktárolásra vonatkozó helyi előírásokat.
             </p>
           </div>
           <div className="col-span-2">
