@@ -5,7 +5,7 @@ async function HomeRealization() {
 
   return (
     <div className="container pt-10 mx-auto px-2">
-      <h2 className="text-6xl text-center text-red ">Realizujemy</h2>
+      <h2 className="md:text-6xl  text-4xl text-center text-red ">Realizujemy</h2>
       <p className="py-5 md:text-xl ">
         Specjalizujemy się w tworzeniu wysokiej jakości{" "}
         <strong>garaży drewnopodobnych i akrylowych</strong>, które łączą w
