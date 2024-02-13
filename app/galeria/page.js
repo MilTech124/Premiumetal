@@ -27,7 +27,7 @@ async function index() {
   
   return (
     <div>
-      <Hero title='Galeria' />
+      <Hero title='Galéria' />
       <div className='flex justify-center container mx-auto flex-wrap gap-2 -mt-12'>
           {
             data.acf.galeria.map((item)=>{
