@@ -50,11 +50,9 @@ function page() {
         {/* ITEM */}
         <Fade>
           <div className="bg-primary w-[350px] rounded-md p-5">
-            <p className="font-semibold">Gotowy na Garaż Swoich Marzeń?</p>
+            <p className="font-semibold">Ste pripravení na garáž svojich snov?</p>
             <p className="font-normal pt-5">
-              Skontaktuj się z nami już dziś, aby omówić Twoje potrzeby i zacząć
-              tworzyć idealny garaż!<br></br> Jesteśmy tutaj, aby pomóc Ci na
-              każdym kroku.
+            Kontaktujte nás ešte dnes, aby sme prediskutovali vaše potreby a začali vytvárať vašu dokonalú garáž! Sme tu, aby sme vám pomohli na každom kroku.
             </p>
           </div>
         </Fade>

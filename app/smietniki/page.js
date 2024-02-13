@@ -7,12 +7,10 @@ import axios from "axios";
 //   rejectUnauthorized: false,
 // });
 
-    // ,{ httpsAgent: agent } do axiosa
+// ,{ httpsAgent: agent } do axiosa
 
 const getData = async () => {
-  const res = await axios.get(
-    process.env.NEXT_PUBLIC_HOST + "?slug=smietniki"
-  );
+  const res = await axios.get(process.env.NEXT_PUBLIC_HOST + "?slug=smietniki");
   return res.data;
 };
 
@@ -24,16 +22,18 @@ async function page() {
       <div className="container mx-auto ">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-5 p-5">
           <div className="col-span-2">
-            <h2 className="text-4xl pb-2 font-semibold">Wiata Śmietnikowa</h2>
+            <h2 className="text-4xl pb-2 font-semibold">
+              Prístrešok na odpadky
+            </h2>
             <p className="text-lg">
-               to praktyczna konstrukcja do przechowywania
-              pojemników na odpady, chroniąca je przed czynnikami zewnętrznymi i
-              utrzymująca porządek. Wykonana z materiałów odpornych na
-              warunki atmosferyczne, może mieć drzwi lub bramę, ograniczając
-              dostęp zwierząt i rozprzestrzenianie się zapachów. Są ważne w
-              miastach, gdzie pomagają utrzymać czystość i estetykę. Ich
-              projektowanie wymaga uwzględnienia wielu czynników, w tym
-              przepisów dotyczących gospodarowania odpadami.
+              Prístrešok na odpadky je praktická konštrukcia na uskladnenie
+              odpadkových košov, ich ochranu pred poveternostnými vplyvmi a
+              udržiavanie poriadku. Je vyrobená z materiálov odolných voči
+              poveternostným vplyvom a môže mať dvere alebo bránu, obmedzujúce
+              prístup zvierat a šírenie zápachu. Sú dôležité v mestách, kde
+              pomáhajú udržiavať čistotu a estetiku. Ich projektovanie si
+              vyžaduje zohľadnenie mnohých faktorov vrátane predpisov o
+              nakladaní s odpadmi.
             </p>
           </div>
           <div className="col-span-2">
