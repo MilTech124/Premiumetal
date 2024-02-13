@@ -40,7 +40,7 @@ function page() {
             <img src="/images/Clock.png" alt="mobile" className="p-2" />
           </div>
           <div className="flex gap-2 flex-col items-center justify-center bg-primary rounded-md px-10 p-2 font-normal group w-[250px]">
-            <p className="font-semibold">Godziny Pracy:</p>
+            <p className="font-semibold">Nyitva tartás:</p>
             <p>Hétfőtől péntekig: 8:00 - 16:00</p>
             <p>Szombat: 9:00 - 13:00</p>            
           </div>

@@ -7,8 +7,8 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'PREMIUMETAL',
-  description: 'Garaże Klasy Premium',
-  keywords: 'garaże blaszane, garaże, blaszaki,kojce, kojce dla psów, kojce dla psów blaszane',
+  description: 'Prémium osztályú garázsok',
+  keywords: 'Fémgarázsok, garázsok, fémházak, kennel, kutyakennel, fém kutyakennel',
   openGraph: {
     images: '/og-image.png',
   },
