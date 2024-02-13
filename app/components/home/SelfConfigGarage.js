@@ -16,7 +16,7 @@ function SelfConfigGarage() {
     },
     {
       title: "Információk",
-      image: "/images/informacje.png",
+      image: "/images/informacje.webp",
       link: "/informacje",
     },
   ];
