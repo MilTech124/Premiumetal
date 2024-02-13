@@ -17,17 +17,17 @@ function Header() {
         <nav className='md:ml-auto md:pr-4 md:!flex'style={{ display: isOpen ? "flex" : "none" }}>
             <ul className='md:flex text-xl max-sm:flex-col max-sm:flex max-sm:gap-2 items-center  gap-10 font-semibold max-md:justify-center'>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/" ><HomeIcon/></Link></li>
-                <li onClick={()=>{setIsOpen(false)}}> <Link href="/galeria">Galeria</Link></li>
-                <li onClick={()=>{setIsOpen(false)}}> <Link href="/smietniki">Wiaty Śmietnikowe</Link></li>
-                <li onClick={()=>{setIsOpen(false)}}> <Link href="/#ofirmie">O firmie</Link></li>
+                <li onClick={()=>{setIsOpen(false)}}> <Link href="/galeria">Galéria</Link></li>
+                <li onClick={()=>{setIsOpen(false)}}> <Link href="/smietniki">Prístrešky na odpadky</Link></li>
+                <li onClick={()=>{setIsOpen(false)}}> <Link href="/#ofirmie">O spoločnosti</Link></li>
                 {/* ON HOVER DROPDOWN */}
                 <li className='relative group'>Poradnik
                 <div className='absolute opacity-0 hidden text-sm group-hover:flex  group-hover:opacity-100 top-7 -left-5 bg-red w-[150px] '>
                     <ul className='flex flex-col gap-5 p-5'>
-                        <li onClick={()=>{setIsOpen(false)}}> <Link href="/akcesoria">Dodatkowe akcesoria</Link></li>
-                        <li onClick={()=>{setIsOpen(false)}}> <Link href="/przygotowanie-podloza">Przygotowanie podłoża</Link></li>
-                        <li onClick={()=>{setIsOpen(false)}}> <Link href="/paleta-kolorow">Paleta kolorów</Link></li>
-                        <li onClick={()=>{setIsOpen(false)}}> <Link href="/informacje">Informacje</Link></li>
+                        <li onClick={()=>{setIsOpen(false)}}> <Link href="/akcesoria">Dodatočné príslušenstvo</Link></li>
+                        <li onClick={()=>{setIsOpen(false)}}> <Link href="/przygotowanie-podloza">Príprava substrátu</Link></li>
+                        <li onClick={()=>{setIsOpen(false)}}> <Link href="/paleta-kolorow">Paleta farieb</Link></li>
+                        <li onClick={()=>{setIsOpen(false)}}> <Link href="/informacje">Informácie</Link></li>
                     </ul>
                 </div>                  
                     
@@ -39,10 +39,11 @@ function Header() {
             </ul>
         </nav>
         <div className='overflow-hidden hover:overflow-visible max-sm:flex hover:max-h-full transition-all h-7'>
+        <a href="https://premiumetal.sk" ><img className='w-10 p-2 hover:scale-110 transition hover:rotate-6' src="/sk.webp" alt="sk" /></a>
         <a href="https://premiumetal.pl" ><img className='w-10 p-2 hover:scale-110 transition hover:rotate-6' src="/pl.webp" alt="pl" /></a>
         <a href="https://premiumetal.hu" ><img className='w-10 p-2 hover:scale-110 transition hover:rotate-6' src="/hu.webp" alt="hu" /></a>
         <a href="https://premiumetal.cz" ><img className='w-10 p-2 hover:scale-110 transition hover:rotate-6' src="/cz.webp" alt="cz" /></a>
-        <a href="https://premiumetal.sk" ><img className='w-10 p-2 hover:scale-110 transition hover:rotate-6' src="/sk.webp" alt="sk" /></a>
+        
         </div>
        
         <div className='socials max-sm:hidden max-sm:py-2 md:pr-5'>

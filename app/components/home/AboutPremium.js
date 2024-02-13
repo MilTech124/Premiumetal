@@ -16,26 +16,30 @@ function AboutPremium() {
       <div className="flex">
         <div className="flex flex-wrap container items-center justify-center mx-auto ">
           <Fade className="md:w-1/2">
-            <img src="/images/About_premium.webp" className="w-full" alt="garage" />            
+            <img
+              src="/images/About_premium.webp"
+              className="w-full"
+              alt="garage"
+            />
           </Fade>
           <div className="md:w-1/2 h-full max-md:h-fit text-white p-5 bg-black">
-            <Fade direction="right" >
+            <Fade direction="right">
               <h4 className="text-xl font-semibold pt-2 pb-5">
-                Pasja do Perfekcji w Tworzeniu Garaży
+                Vášeň pre dokonalosť pri tvorbe garáží
               </h4>
             </Fade>
             <Fade direction="right" delay={300} className="text-xl">
               <p>
-                W <b>PREMIUMetal</b> cenimy jakość, innowacyjność i dbałość o detale.
-                Nasz zespół składa się z wykwalifikowanych specjalistów, którzy
-                są zaangażowani w dostarczanie produktów i usług najwyższej
-                klasy. Naszym celem jest przekraczanie oczekiwań klientów i
-                ciągłe doskonalenie naszych garaży, aby były one nie tylko
-                praktyczne, ale również inspirujące.
+                V spoločnosti Premiumetal si ceníme kvalitu, inováciu a zmysel
+                pre detail. Náš tím sa skladá z kvalifikovaných odborníkov,
+                ktorí sa snažia poskytovať produkty a služby najvyššej triedy.
+                Naším cieľom je prekonávať očakávania zákazníkov a neustále
+                zlepšovať naše garáže, aby boli nielen praktické, ale aj
+                inšpiratívne.
               </p>
               <p className="md:pt-10 pt-5">
-                Zapraszamy do współpracy i odkrycia, jak nasze garaże mogą
-                przekształcić przestrzeń Twojego domu.
+                Pozývame vás k spolupráci a objaveniu toho, ako môžu naše garáže
+                premeniť priestor Vášho domova.
               </p>
             </Fade>
           </div>

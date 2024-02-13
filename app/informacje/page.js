@@ -5,17 +5,17 @@ function page() {
     <div className="mx-auto container">
       <div className="flex max-md:flex-wrap max-md:-order-2 justify-between pb-10">
         <div className="px-2">
-          <h1 className="text-red pt-5">Informacje</h1>
+          <h1 className="text-red pt-5">Informácie</h1>
 
           <p className="text-xl pt-10 pr-10">
-            Firma PREMIUMetal produkuje garaże najwyższej jakości.<br></br>
-            Służymy fachowym doradztwem oraz pomocą w znalezieniu najlepszej
-            oferty. Gwarantujemy wszystkim klientom kompleksową obsługę, a nasi
-            eksperci służą radą od momentu zamówienia po dostawę oraz montaż
-            naszych produktów. Dzięki szerokiej ofercie jesteśmy w stanie
-            zaspokoić potrzeby najbardziej wymagających klientów. Jako producent
-            garaży klasy Premium zapewniamy wysoką jakość wykonania w
-            atrakcyjnej cenie. Zapoznaj się z naszą ofertą.
+            PREMIUMetal vyrába garáže najvyššej kvality. Poskytujeme odborné
+            poradenstvo a pomoc pri hľadaní najlepšej ponuky. Všetkým zákazníkom
+            garantujeme komplexný servis a naši odborníci poskytujú poradenstvo
+            od momentu objednávky až po dodanie a montáž našich produktov. Vďaka
+            našej širokej ponuke sme schopní uspokojiť potreby aj tých
+            najnáročnejších zákazníkov. Ako výrobca prémiových garáží
+            poskytujeme vysokú kvalitu spracovania za atraktívnu cenu. Pozrite
+            si našu ponuku
           </p>
         </div>
         <img
@@ -25,38 +25,44 @@ function page() {
         />
       </div>
 
-      <h2 className="text-center text-white bg-red py-5 ">Brama</h2>
+      <h2 className="text-center text-white bg-red py-5 ">Brána</h2>
 
       <div className="flex py-10 justify-evenly">
         <div>
-            <img src="/images/uchylna.webp" className="w-[350px]" alt="uchylna" />
-            <h4 className="text-center">Uchylna podnoszona do góry</h4>
+          <img src="/images/uchylna.webp" className="w-[350px]" alt="uchylna" />
+          <h4 className="text-center">Sklopná, zdvihnutá</h4>
         </div>
         <div>
-            <img src="/images/otwierana.webp" className="w-[350px]" alt="podnoszona" />
-            <h4 className="text-center">Dwuskrzydłowa</h4>
+          <img
+            src="/images/otwierana.webp"
+            className="w-[350px]"
+            alt="podnoszona"
+          />
+          <h4 className="text-center">Dvojkrídlová</h4>
         </div>
       </div>
-      <h2 className="text-center text-white bg-red py-5  ">Przetłoczenia blachy</h2>
+      <h2 className="text-center text-white bg-red py-5  ">
+      Lisovanie plechu
+      </h2>
       <div className="flex py-10 gap-5 justify-evenly px-2">
         <div>
-            <img src="/images/pion.webp" alt="pionowe" />
-            <h4 className="text-center">Pionowe</h4>
+          <img src="/images/pion.webp" alt="pionowe" />
+          <h4 className="text-center">Vertikálne</h4>
         </div>
         <div>
-            <img src="/images/poziom.webp" alt="poziome" />
-            <h4 className="text-center">Poziome</h4>
+          <img src="/images/poziom.webp" alt="poziome" />
+          <h4 className="text-center">Horizontálne</h4>
         </div>
       </div>
-      <h2 className="text-center text-white bg-red py-5 ">Pokrycia dachowe</h2>
+      <h2 className="text-center text-white bg-red py-5 ">Strešná krytina</h2>
       <div className="flex py-10 justify-evenly">
         <div>
-            <img src="/images/dachowka.webp" alt="uchylna" />
-            <h4 className="text-center">Blachodachówka</h4>
+          <img src="/images/dachowka.webp" alt="uchylna" />
+          <h4 className="text-center">Plechová strešná krytina</h4>
         </div>
         <div>
-            <img src="/images/trapez.webp" alt="podnoszona" />
-            <h4 className="text-center">Blachą trapezową</h4>
+          <img src="/images/trapez.webp" alt="podnoszona" />
+          <h4 className="text-center">Trapézový plech</h4>
         </div>
       </div>
     </div>

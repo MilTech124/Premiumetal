@@ -5,16 +5,16 @@ function page() {
     <div className="mx-auto container">
       <div className="flex max-md:flex-wrap max-md:-order-2 justify-between">
         <div className="px-2">
-          <h1 className="text-red pt-5">Dodatkowe akcesoria</h1>
+          <h1 className="text-red pt-5">Dodatočné príslušenstvo</h1>
 
           <p className="text-xl pt-10 pr-10">
-            Zamawiając garaż blaszany warto pomyśleć o zakupie dodatkowych
-            akcesoriów, które nie tylko ulepszą twój garaż, ale uczynią go
-            bardziej praktycznym w użytkowaniu.
+            Pri objednávaní plechovej garáže oplatí sa zvážiť zakúpenie ďalšieho
+            príslušenstva, ktoré vašu garáž nielen vylepší, ale aj spríjemní jej
+            používanie.
           </p>
         </div>
         <img
-          src="/images/informacje.webp"
+          src="/images/rynna.webp"
           className=" w-[400px] max-md:-order-1"
           alt=""
         />
@@ -29,129 +29,160 @@ function page() {
             </div>
           </div>
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
-            <h4>Drzwi</h4>
-            <p>Zalety dodatkowych drzwi:</p>
+            <h4>Dvere</h4>
+            <p>Výhody dodatočných dverí:</p>
             <ul className="list-disc list-inside">
-              <li>Ułatwiają funkcjonalność i użytkowanie garażu</li>
-              <li>Drzwi są wyposażone w zamek z dwoma kluczami</li>
-              <li>Montowane na dowolnej ścianie garażu</li>
-              <li>Wymiary 90 cm szerokości i 200 cm wysokośc</li>
+              <li>Uľahčujú funkčnosť a používanie garáže</li>
+              <li> Dvere sú vybavené zámkom na dva kľúče</li>
+              <li>Montované na akúkoľvek stenu garáže</li>
+              <li>Rozmery: šírka 90 cm a 200 cm</li>
             </ul>
           </div>
-          <img src="/images/door.webp" className=" md:w-60 w-20 pt-10 h-full" alt="" />
+          <img
+            src="/images/door.webp"
+            className=" md:w-60 w-20 pt-10 h-full"
+            alt=""
+          />
         </div>
         {/* ITEM 1 */}
-         {/* ITEM 2 */}
-         <div className="flex justify-between">
+        {/* ITEM 2 */}
+        <div className="flex justify-between">
           <div className="w-20 py-10 max-sm:w-10  flex justify-center  bg-black ">
             <div className="bg-red w-10 h-10 flex text-white justify-center items-center rounded-full">
               2
             </div>
           </div>
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
-            <h4>Dodatkowe okno</h4>
-            <p>Dane techniczne okna:</p>
+            <h4>Dodatočné okno</h4>
+            <p>TECHNICKÉ ÚDAJE OKNA :</p>
             <ul className="list-disc list-inside">
-              <li>Materiał: PCV</li>
-              <li>Szyba pojedyncza</li>
-              <li>Wymiar 60x80 cm lub 60x100</li>
-              <li>Dostępne różne kolory</li>
+              <li>Materiál: PVC</li>
+              <li>Jednoduché sklo</li>
+              <li>Rozmer 60x80 cm alebo 60x100</li>
+              <li>Rôzne dostupné</li>
             </ul>
           </div>
-          <img src="/images/okno.webp" className="md:w-60 w-20 pt-10 h-full" alt="" />
+          <img
+            src="/images/okno.webp"
+            className="md:w-60 w-20 pt-10 h-full"
+            alt=""
+          />
         </div>
         {/* ITEM 2 */}
-         {/* ITEM 3 */}
-         <div className="flex justify-between">
+        {/* ITEM 3 */}
+        <div className="flex justify-between">
           <div className="w-20 py-10 max-sm:w-10  flex justify-center  bg-black ">
             <div className="bg-red w-10 h-10 flex text-white justify-center items-center rounded-full">
               3
             </div>
           </div>
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
-            <h4>Okucia</h4>            
+            <h4>Kovania</h4>
             <ul className="list-disc list-inside">
-              <li>Okucia poprawiają estetykę wykończenia garażu</li>
-              <li>Stosuje się je po zewnetrznej stronie narozników garażu</li>
-              <li>Można też je stosować do wykończenia dachu z przodu i tyłu garażu</li>
-              <li>Okucia dobierane są pod kolor garażu lub z palety kolorów</li>
+              <li>Kovania zlepšujú estetiku povrchovej úpravy garáže</li>
+              <li>Používajú sa na vonkajšiu stranu rohov garáže</li>
+              <li>
+              Môžu sa použiť aj na ukončenie strechy v prednej a zadnej časti garáže
+              </li>
+              <li>Kovanie je zladené s farbou garáže resp. z farebnej palety</li>
             </ul>
           </div>
-          <img src="/images/okucie2.webp" className="md:w-60 w-20 pt-10 h-full" alt="" />
+          <img
+            src="/images/okucie2.webp"
+            className="md:w-60 w-20 pt-10 h-full"
+            alt=""
+          />
         </div>
         {/* ITEM 3 */}
-         {/* ITEM 4 */}
-         <div className="flex justify-between">
+        {/* ITEM 4 */}
+        <div className="flex justify-between">
           <div className="w-20 py-10 max-sm:w-10  flex justify-center  bg-black ">
             <div className="bg-red w-10 h-10 flex text-white justify-center items-center rounded-full">
               4
             </div>
           </div>
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
-            <h4>Rynny</h4>  
-            <p>Zalety rynien PCV:</p>          
+            <h4>Odkvapy</h4>
+            <p>Výhody PVC odkvapov:</p>
             <ul className="list-disc list-inside">
-              <li>Produkcja z najwyższej jakości tworzyw sztucznych</li>
-              <li>Wysoka odporność produktów na warunki atmosferyczne</li>
-              <li>Najwyższa estetyka wykonania, precyzja w połączeniach odcinków rynien oraz rur</li>
-           
+              <li>Výroba z najkvalitnejších plastov</li>
+              <li>Vysoká odolnosť výrobkov voči poveternostným vplyvom</li>
+              <li>
+              Najvyššia estetika spracovania, presnosť v spojoch odkvapových profilov a rúr
+              </li>
             </ul>
           </div>
-          <img src="/images/orynnowanie.webp" className="md:w-60 w-20 pt-10 h-full" alt="" />
+          <img
+            src="/images/orynnowanie.webp"
+            className="md:w-60 w-20 pt-10 h-full"
+            alt=""
+          />
         </div>
         {/* ITEM 4 */}
-         {/* ITEM 5 */}
-         <div className="flex justify-between">
+        {/* ITEM 5 */}
+        <div className="flex justify-between">
           <div className="w-20 py-10 max-sm:w-10  flex justify-center  bg-black ">
             <div className="bg-red w-10 h-10 flex text-white justify-center items-center rounded-full">
               5
             </div>
           </div>
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
-            <h4>Automat do bramy</h4>   
-            <p>W skład zestawu wchodzi</p>        
+            <h4>Pohon brány</h4>
+            <p>Sada obsahuje</p>
             <ul className="list-disc list-inside">
-              <li>1 siłownik HOME z wbudowaną centralą i odbiornikiem</li>
-              <li>1 szyna z napędem łańcuchowym</li>
-              <li>2 piloty 2-kanałowe</li>           
+              <li> 1 pohon HOME so vstavanou riadiacou jednotkou a prijímačom</li>
+              <li> 1 koľajnicu s reťazovým pohonom</li>
+              <li> 2 2-kanálové diaľkové ovládače</li>
             </ul>
           </div>
-          <img src="/images/automat.webp" className="md:w-60 w-20 pt-10 h-full" alt="" />
+          <img
+            src="/images/automat.webp"
+            className="md:w-60 w-20 pt-10 h-full"
+            alt=""
+          />
         </div>
         {/* ITEM 5 */}
-         {/* ITEM 6 */}
-         <div className="flex justify-between">
+        {/* ITEM 6 */}
+        <div className="flex justify-between">
           <div className="w-20 py-10 max-sm:w-10  flex justify-center  bg-black ">
             <div className="bg-red w-10 h-10 flex text-white justify-center items-center rounded-full">
               6
             </div>
           </div>
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
-            <h4>Nity i śruby</h4>      
-            <p>Dbamy o najmniejsze detale, dlatego w celu zwiększenia
-             wartości estetycznej garażu, używamy nitów i śrub w kolorze
-              zgodnym z kolorem blachy garażowej.</p>      
+            <h4>Nity a skrutky</h4>
+            <p>
+              Dbáme na tie najmenšie detaily, preto pre zvýšenie estetickej hodnoty garáže používame nity a skrutky vo farbe, ktorá ladí s farbou plechu garáže.
+            </p>
             <ul className="list-disc list-inside">
-              <li>Dopasowane do koloru garażu</li>             
+              <li>Zladené s farbou garáže</li>
             </ul>
           </div>
-          <img src="/images/nity.webp" className="md:w-60 w-20 pt-10 h-full" alt="" />
+          <img
+            src="/images/nity.webp"
+            className="md:w-60 w-20 pt-10 h-full"
+            alt=""
+          />
         </div>
         {/* ITEM 6 */}
-         {/* ITEM 7 */}
-         <div className="flex justify-between">
+        {/* ITEM 7 */}
+        <div className="flex justify-between">
           <div className="w-20 py-10 max-sm:w-10  flex justify-center  bg-black ">
             <div className="bg-red w-10 h-10 flex text-white justify-center items-center rounded-full">
               7
             </div>
           </div>
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
-            <h4>Filc antykondensacyjny</h4>  
+            <h4>Antikondenzačná plsť</h4>
             <ul className="list-disc list-inside">
-              <li>Zapobiega skraplaniu się wody</li>             
+              <li>Zabraňuje kondenzácii vody</li>
             </ul>
           </div>
-          <img src="/images/filc.webp" className="md:w-60 w-20 pt-10 h-full" alt="" />
+          <img
+            src="/images/filc.webp"
+            className="md:w-60 w-20 pt-10 h-full"
+            alt=""
+          />
         </div>
         {/* ITEM 7 */}
       </div>
