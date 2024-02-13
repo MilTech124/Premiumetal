@@ -14,7 +14,7 @@ function page() {
           </p>
         </div>
         <img
-          src="/images/informacje.webp"
+          src="/images/rynna.webp"
           className=" w-[400px] max-md:-order-1"
           alt=""
         />

@@ -56,7 +56,7 @@ function page() {
         </div>
         <div>
             <img src="/images/trapez.webp" alt="podnoszona" />
-            <h4 className="text-center">Blachą trapezową</h4>
+            <h4 className="text-center">Blacha trapezowa</h4>
         </div>
       </div>
     </div>
