@@ -29,10 +29,10 @@ const Hero = () => {
       <div className="flex md:items-end w-full justify-between  max-md:flex-col relative" >
         <div className="flex  flex-col  items-start justify-center h-full md:pl-[10%] pl-2 max-sm:pt-10">
             <Fade triggerOnce direction="left" delay={500}>
-            <h1 className="font-bold max-w-md text-white">Garaże <br />Klasy Premium </h1>
+            <h1 className="font-bold max-w-md text-white">Garáže <br /> prémiové třídy </h1>
             </Fade>
             <Fade triggerOnce direction="left" delay={1000}>
-            <p className="text-2xl text-white max-w-md py-10 max-md:text-lg">Wyjątkowe Garaże od <span className="font-bold">PREMIUMetal</span> <br className="sm:hidden"></br> Jakość i Styl dla Twojego Domu</p>
+            <p className="text-2xl text-white max-w-md py-10 max-md:text-lg">Jedinečné garáže od <span className="font-bold">PREMIUMetal</span> <br className="sm:hidden"></br> Kvalita a styl pro váš domov</p>
             </Fade>
             
         </div>

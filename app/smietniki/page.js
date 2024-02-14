@@ -20,7 +20,7 @@ async function page() {
   const data = await getData();
   return (
     <div>
-      <Hero title={"Wiaty Śmietnikowe"} />
+      <Hero title={"Přístřešky na popelnice"} />
       <div className="container mx-auto ">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-5 p-5">
           <div className="col-span-2">

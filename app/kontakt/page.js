@@ -14,8 +14,7 @@ function page() {
             <img src="/images/cellphone.png" alt="mobile" className="p-2" />
           </div>
           <div className="flex gap-2 flex-col items-center justify-center bg-primary rounded-md px-10 font-semibold group w-[250px]">
-            <a href="tel:+48 517330176">+48 517 330 176</a>
-            <a href="tel:+48 665983244">+48 665 983 244</a>
+            <a href="tel:+421 902 057 585">+421 902 057 585</a>          
           </div>
         </div>
         </Fade>
@@ -27,7 +26,7 @@ function page() {
             <img src="/images/Email.png" alt="mobile" className="p-2" />
           </div>
           <div className="flex gap-2 flex-col items-center justify-center bg-primary rounded-md px-10 font-semibold group w-[250px]">
-            <a href="mailto:garaze@premiumetal.pl">garaze@premiumetal.pl</a>
+            <a href="mailto:garáže@premiumetal.cz">garáže@premiumetal.cz</a>
           </div>
 
         </div>
@@ -41,10 +40,9 @@ function page() {
             <img src="/images/Clock.png" alt="mobile" className="p-2" />
           </div>
           <div className="flex gap-2 flex-col items-center justify-center bg-primary rounded-md px-10 p-2 font-normal group w-[250px]">
-            <p className="font-semibold">Godziny Pracy:</p>
-            <p>pn-pt: 8:00 -16:00</p>
-            <p>sob: 9:00-13:00</p>
-            <p>niedz: nieczynne</p>
+            <p className="font-semibold">Pracovní hodiny</p>
+            <p>od pondělí do pátku: 8:00 - 16:00</p>
+            <p>sobota: 9:00 - 13:00</p>            
           </div>
         </div>
         </Fade>

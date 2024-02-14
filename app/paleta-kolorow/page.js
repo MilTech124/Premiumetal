@@ -5,15 +5,13 @@ function page() {
     <div className="mx-auto container">
       <div className="flex max-md:flex-wrap max-md:-order-2 justify-between">
         <div className="px-2">
-          <h1 className="text-red pt-5">Nasza paleta kolorów</h1>
-          <h4 className="pt-5 pb-2">Spełniamy Twoje wizje</h4>
+          <h1 className="text-red pt-5">Naše Barevná Paleta</h1>
+          <h4 className="pt-5 pb-2">Plníme vaše vize</h4>
           <p className="text-xl pr-10">
-            W PREMIUMetal rozumiemy, jak ważne jest dopasowanie koloru garażu do
-            stylu i charakteru Twojej nieruchomości. Dlatego oferujemy szeroką
-            gamę kolorów z palety RAL, co pozwala na idealne zgranie z
-            architekturą Twojego domu oraz otoczeniem. Kolory widoczne na
-            zdjęciach produktów mogą delikatnie różnić się w rzeczywistości, w
-            zależności od ustwień Państwa ekranu.
+            V Premiumetal chápeme, jak důležité je sladit barvu garáže se stylem
+            a charakterem vaší nemovitosti. Proto nabízíme širokou škálu barev z
+            palety RAL, která jim umožňuje dokonale ladit s architekturou vašeho
+            domu a okolí..
           </p>
         </div>
         <img
@@ -26,45 +24,44 @@ function page() {
         <div className="flex  md:w-1/2 flex-col gap-5">
           {/* ITEM 1 */}
           <div className="p-2 bg-szary ">
-            <h4>Kolory według Palety RAL:</h4>
+            <h4>Barvy dle RAL palety:</h4>
             <p>
-              Nasza oferta kolorów RAL obejmuje całe spektrum, od klasycznych
-              bieli i szarości po bardziej wyraziste barwy. Dzięki zastosowaniu
-              wysokiej jakości powłok, gwarantujemy trwałość i odporność kolorów
-              na warunki atmosferyczne.
+              Naše škála barev RAL pokrývá celé spektrum, od klasických bílých a
+              šedých až po výraznější barvy. Díky použití kvalitních nátěrů
+              garantujeme trvanlivost a barevnou odolnost vůči povětrnostním
+              vlivům.
             </p>
           </div>
           {/* ITEM 1 */}
           {/* ITEM 2 */}
           <div className="p-2 bg-szary ">
-            <h4>Opcje Drewnopodobne:</h4>
+            <h4>Možnosti připomínající dřevo:</h4>
             <p>
-              Aby sprostać oczekiwaniom miłośników naturalnych wykończeń,
-              oferujemy również garaże w odcieniach drewnopodobnych. Nasze
-              wykończenia imitujące drewno łączą w sobie ciepło i estetykę
-              naturalnego materiału z wytrzymałością i łatwością konserwacji.
+              Abychom splnili očekávání milovníků přírodních povrchových úprav,
+              nabízíme garáže i v odstínech připomínajících dřevo. Naše
+              povrchové úpravy imitující dřevo kombinují teplo a estetiku
+              přírodního materiálu s odolností a snadnou údržbou.
             </p>
           </div>
           {/* ITEM 2 */}
           {/* ITEM 3 */}
           <div className="p-2 bg-szary ">
-            <h4>Indywidualne Dopasowanie:</h4>
+            <h4>Individuální sladění:</h4>
             <p>
-              Zapewniamy możliwość indywidualnego doboru kolorów, aby każdy
-              garaż był unikatowy i odzwierciedlał osobisty styl naszych
-              klientów. Nasi eksperci są do Twojej dyspozycji, aby pomóc w
-              wyborze idealnego odcienia i zapewnić, że finalny produkt będzie
-              dokładnie taki, jakiego potrzebujesz.
+              Poskytujeme možnost individuálního výběru barev, aby byla každá
+              garáž jedinečná a odrážela osobní styl našich zákazníků. Naši
+              odborníci jsou po ruce, aby vám pomohli vybrat perfektní odstín a
+              zajistili, že konečný produkt bude přesně takový, jaký
+              potřebujete.
             </p>
           </div>
           {/* ITEM 3 */}
         </div>
         <div className="md:w-1/2 ">
-        <img src="/images/kolorystyka.webp" alt="kolor1" />
-        <img src="/images/kolorystyka_2.webp" alt="kolor2" />
+          <img src="/images/kolorystyka.webp" alt="kolor1" />
+          <img src="/images/kolorystyka_2.webp" alt="kolor2" />
+        </div>
       </div>
-      </div>
-      
     </div>
   );
 }

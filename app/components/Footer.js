@@ -8,10 +8,10 @@ function Footer() {
         <div className="container flex flex-wrap  mx-auto text-white justify-center">
           <div className="md:pr-10">
             <img src="/PREMIUM.jpg" className="w-60" alt="logo" />
-            <h4 className="font-bold pl-2 py-2 text-center text-red">Godziny Otwarcia</h4>
+            <h4 className="font-bold pl-2 py-2 text-center text-red">Pracovní hodiny</h4>
             <ul className="flex pl-2 text-center flex-col  ">
-              <li>Pon - Pt: 8:00 - 16:00</li>
-              <li>Sob: 9:00 - 13:00</li>
+              <li>od pondělí do pátku: 8:00 - 16:00</li>
+              <li>sobota: 9:00 - 13:00</li>
             </ul>
           </div>
           <div className="flex gap-2  text-xl flex-col  pt-4 mr-auto">
@@ -19,31 +19,23 @@ function Footer() {
               <img src="/images/red_mail.webp" className="w-16" alt="icon" />
               <Link
                 className="hover:scale-105 transition-all"
-                href="mailto:garaze@premiumetal.pl"
+                href="mailto:garáže@premiumetal.cz"
               >
-                garaze@premiumetal.pl
+                garáže@premiumetal.cz
               </Link>
             </div>
             <div className="flex items-center gap-5 ">
               <img src="/images/red_phone.webp" className="w-16" alt="icon" />
               <Link
                 className="hover:scale-105 transition-all"
-                href="tel:517330176"
+                href="tel:+421 902 057 585"
               >
-                +48 517330176
-              </Link>
-            </div>
-            <div className="flex items-center gap-5 ">
-              <img src="/images/red_phone.webp" className="w-16" alt="icon" />
-              <Link
-                className="hover:scale-105 transition-all"
-                href="tel:665983244"
-              >
-                +48 665983244
+                +421 902 057 585
               </Link>
             </div>
             
-            <div className="flex items-center gap-5 ">
+            
+            {/* <div className="flex items-center gap-5 ">
               <img src="/images/red_adress.webp" className="w-16" alt="icon" />
               <div>
                 <p className="font-semibold">Rupniów</p>
@@ -55,11 +47,11 @@ function Footer() {
               <div>
                Polityka prywatności
               </div>
-            </Link>
+            </Link> */}
           </div>  
           <div>
             <div className="bg-white p-5 text-black">
-              <h3 className="text-red text-xl">Napisz do nas</h3>
+              <h3 className="text-red text-xl">Napište nám</h3>
               <form className="max-w-lg pr-2"   action="https://formspree.io/f/moqgepar" method="POST">
               <textarea
                   name="message"
@@ -67,7 +59,7 @@ function Footer() {
                   cols="10"
                   rows="1"
                   required
-                  placeholder="Wiadomość"
+                  placeholder="Zpráva"
                   className="w-full bg-white p-2 my-2 border-4 border-red-900"
                 ></textarea>
                 <input
@@ -75,7 +67,7 @@ function Footer() {
                   id="name"
                   required
                   name="name"
-                  placeholder="Imię i Nazwisko"
+                  placeholder="Jméno a příjmení"
                   className="w-full bg-white p-2  my-2 border-4 border-red-900"
                 />
                 <input
@@ -91,12 +83,12 @@ function Footer() {
                   id="phone"
                   required
                   name="phone"
-                  placeholder="Telefon"
+                  placeholder="Telefonní číslo"
                   className="w-1/2 bg-white p-2 my-2 border-4 border-red-900"
                 />
                 <br></br>
                 <button type="submit" className="border-4 border-red-900 p-2 hover:bg-red-900">
-                  Wyślij
+                Pošlete
                 </button>
               </form>
             </div>
@@ -108,13 +100,13 @@ function Footer() {
         </div>
       </footer>
       <div className="text-center text-red bg-primary text-3xl font-bold p-2">
-        Szybki termin realizacji 14 dni od zamówienia !!!
+      Rychlá dodací lhůta 14 dní od objednání !!! 
       </div>
       <div>
         <div className="bg-red">
           <div className="container mx-auto flex max-sm:text-xs max-sm:flex-wrap justify-evenly py-2 text-center text-white">
-            <p>© 2021 Premiumetal. Wszelkie prawa zastrzeżone.</p>
-            <a href="https://www.mil-tech.pl"><p>Reazacja Mil-TECH</p></a>
+            <p>© 2024 Premiumetal. Všechna práva vyhrazena.</p>
+            <a href="https://www.mil-tech.pl"><p>Realizace Mil-TECH</p></a>
           </div>
         </div>
       </div>

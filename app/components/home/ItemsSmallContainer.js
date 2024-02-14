@@ -7,17 +7,17 @@ function ItemsSmallContainer() {
     const items = [
         {
             number:"1",
-            title:"Darmowa wycena",
+            title:"Nabídka zdarma",
             image:"/images/kontakt2.png",
         },
         {
             number:"2",
-            title:"Darmowa dostawa",
+            title:"Doručení zdarma",
             image:"/images/dostawa.png",
         },
         {
             number:"3",
-            title:"Darmowy montaż",
+            title:"Instalace zdarma",
             image:"/images/zamowienie2.png",
         },
       
