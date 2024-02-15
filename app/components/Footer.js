@@ -19,9 +19,9 @@ function Footer() {
               <img src="/images/red_mail.webp" className="w-16" alt="icon" />
               <Link
                 className="hover:scale-105 transition-all"
-                href="mailto:garázsok@premiumetal.hu"
+                href="mailto:garazsok@premiumetal.hu "
               >
-                garázsok@premiumetal.hu
+                garazsok@premiumetal.hu 
               </Link>
             </div>
             <div className="flex items-center gap-5 ">
