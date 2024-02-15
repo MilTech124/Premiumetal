@@ -26,7 +26,7 @@ function page() {
             <img src="/images/Email.png" alt="mobile" className="p-2" />
           </div>
           <div className="flex gap-2 flex-col items-center justify-center bg-primary rounded-md px-10 font-semibold group w-[250px]">
-            <a href="mailto:garáže@premiumetal.cz">garáže@premiumetal.cz</a>
+            <a href="mailto:garaze@premiumetal.cz">garaze@premiumetal.cz</a>
           </div>
 
         </div>
