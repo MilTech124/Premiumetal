@@ -24,18 +24,17 @@ function SelfConfigGarage() {
   return (
     <div className="flex  flex-col justify-center py-10">
       <h2 className="text-center bg-szary py-2 mb-5 w-full text-red ">
-        Nakonfigurujte si vlastnú <br /> garáž podľa svojich potrieb
+        Nakonfigurujte si garáž <br /> podľa svojich potrieb
       </h2>
       <Fade direction="up">
         <p className=" px-2 text-center md:px-20 text-2xl">
-          Spoločnosť PREMIUMetal vyrába garáže najvyššej kvality. Poskytujeme
-          odborné poradenstvo a pomoc pri hľadaní najlepšej ponuky. Všetkým
-          zákazníkom garantujeme komplexný servis a naši odborníci poskytujú
-          poradenstvo od momentu objednávky až po dodanie a montáž našich
-          produktov. Vďaka našej širokej ponuke sme schopní uspokojiť potreby aj
-          tých najnáročnejších zákazníkov. Ako výrobca prémiových garáží
-          poskytujeme vysokú kvalitu spracovania za atraktívnu cenu. Pozrite si
-          našu ponuku.
+          PREMIUMetal vyrába garáže najvyššej kvality. Poskytneme vám odborné
+          poradenstvo a pomôžeme vám nájsť optimálne riešenie. Všetkým našim
+          zákazníkom garantujeme komplexný servis. Naši odborníci vám poradia od
+          momentu objednania až po dodanie a montáž našich produktov. Vďaka
+          našej širokej ponuke výrobkov dokážeme uspokojiť potreby aj tých
+          najnáročnejších zákazníkov. Ako výrobca prémiových garáží poskytujeme
+          vysokú kvalitu spracovania za atraktívnu cenu. Pozrite si našu ponuku.
         </p>
       </Fade>
 

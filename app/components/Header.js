@@ -19,14 +19,14 @@ function Header() {
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/" ><HomeIcon/></Link></li>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/galeria">Galéria</Link></li>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/smietniki">Prístrešky na odpadky</Link></li>
-                <li onClick={()=>{setIsOpen(false)}}> <Link href="/#ofirmie">O spoločnosti</Link></li>
+                <li onClick={()=>{setIsOpen(false)}}> <Link href="/#ofirmie">O nás</Link></li>
                 {/* ON HOVER DROPDOWN */}
-                <li className='relative group'>Informácie
+                <li className='relative group'>Tipy a rady
                 <div className='absolute opacity-0 hidden text-sm group-hover:flex  group-hover:opacity-100 top-7 -left-5 bg-red w-[150px] '>
                     <ul className='flex flex-col gap-5 p-5'>
                         <li onClick={()=>{setIsOpen(false)}}> <Link href="/akcesoria">Dodatočné príslušenstvo</Link></li>
-                        <li onClick={()=>{setIsOpen(false)}}> <Link href="/przygotowanie-podloza">Príprava substrátu</Link></li>
-                        <li onClick={()=>{setIsOpen(false)}}> <Link href="/paleta-kolorow">Paleta farieb</Link></li>
+                        <li onClick={()=>{setIsOpen(false)}}> <Link href="/przygotowanie-podloza">Príprava podkladu</Link></li>
+                        <li onClick={()=>{setIsOpen(false)}}> <Link href="/paleta-kolorow">Farebná paleta</Link></li>
                         <li onClick={()=>{setIsOpen(false)}}> <Link href="/informacje">Informácie</Link></li>
                     </ul>
                 </div>                  

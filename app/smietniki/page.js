@@ -26,14 +26,13 @@ async function page() {
               Prístrešok na odpadky
             </h2>
             <p className="text-lg">
-              Prístrešok na odpadky je praktická konštrukcia na uskladnenie
-              odpadkových košov, ich ochranu pred poveternostnými vplyvmi a
-              udržiavanie poriadku. Je vyrobená z materiálov odolných voči
-              poveternostným vplyvom a môže mať dvere alebo bránu, obmedzujúce
-              prístup zvierat a šírenie zápachu. Sú dôležité v mestách, kde
-              pomáhajú udržiavať čistotu a estetiku. Ich projektovanie si
-              vyžaduje zohľadnenie mnohých faktorov vrátane predpisov o
-              nakladaní s odpadmi.
+              je praktická konštrukcia na uskladnenie odpadkových košov, ich
+              ochranu pred poveternostnými vplyvmi a udržiavanie čistoty. Je
+              vyrobený z materiálov odolných voči poveternostným vplyvom, môže
+              mať dvere alebo bránu, aby sa obmedzil prístup zvierat a šírenie
+              zápachu. Sú dôležité na miestach, kde pomáhajú udržiavať čistotu a
+              estetický vzhľad. Ich konštrukcia si vyžaduje zohľadnenie mnohých
+              faktorov vrátane predpisov o nakladaní s odpadmi.
             </p>
           </div>
           <div className="col-span-2">

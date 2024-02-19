@@ -8,10 +8,12 @@ function Footer() {
         <div className="container flex flex-wrap  mx-auto text-white justify-center">
           <div className="md:pr-10">
             <img src="/PREMIUM.jpg" className="w-60" alt="logo" />
-            <h4 className="font-bold pl-2 py-2 text-center text-red">Otváracie hodiny</h4>
+            <h4 className="font-bold pl-2 py-2 text-center text-red">
+              Pracovný čas
+            </h4>
             <ul className="flex pl-2 text-center flex-col  ">
-              <li>Pondelok - piatok: 8:00 - 16:00</li>
-              <li>Sobota: 9:00 - 13:00 hod.</li>
+              <li>Pon - Pi: 8:00 - 16:00</li>
+              <li>So: 9:00 - 13:00</li>
             </ul>
           </div>
           <div className="flex gap-2  text-xl flex-col  pt-4 mr-auto">
@@ -33,8 +35,7 @@ function Footer() {
                 +421 951 544 850
               </Link>
             </div>
-            
-            
+
             {/* <div className="flex items-center gap-5 ">
               <img src="/images/red_adress.webp" className="w-16" alt="icon" />
               <div>
@@ -48,12 +49,16 @@ function Footer() {
                Polityka prywatności
               </div>
             </Link> */}
-          </div>  
+          </div>
           <div>
             <div className="bg-white p-5 text-black">
-              <h3 className="text-red text-xl">Napíšte nám</h3>
-              <form className="max-w-lg pr-2"   action="https://formspree.io/f/moqgepar" method="POST">
-              <textarea
+              <h3 className="text-red text-xl">Napište nám</h3>
+              <form
+                className="max-w-lg pr-2"
+                action="https://formspree.io/f/moqgepar"
+                method="POST"
+              >
+                <textarea
                   name="message"
                   id=""
                   cols="10"
@@ -83,30 +88,35 @@ function Footer() {
                   id="phone"
                   required
                   name="phone"
-                  placeholder="Telefón"
+                  placeholder="Tel. číslo"
                   className="w-1/2 bg-white p-2 my-2 border-4 border-red-900"
                 />
                 <br></br>
-                <button type="submit" className="border-4 border-red-900 p-2 hover:bg-red-900">
-                Odoslať
+                <button
+                  type="submit"
+                  className="border-4 border-red-900 p-2 hover:bg-red-900"
+                >
+                  Odoslať
                 </button>
               </form>
             </div>
             <div className="text-center py-2">
-                <h4>PREMIUMetal</h4>
-                <p>Mirosław Węgrzynowicz</p>
+              <h4>PREMIUMetal</h4>
+              <p>Mirosław Węgrzynowicz</p>
             </div>
           </div>
         </div>
       </footer>
       <div className="text-center text-red bg-primary text-3xl font-bold p-2">
-      Rýchla realizácia 14 dní od objednávky !!!
+        Rýchla dodacia lehota do 14 dní od objednania !!!
       </div>
       <div>
         <div className="bg-red">
           <div className="container mx-auto flex max-sm:text-xs max-sm:flex-wrap justify-evenly py-2 text-center text-white">
             <p>© 2021 Premiumetal. Všetky práva vyhraden.</p>
-            <a href="https://www.mil-tech.pl"><p>Realizácia Mil-TECH</p></a>
+            <a href="https://www.mil-tech.pl">
+              <p>Realizácia Mil-TECH</p>
+            </a>
           </div>
         </div>
       </div>

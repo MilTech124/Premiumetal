@@ -25,21 +25,21 @@ function AboutPremium() {
           <div className="md:w-1/2 h-full max-md:h-fit text-white p-5 bg-black">
             <Fade direction="right">
               <h4 className="text-xl font-semibold pt-2 pb-5">
-                Vášeň pre dokonalosť pri tvorbe garáží
+                Vášeň pre dokonalosť pri stavbe garáží
               </h4>
             </Fade>
             <Fade direction="right" delay={300} className="text-xl">
               <p>
-                V spoločnosti Premiumetal si ceníme kvalitu, inováciu a zmysel
-                pre detail. Náš tím sa skladá z kvalifikovaných odborníkov,
-                ktorí sa snažia poskytovať produkty a služby najvyššej triedy.
-                Naším cieľom je prekonávať očakávania zákazníkov a neustále
-                zlepšovať naše garáže, aby boli nielen praktické, ale aj
+                V spoločnosti Premiumetal si ceníme kvalitu, inovácie a dôraz na
+                detail. Náš tím tvoria kvalifikovaní odborníci, ktorí sú
+                odhodlaní poskytovať prvotriedne výrobky a služby. Naším cieľom
+                je prekonávať očakávania našich zákazníkov a neustále
+                zdokonaľovať naše garáže, aby boli nielen praktické, ale aj
                 inšpiratívne.
               </p>
               <p className="md:pt-10 pt-5">
-                Pozývame vás k spolupráci a objaveniu toho, ako môžu naše garáže
-                premeniť priestor Vášho domova.
+                Pozývame vás, aby ste sa k nám pridali a zistili, ako môžu naše
+                garáže zmeniť priestor vášho domova.
               </p>
             </Fade>
           </div>

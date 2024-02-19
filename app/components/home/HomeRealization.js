@@ -1,13 +1,18 @@
 import Link from "next/link";
 
 async function HomeRealization() {
-
-
   return (
     <div className="container pt-10 mx-auto px-2">
-      <h2 className="md:text-6xl  text-4xl text-center text-red ">Vykonávame</h2>
+      <h2 className="md:text-6xl  text-4xl text-center text-red ">
+        Realizujeme
+      </h2>
       <p className="py-5 md:text-xl ">
-      Špecializujeme sa na výrobu kvalitných drevených a acrylových garáží, ktoré v sebe spájajú estetiku aj funkčnosť. Naše realizácie sú ideálne pre tých, ktorí oceňujú trvanlivosť, štýl a individuálny prístup ku každému projektu. Ponúkame aj profesionálne prístrešky na odpadky, ktoré sú nielen praktické, ale aj estetické pre svoje okolie
+        Špecializujeme sa na výrobu kvalitných plechových garáží v imitácii
+        dreva a rôznych farebných (akrylových) prevedeniach , ktoré spájajú
+        estetiku a funkčnosť. Naše realizácie sú ideálne pre tých, ktorí oceňujú
+        trvanlivosť, štýl a individuálny prístup ku každému projektu. Ponúkame
+        tiež profesionálne riešenia prístreškov na odpadkové koše, ktoré sú
+        nielen praktické, ale aj esteticky dopĺňajú svoje okolie.
       </p>
       <div className="flex flex-col pb-5 gap-2">
         <div className="flex justify-around max-md:flex-wrap gap-5">

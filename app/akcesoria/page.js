@@ -5,12 +5,12 @@ function page() {
     <div className="mx-auto container">
       <div className="flex max-md:flex-wrap max-md:-order-2 justify-between">
         <div className="px-2">
-          <h1 className="text-red pt-5">Dodatočné príslušenstvo</h1>
+          <h1 className="text-red pt-5">Doplnkové príslušenstvo</h1>
 
           <p className="text-xl pt-10 pr-10">
-            Pri objednávaní plechovej garáže oplatí sa zvážiť zakúpenie ďalšieho
-            príslušenstva, ktoré vašu garáž nielen vylepší, ale aj spríjemní jej
-            používanie.
+            Pri objednávke plechovej garáže sa oplatí zvážiť zakúpenie
+            doplnkového príslušenstva, ktoré nielen zlepší funkčnosť vašej
+            garáže, ale zvýši aj jej praktickosť.
           </p>
         </div>
         <img
@@ -32,10 +32,10 @@ function page() {
             <h4>Dvere</h4>
             <p>Výhody dodatočných dverí:</p>
             <ul className="list-disc list-inside">
-              <li>Uľahčujú funkčnosť a používanie garáže</li>
-              <li> Dvere sú vybavené zámkom na dva kľúče</li>
-              <li>Montované na akúkoľvek stenu garáže</li>
-              <li>Rozmery: šírka 90 cm a 200 cm</li>
+              <li>Uľahčujú používanie garáže a zvyšujú jej účelnosť</li>
+              <li> Dvere sú vybavené zámkom dvoma kľúčmi </li>
+              <li>Montujú sa na akúkoľvek stenu garáže</li>
+              <li>Rozmery: šírka 90 cm x výška 200 cm </li>
             </ul>
           </div>
           <img
@@ -53,13 +53,13 @@ function page() {
             </div>
           </div>
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
-            <h4>Dodatočné okno</h4>
-            <p>TECHNICKÉ ÚDAJE OKNA :</p>
+            <h4>Doplnkové okno </h4>
+            <p>TECHNICKÉ ÚDAJE OKIEN :</p>
             <ul className="list-disc list-inside">
               <li>Materiál: PVC</li>
-              <li>Jednoduché sklo</li>
-              <li>Rozmer 60x80 cm alebo 60x100</li>
-              <li>Rôzne dostupné</li>
+              <li>Jedno sklo</li>
+              <li>Rozmery: 60x80 cm alebo 60x100 cm</li>
+              <li>K dispozícii sú rôzne farebné varianty</li>
             </ul>
           </div>
           <img
@@ -77,14 +77,17 @@ function page() {
             </div>
           </div>
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
-            <h4>Kovania</h4>
+            <h4>Kovanie</h4>
             <ul className="list-disc list-inside">
-              <li>Kovania zlepšujú estetiku povrchovej úpravy garáže</li>
-              <li>Používajú sa na vonkajšiu stranu rohov garáže</li>
               <li>
-              Môžu sa použiť aj na ukončenie strechy v prednej a zadnej časti garáže
+                Lemovanie garáže zlepšuje estetiku povrchovej úpravy garáže
               </li>
-              <li>Kovanie je zladené s farbou garáže resp. z farebnej palety</li>
+              <li>Používajú sa na vonkajších rohoch garáže</li>
+              <li>
+                Možno ich použiť aj na ukončenie strechy v prednej a zadnej
+                časti garáže
+              </li>
+              <li>Kovania sa vyberajú vo farbe garáže alebo z palety farieb</li>
             </ul>
           </div>
           <img
@@ -102,13 +105,14 @@ function page() {
             </div>
           </div>
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
-            <h4>Odkvapy</h4>
-            <p>Výhody PVC odkvapov:</p>
+            <h4>Odkvapové žľaby</h4>
+            <p>Výhody PVC odkvapových žľabov:</p>
             <ul className="list-disc list-inside">
-              <li>Výroba z najkvalitnejších plastov</li>
-              <li>Vysoká odolnosť výrobkov voči poveternostným vplyvom</li>
+              <li>Vyrobené z plastu najvyššej kvality</li>
+              <li>Vysoká odolnosť voči poveternostným vplyvom</li>
               <li>
-              Najvyššia estetika spracovania, presnosť v spojoch odkvapových profilov a rúr
+                Najvyššia estetika výroby, precíznosť pri spájaní odkvapových
+                profilov a rúr
               </li>
             </ul>
           </div>
@@ -127,12 +131,15 @@ function page() {
             </div>
           </div>
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
-            <h4>Pohon brány</h4>
-            <p>Sada obsahuje</p>
+            <h4>Automatická brána</h4>
+            <p>Súprava obsahuje</p>
             <ul className="list-disc list-inside">
-              <li> 1 pohon HOME so vstavanou riadiacou jednotkou a prijímačom</li>
-              <li> 1 koľajnicu s reťazovým pohonom</li>
-              <li> 2 2-kanálové diaľkové ovládače</li>
+              <li>
+                {" "}
+                1x pohon HOME so zabudovanou riadiacou jednotkou a prijímačom
+              </li>
+              <li> 1x koľajnicu s reťazovým pohonom</li>
+              <li> 2x diaľkové ovládanie</li>
             </ul>
           </div>
           <img
@@ -152,7 +159,9 @@ function page() {
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
             <h4>Nity a skrutky</h4>
             <p>
-              Dbáme na tie najmenšie detaily, preto pre zvýšenie estetickej hodnoty garáže používame nity a skrutky vo farbe, ktorá ladí s farbou plechu garáže.
+              Dbáme aj na tie najmenšie detaily, preto na zvýšenie estetickej
+              hodnoty garáže používame nity a skrutky vo farbe zhodnej s farbou
+              garážového panelu
             </p>
             <ul className="list-disc list-inside">
               <li>Zladené s farbou garáže</li>
@@ -173,9 +182,9 @@ function page() {
             </div>
           </div>
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
-            <h4>Antikondenzačná plsť</h4>
+            <h4>Antikondenzační plsť</h4>
             <ul className="list-disc list-inside">
-              <li>Zabraňuje kondenzácii vody</li>
+              <li>Zabraňuje kondenzácii vody na streche</li>
             </ul>
           </div>
           <img

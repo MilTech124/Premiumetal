@@ -39,9 +39,9 @@ function page() {
               <img src="/images/Clock.png" alt="mobile" className="p-2" />
             </div>
             <div className="flex gap-2 flex-col items-center justify-center bg-primary rounded-md px-10 p-2 font-normal group w-[250px]">
-              <p className="font-semibold">Otváracie hodiny:</p>
-              <p>Pon- Pi: 8:00 - 16:00</p>
-              <p>Sob: 9:00 - 13:00 hod</p>
+              <p className="font-semibold">Pracovný čas </p>
+              <p>Pon - Pi:8:00 - 16:00 </p>
+              <p>Sob: 9:00 - 13:00</p>
             </div>
           </div>
         </Fade>
@@ -50,9 +50,13 @@ function page() {
         {/* ITEM */}
         <Fade>
           <div className="bg-primary w-[350px] rounded-md p-5">
-            <p className="font-semibold">Ste pripravení na garáž svojich snov?</p>
+            <p className="font-semibold">
+              Ste pripravení na garáž svojich snov?
+            </p>
             <p className="font-normal pt-5">
-            Kontaktujte nás ešte dnes, aby sme prediskutovali vaše potreby a začali vytvárať vašu dokonalú garáž! Sme tu, aby sme vám pomohli na každom kroku.
+              Kontaktujte nás ešte dnes, aby sme prediskutovali vaše potreby a
+              začali realizovať vašu dokonalú garáž! Sme tu, aby sme vám pomohli
+              na každom kroku
             </p>
           </div>
         </Fade>

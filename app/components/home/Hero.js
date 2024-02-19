@@ -32,7 +32,7 @@ const Hero = () => {
             <h1 className="font-bold max-w-lg text-white">Prémiová garáž </h1>
             </Fade>
             <Fade triggerOnce direction="left" delay={1000}>
-            <p className="text-2xl text-white max-w-xl py-10 max-md:text-lg">Výnimočné garáže od spoločnosti<span className="font-bold"> PREMIUMetal.</span> <br className="max-sm:hidden"></br> Kvalita a štýl pre váš dom</p>
+            <p className="text-2xl text-white max-w-xl py-10 max-md:text-lg">Výnimočné garáže od spoločnosti<span className="font-bold"> PREMIUMetal.</span> <br className="max-sm:hidden"></br> Kvalita a štýl pre váš domov</p>
             </Fade>
             
         </div>
