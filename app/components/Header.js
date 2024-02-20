@@ -21,7 +21,7 @@ function Header() {
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/smietniki">Přístřešky na popelnice</Link></li>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/#ofirmie">O společnosti</Link></li>
                 {/* ON HOVER DROPDOWN */}
-                <li className='relative group'>Průvodce
+                <li className='relative group'>Tipy a rady
                 <div className='absolute opacity-0 hidden text-sm group-hover:flex  group-hover:opacity-100 top-7 -left-5 bg-red w-[150px] '>
                     <ul className='flex flex-col gap-5 p-5'>
                         <li onClick={()=>{setIsOpen(false)}}> <Link href="/akcesoria">Doplňkové příslušenství</Link></li>

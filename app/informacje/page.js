@@ -8,13 +8,14 @@ function page() {
           <h1 className="text-red pt-5">Informace</h1>
 
           <p className="text-xl pt-10 pr-10">
-            PREMIUMetal vyrábí garáže té nejvyšší kvality. Poskytujeme odborné
-            poradenství a pomoc při hledání nejlepší nabídky. Všem zákazníkům
-            garantujeme komplexní servis a naši odborníci poskytují poradenství
-            od okamžiku objednávky až po dodání a montáž našich produktů. Díky
-            naší široké nabídce jsme schopni vyhovět i těm nejnáročnějším
-            zákazníkům. Jako výrobce prémiových garáží poskytujeme vysokou
-            kvalitu zpracování za atraktivní cenu. Podívejte se na naši nabídku
+            Společnost PREMIUMetal vyrábí garáže té nejvyšší kvality. Poskytneme
+            vám odborné poradenství a pomůžeme vám najít optimální řešení. Všem
+            zákazníkům garantujeme komplexní servis. Naši odborníci vám poradí
+            od okamžiku objednání až po dodání a montáž našich produktů. Díky
+            širokému sortimentu výrobků jsme schopni uspokojit potřeby i těch
+            nejnáročnějších zákazníků. Jako výrobce prémiových garáží
+            poskytujeme vysokou kvalitu zpracování za atraktivní cenu. Podívejte
+            se na naši nabídku
           </p>
         </div>
         <img
@@ -29,7 +30,7 @@ function page() {
       <div className="flex py-10 justify-evenly">
         <div>
           <img src="/images/uchylna.webp" className="w-[350px]" alt="uchylna" />
-          <h4 className="text-center">Křídlová se zvedne nahoru</h4>
+          <h4 className="text-center">Výklopná brána</h4>
         </div>
         <div>
           <img
@@ -40,9 +41,7 @@ function page() {
           <h4 className="text-center">Dvoukřídlá</h4>
         </div>
       </div>
-      <h2 className="text-center text-white bg-red py-5  ">
-      Ražba do plechu
-      </h2>
+      <h2 className="text-center text-white bg-red py-5  ">Profil plechu</h2>
       <div className="flex py-10 gap-5 justify-evenly px-2">
         <div>
           <img src="/images/pion.webp" alt="pionowe" />
@@ -57,7 +56,7 @@ function page() {
       <div className="flex py-10 justify-evenly">
         <div>
           <img src="/images/dachowka.webp" alt="uchylna" />
-          <h4 className="text-center">Ocelové dlaždice</h4>
+          <h4 className="text-center">Plechová dlaždice</h4>
         </div>
         <div>
           <img src="/images/trapez.webp" alt="podnoszona" />

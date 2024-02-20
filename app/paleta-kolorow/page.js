@@ -5,13 +5,13 @@ function page() {
     <div className="mx-auto container">
       <div className="flex max-md:flex-wrap max-md:-order-2 justify-between">
         <div className="px-2">
-          <h1 className="text-red pt-5">Naše Barevná Paleta</h1>
+          <h1 className="text-red pt-5">Naše paleta barev</h1>
           <h4 className="pt-5 pb-2">Plníme vaše vize</h4>
           <p className="text-xl pr-10">
             V Premiumetal chápeme, jak důležité je sladit barvu garáže se stylem
-            a charakterem vaší nemovitosti. Proto nabízíme širokou škálu barev z
-            palety RAL, která jim umožňuje dokonale ladit s architekturou vašeho
-            domu a okolí..
+            a charakterem vaší nemovitosti. Proto nabízíme širokou škálu barev
+            RAL (lesklá) a BTX (matná), které umožňují dokonalé sladění s
+            architekturou a okolím vašeho domu.
           </p>
         </div>
         <img
@@ -26,21 +26,21 @@ function page() {
           <div className="p-2 bg-szary ">
             <h4>Barvy dle RAL palety:</h4>
             <p>
-              Naše škála barev RAL pokrývá celé spektrum, od klasických bílých a
-              šedých až po výraznější barvy. Díky použití kvalitních nátěrů
-              garantujeme trvanlivost a barevnou odolnost vůči povětrnostním
-              vlivům.
+              Naše škála barev RAL a BTX pokrývá celé spektrum od klasické bílé
+              a šedé až po výraznější barvy. Díky použití vysoce kvalitního
+              barevného povlaku zaručujeme trvanlivost a odolnost barev vůči
+              povětrnostním vlivům.
             </p>
           </div>
           {/* ITEM 1 */}
           {/* ITEM 2 */}
           <div className="p-2 bg-szary ">
-            <h4>Možnosti připomínající dřevo:</h4>
+            <h4>Varianty v imitaci dřeva</h4>
             <p>
-              Abychom splnili očekávání milovníků přírodních povrchových úprav,
-              nabízíme garáže i v odstínech připomínajících dřevo. Naše
-              povrchové úpravy imitující dřevo kombinují teplo a estetiku
-              přírodního materiálu s odolností a snadnou údržbou.
+              Abychom splnili očekávání milovníků přírodních povrchů, nabízíme
+              také garáže i v odstínech připomínajících dřevo. Naše povrchové
+              úpravy imitující dřevo spojují hřejivost a estetiku přírodního
+              materiálu s odolností a snadnou údržbou
             </p>
           </div>
           {/* ITEM 2 */}
@@ -50,9 +50,9 @@ function page() {
             <p>
               Poskytujeme možnost individuálního výběru barev, aby byla každá
               garáž jedinečná a odrážela osobní styl našich zákazníků. Naši
-              odborníci jsou po ruce, aby vám pomohli vybrat perfektní odstín a
-              zajistili, že konečný produkt bude přesně takový, jaký
-              potřebujete.
+              odborníci jsou k dispozici, aby vám pomohli vybrat dokonalý odstín
+              a zajistili, že konečný produkt bude přesně takový, jaký
+              potřebujete
             </p>
           </div>
           {/* ITEM 3 */}

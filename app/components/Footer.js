@@ -10,8 +10,8 @@ function Footer() {
             <img src="/PREMIUM.jpg" className="w-60" alt="logo" />
             <h4 className="font-bold pl-2 py-2 text-center text-red">Pracovní hodiny</h4>
             <ul className="flex pl-2 text-center flex-col  ">
-              <li>od pondělí do pátku: 8:00 - 16:00</li>
-              <li>sobota: 9:00 - 13:00</li>
+              <li>Pon - Pá: 8:00 - 16:00</li>
+              <li>Sob: 9:00 - 13:00</li>
             </ul>
           </div>
           <div className="flex gap-2  text-xl flex-col  pt-4 mr-auto">
@@ -100,7 +100,7 @@ function Footer() {
         </div>
       </footer>
       <div className="text-center text-red bg-primary text-3xl font-bold p-2">
-      Rychlá dodací lhůta 14 dní od objednání !!! 
+      Rychlá dodací lhůta do 14 dní od objednání !!!
       </div>
       <div>
         <div className="bg-red">

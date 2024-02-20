@@ -15,9 +15,9 @@ function HomeAccesories() {
           </Fade>
           <Fade direction="left" delay={200}>
             <p className="text-white text-xl">
-              Při objednávce plechové garáže se vyplatí zvážit dokoupení dalšího
-              příslušenství, které vaši garáž nejen vylepší, ale také zpříjemní
-              její používání..
+              Při objednávce plechové garáže se vyplat zvážit pořízení dalšího
+              příslušenství, které nejenže zlepší funkčnost vaší garáže, ale
+              zároveň zvýší její praktičnost.
             </p>
           </Fade>
           <a

@@ -8,9 +8,9 @@ function page() {
           <h1 className="text-red pt-5">Doplňkové příslušenství</h1>
 
           <p className="text-xl pt-10 pr-10">
-            Při objednávce plechové garáže se vyplatí zvážit dokoupení dalšího
-            příslušenství, které vaši garáž nejen vylepší, ale také zpříjemní
-            její používání..
+            Při objednávce plechové garáže se vyplat zvážit pořízení dalšího
+            příslušenství, které nejenže zlepší funkčnost vaší garáže, ale
+            zároveň zvýší její praktičnost.
           </p>
         </div>
         <img
@@ -32,10 +32,10 @@ function page() {
             <h4>Dveře</h4>
             <p>Výhody doplňkových vrat:</p>
             <ul className="list-disc list-inside">
-              <li>Usnadňují funkčnost a užívání garáže</li>
+              <li>Umožňují snadnější využívání garáže a její účelnost</li>
               <li>Vrata jsou vybavena zámkem se dvěma klíči</li>
               <li>Montuje se na libovolnou stěnu garáže</li>
-              <li>Rozměry: šířka 90 cm a šířka 200 cm</li>
+              <li>Rozměry: šířka 90 cm a výška 200 cm</li>
             </ul>
           </div>
           <img
@@ -58,8 +58,8 @@ function page() {
             <ul className="list-disc list-inside">
               <li>Materiál: PVC</li>
               <li>jediné sklo</li>
-              <li>Rozměr 60x80 cm nebo 60x100</li>
-              <li>Různé dostupné</li>
+              <li>Rozměry: 60x80 cm nebo 60x100 cm</li>
+              <li>Různé dostupné barevné varianty</li>
             </ul>
           </div>
           <img
@@ -79,12 +79,16 @@ function page() {
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
             <h4>Kování</h4>
             <ul className="list-disc list-inside">
-              <li>Kování zlepšují estetiku povrchové úpravy garáže</li>
-              <li>.Použijí se na vnější stranu rohů garáže</li>
               <li>
-                Lze s nimi také dokončit střechu v přední a zadní části garáže
+                Laminování garáže pomocí kování zlepšuje estetiku povrchové
+                úpravy garáže
               </li>
-              <li>Kování je sladěno s barvou garáže popř. z palety barev</li>
+              <li> Používají se na vnějších rozích garáže</li>
+              <li>
+                Lze je použít také k dokončení střechy v přední a zadní části
+                garáže
+              </li>
+              <li>Kování se vybírá v barvě garáže nebo z palety barev</li>
             </ul>
           </div>
           <img
@@ -102,14 +106,14 @@ function page() {
             </div>
           </div>
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
-            <h4>Žlaby</h4>
-            <p>Výhody PVC okapů:</p>
+            <h4>Okapové žlaby</h4>
+            <p>Výhody PVC žlabů:</p>
             <ul className="list-disc list-inside">
-              <li>Výroba z nejkvalitnějších plastů</li>
+              <li>Výroba z nejkvalitnějšího plastu</li>
               <li> Vysoká odolnost výrobků vůči povětrnostním vlivům</li>
               <li>
-                Nejvyšší estetika zpracování, přesnost spojů okapových profilů a
-                potrubí
+                Nejvyšší estetika výroby, přesnost při spojování žlábkových
+                profilů a trubek
               </li>
             </ul>
           </div>
@@ -131,9 +135,12 @@ function page() {
             <h4>Automatická brána</h4>
             <p>Sada obsahuje</p>
             <ul className="list-disc list-inside">
-              <li>1 pohon HOME s vestavěnou řídící jednotkou a přijímačem</li>
-              <li> 1 kolejnici s řetězovým pohonem</li>
-              <li>2 2-kanálové dálkové ovladače</li>
+              <li>
+                Sada obsahuje 1x pohon HOME s vestavěnou řídicí jednotkou a
+                přijímačem
+              </li>
+              <li>1 kolejnici s řetězovým pohonem</li>
+              <li>2x dálkové ovladače</li>
             </ul>
           </div>
           <img
@@ -153,12 +160,12 @@ function page() {
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
             <h4>Nýty a šrouby</h4>
             <p>
-              Dbáme na ty nejmenší detaily, proto pro zvýšení estetické hodnoty
-              garáže používáme nýty a šrouby v barvě ladící s barvou plechu
-              garáže.
+              Dbáme i na ty nejmenší detaily, proto pro zvýšení estetické
+              hodnoty garáže používáme nýty a šrouby v barvě odpovídající barvě
+              garážového panelu
             </p>
             <ul className="list-disc list-inside">
-              <li>Sladěné s barvou garáže</li>
+              <li>sladěné s barvou garáže</li>
             </ul>
           </div>
           <img
@@ -178,7 +185,7 @@ function page() {
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
             <h4>Antikondenzační plsť</h4>
             <ul className="list-disc list-inside">
-              <li>Zabraňuje kondenzaci vody</li>
+              <li>Zabraňuje kondenzaci vody na streše garáže</li>
             </ul>
           </div>
           <img

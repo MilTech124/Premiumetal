@@ -20,20 +20,17 @@ async function page() {
   const data = await getData();
   return (
     <div>
-      <Hero title={"Přístřešky na popelnice"} />
+      <Hero title={"Přístřešek na popelnice"} />
       <div className="container mx-auto ">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-5 p-5">
           <div className="col-span-2">
-            <h2 className="text-4xl pb-2 font-semibold">Wiata Śmietnikowa</h2>
+            <h2 className="text-4xl pb-2 font-semibold">Přístřešek na popelnice</h2>
             <p className="text-lg">
-               to praktyczna konstrukcja do przechowywania
-              pojemników na odpady, chroniąca je przed czynnikami zewnętrznymi i
-              utrzymująca porządek. Wykonana z materiałów odpornych na
-              warunki atmosferyczne, może mieć drzwi lub bramę, ograniczając
-              dostęp zwierząt i rozprzestrzenianie się zapachów. Są ważne w
-              miastach, gdzie pomagają utrzymać czystość i estetykę. Ich
-              projektowanie wymaga uwzględnienia wielu czynników, w tym
-              przepisów dotyczących gospodarowania odpadami.
+            je praktická konstrukce pro uložení odpadkových košů, jejich ochranu před povětrnostními vlivy a udržování
+čistoty. Je vyrobena z materiálů odolných proti povětrnostním vlivům, může mít dvířka nebo branku, což omezuje
+přístup zvířat a šíření zápachu. Jsou důležité na místech, kde pomáhají udržovat čistotu a estetický vzhled. Jejich
+konstrukce vyžaduje zohlednění mnoha faktorů, včetně předpisů o nakládání s odpady. 
+
             </p>
           </div>
           <div className="col-span-2">

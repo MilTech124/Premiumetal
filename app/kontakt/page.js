@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { Fade } from "react-awesome-reveal";
 
 function page() {
@@ -9,54 +9,54 @@ function page() {
       <div className="py-20 flex flex-col gap-10">
         {/* ITEM */}
         <Fade>
-        <div className="flex gap-2 group w-fit">
-          <div className=" flex justify-center items-center h-20 w-20 rounded-full bg-primary group-hover:bg-red-600  group-hover:rotate-12 transition-all duration-700">
-            <img src="/images/cellphone.png" alt="mobile" className="p-2" />
+          <div className="flex gap-2 group w-fit">
+            <div className=" flex justify-center items-center h-20 w-20 rounded-full bg-primary group-hover:bg-red-600  group-hover:rotate-12 transition-all duration-700">
+              <img src="/images/cellphone.png" alt="mobile" className="p-2" />
+            </div>
+            <div className="flex gap-2 flex-col items-center justify-center bg-primary rounded-md px-10 font-semibold group w-[250px]">
+              <a href="tel:+421 902 057 585">+421 902 057 585</a>
+            </div>
           </div>
-          <div className="flex gap-2 flex-col items-center justify-center bg-primary rounded-md px-10 font-semibold group w-[250px]">
-            <a href="tel:+421 902 057 585">+421 902 057 585</a>          
-          </div>
-        </div>
         </Fade>
         {/* ITEM */}
         {/* ITEM */}
         <Fade>
-        <div className="flex gap-2 group w-fit">
-          <div className=" flex justify-center items-center h-20 w-20 rounded-full bg-primary group-hover:bg-red-600  group-hover:rotate-12 transition-all duration-700">
-            <img src="/images/Email.png" alt="mobile" className="p-2" />
+          <div className="flex gap-2 group w-fit">
+            <div className=" flex justify-center items-center h-20 w-20 rounded-full bg-primary group-hover:bg-red-600  group-hover:rotate-12 transition-all duration-700">
+              <img src="/images/Email.png" alt="mobile" className="p-2" />
+            </div>
+            <div className="flex gap-2 flex-col items-center justify-center bg-primary rounded-md px-10 font-semibold group w-[250px]">
+              <a href="mailto:garaze@premiumetal.cz">garaze@premiumetal.cz</a>
+            </div>
           </div>
-          <div className="flex gap-2 flex-col items-center justify-center bg-primary rounded-md px-10 font-semibold group w-[250px]">
-            <a href="mailto:garaze@premiumetal.cz">garaze@premiumetal.cz</a>
-          </div>
-
-        </div>
         </Fade>
-       
-        {/* ITEM */}
-        {/* ITEM */}
-        <Fade>
-        <div className="flex gap-2 group w-fit">
-          <div className=" flex justify-center items-center h-20 w-20 rounded-full bg-primary group-hover:bg-red-600  group-hover:rotate-12 transition-all duration-700">
-            <img src="/images/Clock.png" alt="mobile" className="p-2" />
-          </div>
-          <div className="flex gap-2 flex-col items-center justify-center bg-primary rounded-md px-10 p-2 font-normal group w-[250px]">
-            <p className="font-semibold">Pracovní hodiny</p>
-            <p>od pondělí do pátku: 8:00 - 16:00</p>
-            <p>sobota: 9:00 - 13:00</p>            
-          </div>
-        </div>
-        </Fade>
-        {/* ITEM */}
 
         {/* ITEM */}
+        {/* ITEM */}
         <Fade>
-        <div className="bg-primary w-[350px] rounded-md p-5">
-          <p className="font-semibold">Gotowy na Garaż Swoich Marzeń?</p>
-          <p className="font-normal pt-5">
-            Skontaktuj się z nami już dziś, aby omówić Twoje potrzeby i zacząć
-            tworzyć idealny garaż!<br></br> Jesteśmy tutaj, aby pomóc Ci na każdym kroku.
-          </p>
-        </div>
+          <div className="flex gap-2 group w-fit">
+            <div className=" flex justify-center items-center h-20 w-20 rounded-full bg-primary group-hover:bg-red-600  group-hover:rotate-12 transition-all duration-700">
+              <img src="/images/Clock.png" alt="mobile" className="p-2" />
+            </div>
+            <div className="flex gap-2 flex-col items-center justify-center bg-primary rounded-md px-10 p-2 font-normal group w-[250px]">
+              <p className="font-semibold">Pracovní hodiny</p>
+              <p>Pon - Pá: 8:00 - 16:00</p>
+              <p>Sob: 9:00 - 13:00</p>
+            </div>
+          </div>
+        </Fade>
+        {/* ITEM */}
+
+        {/* ITEM */}
+        <Fade>
+          <div className="bg-primary w-[350px] rounded-md p-5">
+            <p className="font-semibold">Jste připraveni na garáž svých snů?</p>
+            <p className="font-normal pt-5">
+              Kontaktujte nás ještě dnes, abychom s vámi prodiskutovali vaše
+              potřeby a začali vytvářet vaši dokonalou garáž! <br></br> Jsme
+              zde, abychom vám pomohli na každém kroku.
+            </p>
+          </div>
         </Fade>
         {/* ITEM */}
       </div>

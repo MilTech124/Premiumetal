@@ -8,9 +8,10 @@ function page() {
           <h1 className="text-red pt-5">Příprava podkladu</h1>
           <h4 className="pt-5 pb-2">Vyrovnání terénu</h4>
           <p className="text-xl pr-10">
-            Klíčem je vyrovnat plochu pro garáž. Betonovou mazaninu raději
-            vyrobíme o rozměrech přibližně o 20 cm větších, než jsou plánované
-            rozměry garáže. To je důležité pro zajištění stability konstrukce.
+            Vyrovnání a srovnání terénu pro vaši garáž je zásadní. Preferujeme
+            zhotovení betonového potěru přibližně o 20 cm většího, než jsou
+            plánované rozměry garáže. Je to důležité pro zajištění stability
+            konstrukce.
           </p>
         </div>
         <img
@@ -26,10 +27,10 @@ function page() {
           <div>
             <h4>Betonový potěr</h4>
             <p>
-              Betonovou mazaninu doporučujeme použít zejména v případě, že garáž
-              bude využívána jako stání pro osobní automobil. Potěr by měl být o
-              15-30 cm větší než každá strana garáže, přičemž optimální hloubka
-              betonové vrstvy by měla být
+              Betonový potěr doporučujeme zejména v případě, že garáž bude
+              sloužit jako parkovací místo pro auto. Potěr by měl být o 15-30 cm
+              větší než každá strana garáže, přičemž optimální hloubka betonové
+              vrstvy je 10-15 cm
             </p>
           </div>
           <img
@@ -44,11 +45,11 @@ function page() {
           <div>
             <h4>Betonové bloky</h4>
             <p>
-              Pro provizorní řešení nebo garáže sloužící jako sklad mohou
-              postačovat betonové tvárnice umístěné pod zdmi garáže. Jsou levné
-              a snadno se instalují. Bloky by měly být rovnoměrně rozmístěny po
-              obvodu garáže a jejich optimální počet je 6 kusů. Je důležité
-              pečlivě vyrovnat a vykopat malé otvory pro bloky.
+              Pro dočasná řešení nebo garáže používané jako skladovací prostory
+              mohou postačit betonové bloky umístěné pod stěnami garáže. Jsou
+              levné a snadno se instalují. Bloky by měly být rozmístěny
+              rovnoměrně po obvodu garáže a optimální počet je 6 ks. Důležité je
+              ich pečlivé vodorovní uložení a vykopání malých otvorů pro bloky.
             </p>
           </div>
           <img
@@ -61,11 +62,11 @@ function page() {
         {/* ITEM 3 */}
         <div className="bg-szary p-5  flex flex-col items-center justify-between  h-[470px] max-w-[350px]">
           <div>
-            <h4>Základ podél obrysu</h4>
+            <h4>Základové podloží podél obvodu</h4>
             <p>
-              Příprava základu podél obrysu plechové garáže je zásadní pro
+              Příprava základu podél obvodu plechové garáže je zásadní pro
               zajištění její stability. Tento typ základů se doporučuje zejména
-              pro odolnější konstrukce garáží.
+              u robustnějších garážových konstrukcí.
             </p>
           </div>
           <img

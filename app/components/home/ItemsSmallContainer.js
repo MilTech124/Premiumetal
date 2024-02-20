@@ -7,7 +7,7 @@ function ItemsSmallContainer() {
     const items = [
         {
             number:"1",
-            title:"Nabídka zdarma",
+            title:"Cenová nabídka zdarma",
             image:"/images/kontakt2.png",
         },
         {
@@ -17,7 +17,7 @@ function ItemsSmallContainer() {
         },
         {
             number:"3",
-            title:"Instalace zdarma",
+            title:"Montáž zdarma",
             image:"/images/zamowienie2.png",
         },
       
