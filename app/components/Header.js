@@ -13,7 +13,7 @@ function Header() {
     <div className='sticky top-0 z-50 flex w-full bg-red md:h-[80px] '>
 
     <div className='mx-auto container flex w-full pr-5 justify-between items-center max-md:flex-col text-white shadow-xl '>
-       <img src="/PREMIUM.jpg" alt="logo" className='w-[80px]' />
+       <img src="/PREMIUM.jpg" alt="logo" className='w-[80px] max-sm:absolute left-0 max-sm:w-[50px] ' />
         <nav className='md:ml-auto md:pr-4 md:!flex'style={{ display: isOpen ? "flex" : "none" }}>
             <ul className='md:flex text-xl max-sm:flex-col max-sm:flex max-sm:gap-2 items-center  gap-10 font-semibold max-md:justify-center'>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/" ><HomeIcon/></Link></li>
@@ -46,10 +46,12 @@ function Header() {
         
         </div>
        
-        <div className='socials max-sm:hidden max-sm:py-2 md:pr-5'>
-            <Link href='https://www.facebook.com/PremiuMetal'><img className='hover:cursor-pointer w-10 hover:scale-110' src="/facebook.png" alt="facebook" /></Link>
+        <div className='socials   top-3 max-sm:left-6 md:right-6 md max-sm:py-2 md:pr-5'>
+            <Link href='https://www.facebook.com/PremiuMetal'><img className='hover:cursor-pointer w-10 hover:scale-110' src="/facebook.png" alt="facebook" /></Link>  
         </div>
-        <button onClick={()=>setIsOpen(!isOpen)} className="btn btn-square btn-ghost md:invisible">
+
+        {/* facebook przenieść do menu */}
+        <button onClick={()=>setIsOpen(!isOpen)} className="btn absolute top-5 right-5 btn-square btn-ghost md:invisible">
         {isOpen ? "X" : "☰"}
           
         </button>

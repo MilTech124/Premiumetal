@@ -30,9 +30,9 @@ function Footer() {
               <img src="/images/red_phone.webp" className="w-16" alt="icon" />
               <Link
                 className="hover:scale-105 transition-all"
-                href="tel:+421 951 544 850"
+                href="tel:+421 948 764 913"
               >
-                +421 951 544 850
+                +421 948 764 913
               </Link>
             </div>
 

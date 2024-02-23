@@ -5,7 +5,7 @@ import { Fade } from "react-awesome-reveal";
 function SelfConfigGarage() {
   const items = [
     {
-      title: "Príprava substrátu",
+      title: "Príprava podkladu",
       image: "/images/przygotowanie.png",
       link: "/przygotowanie-podloza",
     },
@@ -56,7 +56,7 @@ function SelfConfigGarage() {
             </Fade>
             <Fade delay={300 + index * 100} className="!-mt-5">
               <a href={item.link}>
-                <button className="btn bg-red">ďalšie</button>
+                <button className="btn bg-red">Viac</button>
               </a>{" "}
             </Fade>
           </div>
