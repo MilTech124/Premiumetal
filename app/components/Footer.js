@@ -28,9 +28,9 @@ function Footer() {
               <img src="/images/red_phone.webp" className="w-16" alt="icon" />
               <Link
                 className="hover:scale-105 transition-all"
-                href="tel:+421 902 057 585"
+                href="tel:+420 792 239 687"
               >
-                +421 902 057 585
+                +420 792 239 687
               </Link>
             </div>
             
@@ -88,7 +88,7 @@ function Footer() {
                 />
                 <br></br>
                 <button type="submit" className="border-4 border-red-900 p-2 hover:bg-red-900">
-                Pošlete
+                Odoslat
                 </button>
               </form>
             </div>

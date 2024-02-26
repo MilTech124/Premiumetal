@@ -9,6 +9,7 @@ export const metadata = {
   title: 'PREMIUMETAL',
   description: 'Garaże Klasy Premium',
   keywords: 'garaże blaszane, garaże, blaszaki,kojce, kojce dla psów, kojce dla psów blaszane',
+  robots: 'index, follow',
   openGraph: {
     images: '/og-image.png',
   },
