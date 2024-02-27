@@ -13,7 +13,7 @@ function Header() {
     <div className='sticky top-0 z-50 flex w-full bg-red md:h-[80px] '>
 
     <div className='mx-auto container flex w-full pr-5 min-h-[50px] justify-between items-center max-md:flex-col text-white shadow-xl '>
-       <img src="/PREMIUM.jpg" alt="logo" className='w-[80px] max-sm:absolute left-0 max-sm:w-[50px] ' />
+       <img src="/PREMIUM.jpg" alt="logo" className='w-[80px] max-md:absolute left-0 max-md:w-[50px] ' />
         <nav className='md:ml-auto md:pr-4 md:!flex'style={{ display: isOpen ? "flex" : "none" }}>
             <ul className='md:flex text-xl max-sm:flex-col max-sm:flex max-sm:gap-2 items-center  gap-10 font-semibold max-md:justify-center'>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/" ><HomeIcon/></Link></li>
@@ -38,7 +38,7 @@ function Header() {
 
             </ul>
         </nav>
-        <div className='overflow-hidden hover:overflow-visible max-sm:flex hover:max-h-full transition-all h-7'>
+        <div className='overflow-hidden hover:overflow-visible max-md:flex hover:max-h-full transition-all h-7'>
         <a href="https://premiumetal.pl" ><img className='w-10 p-2 hover:scale-110 transition hover:rotate-6' src="/pl.webp" alt="pl" /></a>
         <a href="https://premiumetal.hu" ><img className='w-10 p-2 hover:scale-110 transition hover:rotate-6' src="/hu.webp" alt="hu" /></a>
         <a href="https://premiumetal.cz" ><img className='w-10 p-2 hover:scale-110 transition hover:rotate-6' src="/cz.webp" alt="cz" /></a>
