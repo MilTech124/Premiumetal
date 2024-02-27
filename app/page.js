@@ -10,7 +10,7 @@ function page() {
     <div>
       <Hero />
       <div className="w-full">
-        <div className="flex pt-20 justify-end">
+       <div className="flex pt-20 md:justify-end justify-center"> 
           <ItemsSmallContainer />
         </div>
         <div className="w-full bg-szary h-[75px] -mt-[55px]"></div>

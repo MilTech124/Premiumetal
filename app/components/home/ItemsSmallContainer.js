@@ -23,7 +23,7 @@ function ItemsSmallContainer() {
       
     ]
   return (
-    <div className='flex justify-evenly md:mt-[-150px] pl-4 '>
+    <div className='flex max-sm:flex-col md:justify-evenly md:mt-[-150px] md:pl-4 '>
         {items.map((item)=>(
             <Fade key={item.number} delay={item.number*100}>
              <SmallItem key={item.number} number={item.number} title={item.title} image={item.image} />
