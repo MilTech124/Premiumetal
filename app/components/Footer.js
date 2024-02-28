@@ -55,7 +55,7 @@ function Footer() {
               <h3 className="text-red text-xl">Napište nám</h3>
               <form
                 className="max-w-lg pr-2"
-                action="https://formspree.io/f/moqgepar"
+                action="https://formspree.io/f/mayrjdgq"
                 method="POST"
               >
                 <textarea
