@@ -52,7 +52,7 @@ function Footer() {
           <div>
             <div className="bg-white p-5 text-black">
               <h3 className="text-red text-xl">Napište nám</h3>
-              <form className="max-w-lg pr-2"   action="https://formspree.io/f/moqgepar" method="POST">
+              <form className="max-w-lg pr-2"   action="https://formspree.io/f/xvoerbjy" method="POST">
               <textarea
                   name="message"
                   id=""
