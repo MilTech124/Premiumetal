@@ -1,7 +1,36 @@
+"use client"
 import Link from "next/link";
 import React from "react";
+import emailjs from '@emailjs/browser';
 
 function Footer() {
+
+  //PL "template_o6bswlm"  
+  //SK "template_kaeiy08"
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs
+      .sendForm(
+        "service_dns27z8",
+        "template_o6bswlm",
+        e.target,
+        "1BBEpXU2rBki68FZA"        
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Wiadomość została wysłana");
+        },
+        (error) => {
+          console.log(error.text);
+          alert("Wystąpił błąd, spróbuj ponownie");
+        }
+      );
+    e.target.reset();
+  };
+
+
   return (
     <div>
       <footer className="bg-black ">
@@ -60,7 +89,7 @@ function Footer() {
           <div>
             <div className="bg-white p-5 text-black">
               <h3 className="text-red text-xl">Napisz do nas</h3>
-              <form className="max-w-lg pr-2"   action="https://formspree.io/f/moqgepar" method="POST">
+              <form className="max-w-lg pr-2"  onSubmit={sendEmail}>
               <textarea
                   name="message"
                   id=""
