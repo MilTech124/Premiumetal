@@ -57,9 +57,36 @@ function page() {
           </div>
           {/* ITEM 3 */}
         </div>
-        <div className="md:w-1/2 ">
+         {/* ITEM KOLORKI */}
+         <div className="md:w-1/2 ">
           <img src="/images/kolorystyka.webp" alt="kolor1" />
-          <img src="/images/kolorystyka_2.webp" alt="kolor2" />
+          <div className="flex flex-wrap ">
+            <div className="w-1/2 flex flex-col items-center">
+              <img src="/images/ciemny_orzech.webp" alt="" />
+              <p className="text-center text-2xl font-semibold text-neutral-600">
+              Sötét dió
+              </p>
+            </div>
+            <div className="w-1/2 flex flex-col items-center">
+              <img src="/images/zloty_dab_multi.webp" alt="" />
+              <p className="text-center text-2xl font-semibold text-neutral-600">
+              Arany Tölgy – Világos Dió hatású
+              </p>
+            </div>
+            <div className="w-1/2 flex flex-col items-center">
+              <img src="/images/winchester.webp" alt="" />
+              <p className="text-center text-2xl font-semibold text-neutral-600">
+                Winchester
+              </p>
+            </div>
+            <div className="w-1/2 flex flex-col items-center">
+              <img src="/images/zloty_dab.webp" alt="" />
+              <p className="text-center text-2xl font-semibold text-neutral-600">
+              Arany tölgy
+              </p>
+            </div>
+          </div>
+          {/* <img src="/images/kolorystyka_2.webp" alt="kolor2" /> */}
         </div>
       </div>
     </div>

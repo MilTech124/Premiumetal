@@ -38,8 +38,8 @@ function Footer() {
             <img src="/PREMIUM.jpg" className="w-60" alt="logo" />
             <h4 className="font-bold pl-2 py-2 text-center text-red">Nyitva tartás</h4>
             <ul className="flex pl-2 text-center flex-col  ">
-              <li>Hétfőtől péntekig: 8:00 - 16:00</li>
-              <li>Szombat: 9:00 - 13:00</li>
+              <li>Hétfőtől - Péntekig: 8:00 -16:00</li>
+              <li>Szombaton: 9:00 - 13:00</li>
             </ul>
           </div>
           <div className="flex gap-2  text-xl flex-col  pt-4 mr-auto">
@@ -133,7 +133,7 @@ function Footer() {
         </div>
       </footer>
       <div className="text-center text-red bg-primary text-3xl font-bold p-2">
-        Gyors kivitelezési idő - a megrendeléstől számítva 14 nap !!! 
+      Gyors kivitelezési idő - a megrendeléstől számítva 14 nap !!! 
       </div>
       <div>
         <div className="bg-red">

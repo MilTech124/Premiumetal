@@ -8,15 +8,15 @@ function page() {
           <h1 className="text-red pt-5">Információk</h1>
 
           <p className="text-xl pt-10 pr-10">
-            A PREMIUMetal legmagasabb minőségű garázsokat gyárt.<br></br>
-            Szaktanácsadással állunk rendelkezésre, és segítünk a legjobb
+            A PREMIUMetal legmagasabb minőségű garázsokat gyárt.
+            Szaktanácsadással állunk rendelkezésére, és segítünk a legjobb
             ajánlat kiválasztásában. Átfogó szolgáltatást garantálunk minden
             ügyfelünknek, a szakértőink tanácsukkal rendelkezésükre állnak a
             megrendeléstől a termékek szállításáig és telepítéséig. Széles
             termékválasztékunknak köszönhetően a legigényesebb ügyfelek igényeit
             is ki tudjuk elégíteni. A prémium garázsok gyártójaként kiváló
-            minőségű kivitelezést nyújtunk előnyös áron. Ismerkedj meg az
-            ajánlatunkkal
+            minőségű kivitelezést nyújtunk előnyös áron. Ismerkedjen meg
+            ajánlatunkkal.
           </p>
         </div>
         <img
@@ -43,7 +43,7 @@ function page() {
         </div>
       </div>
       <h2 className="text-center text-white bg-red py-5  ">
-        Dombornyomott lemez 
+      Trapézlemez domborzata
       </h2>
       <div className="flex py-10 gap-5 justify-evenly px-2">
         <div>
@@ -59,7 +59,7 @@ function page() {
       <div className="flex py-10 justify-evenly">
         <div>
           <img src="/images/dachowka.webp" alt="uchylna" />
-          <h4 className="text-center">Cserepeslemez</h4>
+          <h4 className="text-center">Cserép hatású leme</h4>
         </div>
         <div>
           <img src="/images/trapez.webp" alt="podnoszona" />

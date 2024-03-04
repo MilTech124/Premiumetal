@@ -5,12 +5,12 @@ function page() {
     <div className="mx-auto container">
       <div className="flex max-md:flex-wrap max-md:-order-2 justify-between">
         <div className="px-2">
-          <h1 className="text-red pt-5">További Tartozékok</h1>
+          <h1 className="text-red pt-5">További tartozékok</h1>
 
           <p className="text-xl pt-10 pr-10">
-            Bádoggarázs rendelésekor érdemes megfontolni a további kiegészítők
-            beszerzését, amelyek a garázst nemcsak továbbfejlesztik, hanem
-            praktikusabbá is teszik a használatát.
+            Lemezgarázs rendelésekor érdemes megfontolni a további kiegészítők
+            beszerzését, amelyek a garázst nemcsak tovább fejlesztik, hanem
+            praktikusabbá teszik használatát.
           </p>
         </div>
         <img
@@ -32,10 +32,12 @@ function page() {
             <h4>Ajtó</h4>
             <p>A további ajtók előnyei:</p>
             <ul className="list-disc list-inside">
-              <li>Könnyebbé teszi a garázs funkcionalitását és használatát </li>
-              <li>Az ajtó két kulcsos zárral van felszerelve </li>
-              <li>A garázs bármely falára felszerelhető </li>
-              <li>Méretek 90 cm széles és 200 cm-es </li>
+              <li>Praktikusabbá teszi a garázs használatát. </li>
+              <li>
+                Az ajtó zárral felszerelt melyhez 2db kulcsot biztosítunk{" "}
+              </li>
+              <li>A garázs bármely falára felszerelhető</li>
+              <li>Méretei: 90 cm széles és 200 cm magas </li>
             </ul>
           </div>
           <img
@@ -53,13 +55,13 @@ function page() {
             </div>
           </div>
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
-            <h4>További ablak</h4>
-            <p>Ablak Technikai Adati :</p>
+            <h4>További Ablakok</h4>
+            <p>ABLAK TECHNIKAI ADATAI:</p>
             <ul className="list-disc list-inside">
               <li>Anyag: PVC: </li>
               <li>Egyrétegű üvegezés </li>
               <li>Méretek 60x80 cm vagy 60x100</li>
-              <li>Különféle kapható</li>
+              <li>Különféle színben kapható</li>
             </ul>
           </div>
           <img
@@ -77,15 +79,18 @@ function page() {
             </div>
           </div>
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
-            <h4>Szerelvények</h4>
+            <h4>Szerelvény - takarólemez</h4>
             <ul className="list-disc list-inside">
-              <li>A szerelvények javítják a garázs esztétikáját </li>
-              <li>A garázs külső sarkaiban kerülnek alkalmazásra </li>
+              <li>A szerelvények stílusosabbá teszik a garázs esztétikáját </li>
+              <li>A garázs külső sarkaira kerülnek rögzítésre </li>
               <li>
-                A garázs elülső és hátsó részén a tető befejezéséhez is
-                használhatók{" "}
+                A garázs külső sarkaira kerülnek rögzítésre, illetve az elülső
+                és hátsó részén a tető befejezéséhez is felszerelhetőek.
               </li>
-              <li>A szerelvényeket a garázs színéhez választjuk</li>
+              <li>
+                A szerelvényeket a garázs színéhez igazítjuk, de egyedi szín is
+                választható
+              </li>
             </ul>
           </div>
           <img
@@ -106,10 +111,10 @@ function page() {
             <h4>Ereszcsatornák</h4>
             <p>A PVC ereszcsatornák előnyei:</p>
             <ul className="list-disc list-inside">
-              <li>Kiváló minőségű műanyagból gyártottak </li>
+              <li>Kiváló minőségű műanyagból gyártottak</li>
               <li>
                 A termékek időjárási körülményekkel szemben nagyfokú
-                ellenállóképességel rendelkeznek
+                ellenállóképességgel rendelkezne
               </li>
               <li>
                 Kivitelezésük kiváló esztétikájú, az ereszcsatorna szakaszok és
@@ -136,9 +141,10 @@ function page() {
             <p>A készlet tartalma:</p>
             <ul className="list-disc list-inside">
               <li>
-                1 HOME működtető beépített vezérlőegységgel és vevőegységgel{" "}
+                A készlet tartalma: 1 HOME működtető beépített vezérlőegységgel
+                és vevőegységgel.
               </li>
-              <li>1 láncos hajtósín </li>
+              <li>1 láncos hajtósí</li>
               <li>2 db 2-csatornás távirányító</li>
             </ul>
           </div>
@@ -164,7 +170,7 @@ function page() {
               szegecseket és csavarokat használunk.
             </p>
             <ul className="list-disc list-inside">
-              <li>A garázs színéhez igazodva </li>
+            
             </ul>
           </div>
           <img
@@ -184,7 +190,7 @@ function page() {
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
             <h4>Anti-kondenzációs filc</h4>
             <ul className="list-disc list-inside">
-              <li>Megakadályozza a vízlecsapódást</li>
+              <li>Megakadályozza a vízlecsapódás</li>
             </ul>
           </div>
           <img
