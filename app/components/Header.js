@@ -17,7 +17,7 @@ function Header() {
         <nav className='md:ml-auto md:pr-4 md:!flex'style={{ display: isOpen ? "flex" : "none" }}>
             <ul className='md:flex text-xl max-sm:flex-col max-sm:flex max-sm:gap-2 items-center  gap-10 font-semibold max-md:justify-center'>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/" ><HomeIcon/></Link></li>
-                <li onClick={()=>{setIsOpen(false)}}> <Link href="/galeria">Galéria</Link></li>
+                <li onClick={()=>{setIsOpen(false)}}> <Link href="/galeria">Képek</Link></li>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/smietniki">Szeméttároló fészer</Link></li>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/#ofirmie"> A cégről</Link></li>
                 {/* ON HOVER DROPDOWN */}
@@ -25,7 +25,7 @@ function Header() {
                 <div className='absolute opacity-0 hidden text-sm group-hover:flex  group-hover:opacity-100 top-7 -left-5 bg-red w-[150px] '>
                     <ul className='flex flex-col gap-5 p-5'>
                         <li onClick={()=>{setIsOpen(false)}}> <Link href="/akcesoria">További Tartozékok</Link></li>
-                        <li onClick={()=>{setIsOpen(false)}}> <Link href="/przygotowanie-podloza">Talaj előkészítése</Link></li>
+                        <li onClick={()=>{setIsOpen(false)}}> <Link href="/przygotowanie-podloza">Talaj előkészítés</Link></li>
                         <li onClick={()=>{setIsOpen(false)}}> <Link href="/paleta-kolorow">Színpaletta</Link></li>
                         <li onClick={()=>{setIsOpen(false)}}> <Link href="/informacje">Információk</Link></li>
                     </ul>

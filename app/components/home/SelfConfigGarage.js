@@ -24,18 +24,11 @@ function SelfConfigGarage() {
   return (
     <div className="flex  flex-col justify-center py-10">
       <h2 className="text-center bg-szary py-2 mb-5 w-full text-red ">
-        Konfiguráld saját garázsodat az igényeidnek megfelelően
+      Tervezze saját garázsát az igényeinek megfelelően
       </h2>
       <Fade direction="up">
         <p className=" px-2 text-center md:px-20 text-2xl">
-          A PREMIUMetal legmagasabb minőségű garázsokat gyárt. Szaktanácsadással
-          állunk rendelkezésre, és segítünk a legjobb ajánlatot kiválasztásában.
-          Átfogó szolgáltatást garantálunk minden ügyfelünknek, a szakértőink
-          tanácsukkal rendelkezésükre állnak a megrendeléstől a termékek
-          szállításáig és telepítéséig. Széles termékválasztékunknak
-          köszönhetően a legigényesebb ügyfelek igényeit is ki tudjuk elégíteni.
-          A prémium garázsok gyártójaként kiváló minőségű kivitelezést nyújtunk
-          előnyös áron. Ismerkedj meg ajánlatunkkal.
+        A PREMIUMetal legmagasabb minőségű garázsokat gyárt. Szaktanácsadással állunk rendelkezésére, és segítünk a legjobb ajánlat kiválasztásában. Átfogó szolgáltatást garantálunk minden ügyfelünknek, a szakértőink tanácsukkal rendelkezésükre állnak, megrendeléstől a termékek szállításáig és összeszereléséig. Széles termékválasztékunknak köszönhetően a legigényesebb ügyfelek igényeit is ki tudjuk elégíteni. A prémium garázsok gyártójaként kiváló minőségű kivitelezést nyújtunk előnyös áron. Ismerkedjen meg ajánlatunkkal.
         </p>
       </Fade>
 

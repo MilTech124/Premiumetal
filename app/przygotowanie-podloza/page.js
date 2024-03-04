@@ -8,9 +8,9 @@ function page() {
           <h1 className="text-red pt-5">Talaj előkészítése </h1>
           <h4 className="pt-5 pb-2">Talajkiegyenlítés </h4>
           <p className="text-xl pr-10">
-            Kulcsfontosságú a garázs alatti talaj kiegyenlítése és szintezése. A
-            garázs tervezett méreteinél kb. 20 cm-rel nagyobb beton esztrichet
-            ajánlunk. Ez a szerkezeti stabilitás biztosítása érdekében fontos.
+            Kulcsfontosságú a garázs alatti talaj kiegyenlítése és szintezése.
+            Ez a szerkezeti stabilitás biztosítása érdekében fontos. Elsősorban
+            a beton aljzat kivitelezését ajánljuk.
           </p>
         </div>
         <img
@@ -24,12 +24,12 @@ function page() {
         {/* ITEM 1 */}
         <div className="bg-szary p-5 flex flex-col items-center justify-between  h-[470px] max-w-[350px]">
           <div>
-            <h4>Beton esztrich </h4>
+            <h4>Beton aljzat </h4>
             <p>
-              Beton esztrich kivitelezését ajánljuk különösen akkor, ha a garázs
-              autó parkolóhelyeként lesz igénybe véve. Az esztrichnek a garázs
+              Beton aljzat kivitelezését ajánljuk különösen akkor, ha a garázs
+              autó parkolóhelyeként lesz igénybe véve. Az aljzat a garázs
               mindkét oldalánál 15-30 cm-rel nagyobbnak kell lennie, a
-              betonréteg optimális mélysége pedig a következő lehet
+              betonréteg optimális mélysége pedig a következő lehet 10-15cm
             </p>
           </div>
           <img
@@ -46,10 +46,10 @@ function page() {
             <p>
               Ideiglenes megoldások vagy tárolóhelyként szolgáló garázsok
               esetében elegendő lehet a garázs falai alá helyezett betontömbök
-              alkalmazása. Olcsók és könnyen telepíthetők. A blokkokat a garázs
-              kerületén egyenletesen kell elrendezni, optimális számuk a 6
-              darab. Fontos, hogy gondosan szintezzük és kis lyukakat ássunk a
-              blokkok alá.
+              alkalmazása. Olcsók és könnyen telepíthetőek. A blokkokat a garázs
+              kerületén egyenletesen kell elhelyezni. Betontömbök darab száma
+              függ a garázs méretétől. Fontos, hogy gondosan szintezzük és kis
+              lyukakat ássunk a blokkok alá.
             </p>
           </div>
           <img
@@ -64,9 +64,9 @@ function page() {
           <div>
             <h4>Alapzat a körvonal mentén</h4>
             <p>
-              A bádoggarázs körvonala mentén készített alapozás kulcsfontosságú
-              a stabilitás biztosításához. Ez a fajta alapozás különösen
-              állandóbb garázsszerkezeteknél ajánlott.
+              A lemezgarázs körvonala mentén készített alapozás kulcsfontosságú
+              a stabilitás biztosításához. Ez a fajta alapozás különösen a
+              véglegesen telepített garázsszerkezeteknél ajánlott
             </p>
           </div>
           <img

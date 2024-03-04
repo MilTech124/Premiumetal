@@ -10,14 +10,12 @@ function HomeAccesories() {
         <div className="flex relative flex-col justify-center bg-black md:w-2/5 p-5">
           <Fade direction="left">
             <h3 className="py-5">
-              TOVÁBBI TARTOZÉKOK A GARÁZS FUNKCIONALITÁSÁT JAVÍTJÁK
+              TOVÁBBI TARTOZÉKOK A GARÁZS HASZNÁLATÁT PRAKTIKUSABBÁ TESZIK
             </h3>
           </Fade>
           <Fade direction="left" delay={200}>
             <p className="text-white text-xl">
-              Bádoggarázs rendelésekor érdemes megfontolni a további kiegészítők
-              beszerzését, amelyek a garázst nemcsak továbbfejlesztik, hanem
-              praktikusabbá is teszik a használatát.
+            Lemezgarázs rendelésekor érdemes megfontolni a további kiegészítők beszerzését, amelyek a garázst nemcsak továbbfejlesztik, hanem praktikusabbá is teszik a használatát.
             </p>
           </Fade>
           <a
