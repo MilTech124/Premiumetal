@@ -26,15 +26,14 @@ async function page() {
             <p className="text-lg">
               A szemetes tároló egy olyan praktikus konstrukció, amely a
               hulladékos kukák rendezett eltakarására szolgál, védve azokat a
-              környezeti hatásoktól. Wykonana z materiałów odpornych na A tároló
-              tartós és az időjárási viszonyoknak ellenálló anyagokból készült.
-              Zárható ajtóval vagy ráccsal lehet felszerelni, hogy a szemetestől
-              távol tartsa a kisállatokat, a kellemetlen szagokat pedig nem
-              engedi terjedni. Są ważne w A tárolók alkalmazhatósága fontos
-              lehet a városokban is, ahol segíthenek fenntartani a rendezett
-              tisztaságot a lakókörnyezetben. A tároló tervezésénél számos
-              szempontot kell figyelembe venni, többek között a
-              hulladéktárolásra vonatkozó helyi előírásokat.
+              környezeti hatásoktól. A tároló tartós és az időjárási
+              viszonyoknak ellenálló anyagokból készült. Zárható ajtóval vagy
+              ráccsal lehet felszerelni, hogy a szemetestől távol tartsa a
+              kisállatokat, a kellemetlen szagokat pedig nem engedi terjedni. A
+              tárolók alkalmazhatósága fontos lehet a városokban is, ahol
+              segíthenek fenntartani a rendezett tisztaságot a lakókörnyezetben.
+              A tároló tervezésénél számos szempontot kell figyelembe venni,
+              többek között a hulladéktárolásra vonatkozó helyi előírásokat.
             </p>
           </div>
           <div className="col-span-2">
