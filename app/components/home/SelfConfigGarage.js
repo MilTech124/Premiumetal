@@ -24,7 +24,7 @@ function SelfConfigGarage() {
   return (
     <div className="flex  flex-col justify-center py-10">
       <h2 className="text-center bg-szary py-2 mb-5 w-full text-red ">
-      Tervezze saját garázsát az igényeinek megfelelően
+      Tervezze meg saját garázsát<br></br> igényeinek megfelelően
       </h2>
       <Fade direction="up">
         <p className=" px-2 text-center md:px-20 text-2xl">

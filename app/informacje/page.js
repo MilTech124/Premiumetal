@@ -12,7 +12,7 @@ function page() {
             Szaktanácsadással állunk rendelkezésére, és segítünk a legjobb
             ajánlat kiválasztásában. Átfogó szolgáltatást garantálunk minden
             ügyfelünknek, a szakértőink tanácsukkal rendelkezésükre állnak a
-            megrendeléstől a termékek szállításáig és telepítéséig. Széles
+            megrendeléstől a termékek szállításáig és összeszereléséig. Széles
             termékválasztékunknak köszönhetően a legigényesebb ügyfelek igényeit
             is ki tudjuk elégíteni. A prémium garázsok gyártójaként kiváló
             minőségű kivitelezést nyújtunk előnyös áron. Ismerkedjen meg
@@ -59,7 +59,7 @@ function page() {
       <div className="flex py-10 justify-evenly">
         <div>
           <img src="/images/dachowka.webp" alt="uchylna" />
-          <h4 className="text-center">Cserép hatású leme</h4>
+          <h4 className="text-center">Cserép hatású lemez</h4>
         </div>
         <div>
           <img src="/images/trapez.webp" alt="podnoszona" />

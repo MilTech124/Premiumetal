@@ -81,11 +81,10 @@ function page() {
           <div className="mr-auto max-w-[600px] pl-10 py-10 max-sm:pl-2">
             <h4>Szerelvény - takarólemez</h4>
             <ul className="list-disc list-inside">
-              <li>A szerelvények stílusosabbá teszik a garázs esztétikáját </li>
-              <li>A garázs külső sarkaira kerülnek rögzítésre </li>
+              <li>A szerelvények stílusosabbá teszik a garázs esztétikáját </li>         
               <li>
                 A garázs külső sarkaira kerülnek rögzítésre, illetve az elülső
-                és hátsó részén a tető befejezéséhez is felszerelhetőek.
+                és hátsó részén a tető befejezéséhez is felszerelhetőek
               </li>
               <li>
                 A szerelvényeket a garázs színéhez igazítjuk, de egyedi szín is
@@ -114,7 +113,7 @@ function page() {
               <li>Kiváló minőségű műanyagból gyártottak</li>
               <li>
                 A termékek időjárási körülményekkel szemben nagyfokú
-                ellenállóképességgel rendelkezne
+                ellenállóképességgel rendelkeznek
               </li>
               <li>
                 Kivitelezésük kiváló esztétikájú, az ereszcsatorna szakaszok és
@@ -141,7 +140,7 @@ function page() {
             <p>A készlet tartalma:</p>
             <ul className="list-disc list-inside">
               <li>
-                A készlet tartalma: 1 HOME működtető beépített vezérlőegységgel
+                1 HOME működtető beépített vezérlőegységgel
                 és vevőegységgel.
               </li>
               <li>1 láncos hajtósí</li>
@@ -166,7 +165,7 @@ function page() {
             <h4>Szegecsek és csavarok</h4>
             <p>
               A legapróbb részletekre is ügyelünk, így a garázs esztétikájának
-              növelése érdekében a garázspanel színével megegyező színű
+              növelése érdekében a garázslemez színével megegyező színű
               szegecseket és csavarokat használunk.
             </p>
             <ul className="list-disc list-inside">

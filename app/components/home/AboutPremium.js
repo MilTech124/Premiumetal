@@ -28,7 +28,7 @@ function AboutPremium() {
               <p>
               A <b>Premiumetal-nál</b> nagyra értékeljük a minőséget, az innovációt és a részletekre való odafigyelést. Csapatunk képzett szakemberekből áll, akik elkötelezettek az első osztályú termékek és szolgáltatások nyújtása iránt. Célunk az ügyfeleink elvárásainak túlszárnyalása, valamint a garázsaink folyamatos fejlesztése, hogy azok ne csak praktikusak, hanem inspirálóak is legyenek.</p>
               <p className="md:pt-10 pt-5">
-              Keressen Minket Bizalommal Fedezze fel, hogyan tudják garázsaink átalakítani otthona környezetét.
+              Keressen Minket Bizalommal.<br></br> Fedezze fel, hogyan tudják garázsaink átalakítani otthona környezetét.
               </p>
             </Fade>
           </div>

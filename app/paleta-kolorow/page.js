@@ -37,7 +37,7 @@ function page() {
           <div className="p-2 bg-szary ">
             <h4>Fahatású lemezek színválasztéka:</h4>
             <p>
-              Hogy eleget tegyünk a természetet kedvelők igényeinek, fahatású
+              Hogy eleget tegyünk a természetet kedvelők igényeinek, fahatás
               árnyalatú garázsokat is kínálunk. Felületük a természetes anyagok
               melegét és esztétikáját ötvözik a tartóssággal és a könnyű
               karbantarthatósággal.

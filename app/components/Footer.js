@@ -58,7 +58,7 @@ function Footer() {
                 className="hover:scale-105 transition-all"
                 href="tel:+36304263006"
               >
-                +36304263006
+                +36 30 426 30 06
               </Link>
             </div>
             
@@ -125,10 +125,10 @@ function Footer() {
                 </button>
               </form>
             </div>
-            <div className="text-center py-2">
+            {/* <div className="text-center py-2">
                 <h4>PREMIUMetal</h4>
                 <p>Mirosław Węgrzynowicz</p>
-            </div>
+            </div> */}
           </div>
         </div>
       </footer>
