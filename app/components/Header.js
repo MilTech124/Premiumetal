@@ -45,7 +45,7 @@ function Header() {
         <a href="https://premiumetal.sk" ><img className='w-10 p-2 hover:scale-110 transition hover:rotate-6' src="/sk.webp" alt="sk" /></a>
         </div>
         <div className='socials top-3 max-sm:left-6 md:right-6 md max-sm:py-2 md:pr-5 md:!flex' style={{ display: isOpen ? "flex" : "none" }}>
-            <Link href='https://www.facebook.com/PremiuMetal'><img className='hover:cursor-pointer w-10 hover:scale-110' src="/facebook.png" alt="facebook" /></Link>  
+            <Link href='https://www.facebook.com/profile.php?id=61557245700321'><img className='hover:cursor-pointer w-10 hover:scale-110' src="/facebook.png" alt="facebook" /></Link>  
         </div>
 
         <button onClick={()=>setIsOpen(!isOpen)} className="btn absolute top-5 right-5 btn-square btn-ghost md:invisible">
