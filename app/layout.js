@@ -20,7 +20,7 @@ export default function RootLayout({ children }) {
     <html lang="pl" className='scroll-smooth' style={{scrollBehavior:'smooth'}}>    
   <head>
       <Script src="https://www.googletagmanager.com/gtag/js?id=AW-16510752046" strategy="afterInteractive" />
-      <Script strategy="afterInteractive">
+      <Script strategy="afterInteractive" id="gtag-config">
         {`
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}

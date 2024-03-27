@@ -5,7 +5,7 @@ import Script from 'next/script';
 function page() {
   return (
     <>
-      <Script strategy="lazyOnload">
+      <Script id="click" strategy="lazyOnload">
         {`
         function gtag_report_conversion(url) {
           var callback = function () {
