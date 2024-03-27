@@ -1,8 +1,26 @@
 'use client'
 import { Fade } from "react-awesome-reveal";
+import Script from 'next/script';
 
 function page() {
   return (
+    <>
+      <Script strategy="lazyOnload">
+        {`
+        function gtag_report_conversion(url) {
+          var callback = function () {
+            if (typeof(url) != 'undefined') {
+              window.location = url;
+            }
+          };
+          gtag('event', 'conversion', {
+              'send_to': 'AW-16510752046/bljbCOyUsKAZEK6q-MA9',
+              'event_callback': callback
+          });
+          return false;
+        }
+        `}
+      </Script>
     <main className="bg-[url(/images/bg-kontakt.png)] bg-cover flex flex-col bg-no-repeat  bg-center py-10  md:pl-[10vw]">
       <h1 className="text-slate-100">Kontakt</h1>
 
@@ -63,6 +81,7 @@ function page() {
         {/* ITEM */}
       </div>
     </main>
+    </>
   );
 }
 
