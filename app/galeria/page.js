@@ -16,6 +16,7 @@ const getData = async () =>{
   try {    
     const data = await axios.get(process.env.NEXT_PUBLIC_HOST + "?slug=galeria"); 
     return data.data[0];    
+    log(data.data[0]);
   } catch (error) {
     console.log(error);
     return error;
