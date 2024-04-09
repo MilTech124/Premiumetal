@@ -15,10 +15,11 @@ function Header() {
     <div className='mx-auto container flex w-full pr-5 min-h-[50px] justify-between items-center max-md:flex-col text-white shadow-xl '>
        <img src="/PREMIUM.jpg" alt="logo" className='w-[80px] max-sm:absolute left-0 max-sm:w-[50px] ' />
         <nav className='md:ml-auto md:pr-4 md:!flex'style={{ display: isOpen ? "flex" : "none" }}>
-            <ul className='md:flex text-xl max-sm:flex-col max-sm:flex max-sm:gap-2 items-center  gap-10 font-semibold max-md:justify-center'>
+            <ul className='md:flex  max-sm:flex-col max-sm:flex max-sm:gap-2 items-center  gap-10 font-semibold max-md:justify-center'>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/" ><HomeIcon/></Link></li>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/galeria">Galéria</Link></li>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/smietniki">Prístrešky na odpadky</Link></li>
+                <li onClick={()=>{setIsOpen(false)}}> <Link href="/kojce">Koterce pre psov</Link></li>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/#ofirmie">O nás</Link></li>
                 {/* ON HOVER DROPDOWN */}
                 <li className='relative group'>Tipy a rady
