@@ -7,9 +7,9 @@ function page() {
   return (
     <div>
       <Hero title="Koterce pre psov" />
-      <div className="flex gap-5 container mx-auto py-20">
+      <div className="flex max-md:flex-wrap gap-5 container mx-auto py-20">
         <Image
-          src="/images/About_premium.webp"
+          src="/images/kojec.jpg"
           alt="kojec1"
           width={500}
           height={500}
