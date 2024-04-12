@@ -9,7 +9,7 @@ function page() {
       <Hero title="Kotec pro psy" />
       <div className="flex max-md:flex-wrap gap-5 container mx-auto py-20">
         <Image
-          src="/images/kojec.jpg"
+          src="/images/kojec_head.jpg"
           alt="kojec1"
           width={500}
           height={500}
