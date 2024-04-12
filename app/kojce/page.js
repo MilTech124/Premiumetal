@@ -7,7 +7,7 @@ function page() {
   return (
     <div>
       <Hero title="Kotec pro psy" />
-      <div className="flex gap-5 container mx-auto py-20">
+      <div className="flex max-md:flex-wrap gap-5 container mx-auto py-20">
         <Image
           src="/images/kojec.jpg"
           alt="kojec1"
