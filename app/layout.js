@@ -28,6 +28,14 @@ export default function RootLayout({ children }) {
           gtag('config', 'AW-16510752046');
         `}
       </Script>
+     
+        <Script
+          id="Cookiebot"
+          src="https://consent.cookiebot.com/uc.js"
+          data-cbid="1b624268-5ae5-49d9-992c-056c08ec8467"
+          type="text/javascript"
+        ></Script>
+     
     </head>
 
       <body className={inter.className} >
