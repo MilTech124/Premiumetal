@@ -6,9 +6,9 @@ import Footer from './components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'PREMIUMETAL',
-  description: 'Garaże Klasy Premium',
-  keywords: 'garaże blaszane, garaże, blaszaki,kojce, kojce dla psów, kojce dla psów blaszane',
+  title: 'Garaże PREMIUMetal - Najwyższa Jakość dla Twoich Potrzeb!',
+  description: 'Odkryj naszą ofertę garaży klasy premium, dostosowaną do Twoich potrzeb. Zaufaj PREMIUMetal!',
+  keywords: 'garaże blaszane, garaże drewnopodobne, garaże akrylowe, kojce, kojce dla psów, garaże premium',
   robots: 'index, follow',
   openGraph: {
     images: '/og-image.png',
