@@ -6,9 +6,9 @@ import Footer from './components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Garaże PREMIUMetal - Najwyższa Jakość dla Twoich Potrzeb!',
-  description: 'Odkryj naszą ofertę garaży klasy premium, dostosowaną do Twoich potrzeb. Zaufaj PREMIUMetal!',
-  keywords: 'garaże blaszane, garaże drewnopodobne, garaże akrylowe, kojce, kojce dla psów, garaże premium',
+  title: 'Garáže PREMIUMetal - Nejvyšší kvalita pro vaše potřeby!',
+  description: 'Objevte naši nabídku prémiových garáží, které jsou přizpůsobeny vašim potřebám. Spolehněte se na PREMIUMetal!',
+  keywords: 'plechová garáž, plechové garáže, plechova garaz, domky na nářadí, zahradní domky na nářadí, zahradní domky na nářadí z polska, kotec pro psa, kotec pro psa hornbach, kotec, přístřešek, přístřešek na dřevo',
   robots: 'index, follow',
   openGraph: {
     images: '/og-image.png',
