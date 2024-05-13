@@ -6,9 +6,10 @@ import Footer from './components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'PREMIUMETAL',
-  description: 'Garaże Klasy Premium',
-  keywords: 'garaże blaszane, garaże, blaszaki,kojce, kojce dla psów, kojce dla psów blaszane',
+  title: 'Garáže PREMIUMetal - Najvyššia kvalita pre vaše potreby!',
+  description: 'Objavte našu ponuku prémiových garáží, ktoré sú prispôsobené vašim potrebám. Spoľahnite sa na PREMIUMetal!',
+  keywords: 'plechove garaze, plechova garaz, plechové garáže, plechová garáž, záhradný domček na náradie, domček na náradie, domcek na naradie, koterce pre psov, koterce, prístrešok na drevo, pristresok na drevo',
+  robots: 'index, follow',
   openGraph: {
     images: '/og-image.png',
   },
