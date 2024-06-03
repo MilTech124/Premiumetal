@@ -1,9 +1,15 @@
 "use client";
 import { Fade } from "react-awesome-reveal";
+import Script from 'next/script'
 
 function page() {
   return (
     <main className="bg-[url(/images/bg-kontakt.png)] bg-cover flex flex-col bg-no-repeat  bg-center py-10  md:pl-[10vw]">
+    <Script id="gtag-event" strategy="afterInteractive">
+      {`
+        gtag('event', 'conversion', {'send_to': 'AW-16510752046/bljbCOyUsKAZEK6q-MA9'});
+      `}
+    </Script>
       <h1 className="text-slate-100">Kontakt</h1>
 
       <div className="py-20 flex flex-col gap-10">
