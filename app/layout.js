@@ -22,15 +22,15 @@ export default function RootLayout({ children }) {
       <body className={inter.className} >
       <Header />
       <Script src="https://www.googletagmanager.com/gtag/js?id=AW-16510752046" strategy="afterInteractive" />
-      <Script strategy="afterInteractive">
-        {`
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
+        <Script id="gtag-config" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
-          gtag('config', 'AW-16510752046');
-        `}
-      </Script>
+            gtag('config', 'AW-16510752046');
+          `}
+        </Script>
       {children}
       <Footer />
       </body>
