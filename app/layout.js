@@ -31,6 +31,7 @@ export default function RootLayout({ children }) {
             gtag('config', 'AW-16510752046');
           `}
         </Script>
+        <Script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="f3aeaac7-50aa-4999-af8a-4439f9bdc221"  type="text/javascript"></Script>
       {children}
       <Footer />
       </body>
