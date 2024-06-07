@@ -18,7 +18,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pl" className='scroll-smooth' style={{scrollBehavior:'smooth'}}>    
+    <html lang="sk" className='scroll-smooth' style={{scrollBehavior:'smooth'}}>    
       <body className={inter.className} >
       <Header />
       <Script src="https://www.googletagmanager.com/gtag/js?id=AW-16510752046" strategy="afterInteractive" />
