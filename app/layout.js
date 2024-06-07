@@ -6,9 +6,9 @@ import Footer from './components/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Garáže PREMIUMetal - Nejvyšší kvalita pro vaše potřeby!',
-  description: 'Objevte naši nabídku prémiových garáží, které jsou přizpůsobeny vašim potřebám. Spolehněte se na PREMIUMetal!',
-  keywords: 'plechová garáž, plechové garáže, plechova garaz, domky na nářadí, zahradní domky na nářadí, zahradní domky na nářadí z polska, kotec pro psa, kotec pro psa hornbach, kotec, přístřešek, přístřešek na dřevo',
+  title: 'Garáže PREMIUMetal - Najvyššia kvalita pre vaše potreby',
+  description: 'Objavte našu ponuku prémiových garáží, ktoré sú prispôsobené vašim potrebám. Spoľahnite sa na PREMIUMetal!',
+  keywords: 'plechove garaze, plechova garaz, plechové garáže, plechová garáž, záhradný domček na náradie, domček na náradie, domcek na naradie, koterce pre psov, koterce, prístrešok na drevo, pristresok na drevo',
   robots: 'index, follow',
   openGraph: {
     images: '/og-image.png',
@@ -17,7 +17,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="pl" className='scroll-smooth' style={{scrollBehavior:'smooth'}}>    
+    <html lang="cz" className='scroll-smooth' style={{scrollBehavior:'smooth'}}>    
       <body className={inter.className} >
       <Header />
       {children}
