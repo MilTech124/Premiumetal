@@ -22,6 +22,20 @@ async function HomeRealization() {
               <Link href="/galeria">
                 <button className="btn bg-red">Bővebben</button>
               </Link>
+            </div>            
+          </div>
+          <div className="flex relative flex-col max-w-lg ">
+            <img
+              src="/images/segmentowa.jpeg"
+              className="w-full h-full object-cover "
+              alt="smietnik"
+            />
+            {/* //centered title and button */}
+            <div className="flex absolute inset-0 m-auto flex-col items-center justify-center">
+              <h3 className="text-4xl pb-2 text-center ">Garaże z Bramą Segmentową</h3>
+              <Link href="/garaze-z-brama">
+                <button className="btn bg-red">Bővebben</button>
+              </Link>
             </div>
           </div>
           <div className="flex relative flex-col max-w-lg ">
