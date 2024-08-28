@@ -17,6 +17,7 @@ function Header() {
         <nav className='md:ml-auto md:pr-4 md:!flex'style={{ display: isOpen ? "flex" : "none" }}>
             <ul className='md:flex text-xl max-sm:flex-col max-sm:flex max-sm:gap-2 items-center  gap-10 font-semibold max-md:justify-center'>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/" ><HomeIcon/></Link></li>
+                {/* <li onClick={()=>{setIsOpen(false)}}> <Link href="/garaze-z-brama" >Garaże z Bramą Segmentową</Link></li> */}
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/galeria">Galeria</Link></li>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/smietniki">Wiaty Śmietnikowe</Link></li>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/#ofirmie">O firmie</Link></li>

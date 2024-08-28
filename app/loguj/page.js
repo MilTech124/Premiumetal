@@ -7,6 +7,7 @@ function page() {
         <a href="https://backend.premiumetal.pl/backed/wp-admin/post.php?post=8&action=edit" target="_blank" rel="noopener noreferrer"><button className='btn btn-primary'>Galeria</button></a>
         <a href="https://backend.premiumetal.pl/backed/wp-admin/post.php?post=60&action=edit" target="_blank" rel="noopener noreferrer"><button className='btn btn-primary'>Śmietniki</button></a>
         <a href="https://backend.premiumetal.pl/backed/wp-admin/post.php?post=66&action=edit" target="_blank" rel="noopener noreferrer"><button className='btn btn-primary'>Głowna</button></a>
+        <a href="https://backend.premiumetal.pl/backed/wp-admin/post.php?post=206&action=edit" target="_blank" rel="noopener noreferrer"><button className='btn btn-primary'>Garaże z bramą</button></a>
     </div>
   )
 }
