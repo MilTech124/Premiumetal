@@ -20,7 +20,7 @@ async function page() {
    const data= await getData()
   return (
     <div>
-          <Hero title='Garaże z Bramą Segmentową' />
+          <Hero title='Garáže so sekcionálnymi bránami' />
       <div className='flex justify-center container mx-auto flex-wrap gap-2 -mt-12'>
           {
             data.acf.garaze_z_bramami.map((item)=>{

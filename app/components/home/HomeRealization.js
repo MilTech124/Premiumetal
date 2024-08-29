@@ -38,9 +38,9 @@ async function HomeRealization() {
             />
             {/* //centered title and button */}
             <div className="flex absolute inset-0 m-auto flex-col items-center justify-center">
-              <h3 className="text-4xl pb-2 text-center ">Garaże z Bramą Segmentową</h3>
+              <h3 className="text-4xl pb-2 text-center ">Garáže so sekcionálnymi bránami</h3>
               <Link href="/garaze-z-brama">
-                <button className="btn bg-red">Więcej</button>
+                <button className="btn bg-red">Viac</button>
               </Link>
             </div>
           </div>
