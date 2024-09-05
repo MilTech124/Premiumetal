@@ -18,7 +18,7 @@ function Header() {
             <ul className='md:flex text-xl max-sm:flex-col max-sm:flex max-sm:gap-2 items-center  gap-10 font-semibold max-md:justify-center'>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/" ><HomeIcon/></Link></li>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/galeria">Képek</Link></li>
-                <li onClick={()=>{setIsOpen(false)}}> <Link href="https://backend.premiumetal.pl/backed/konfigurator-cz/">Konfigurátor</Link></li>
+                <li onClick={()=>{setIsOpen(false)}}> <Link href="https://backend.premiumetal.pl/backed/konfigurator-hu/">Konfigurátor</Link></li>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/smietniki">Szeméttároló fészer</Link></li>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/#ofirmie"> A cégről</Link></li>
                 {/* ON HOVER DROPDOWN */}
