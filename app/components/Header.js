@@ -17,7 +17,7 @@ function Header() {
         <nav className='md:ml-auto md:pr-4 md:!flex'style={{ display: isOpen ? "flex" : "none" }}>
             <ul className='md:flex max-sm:flex-col max-sm:flex max-sm:gap-2 items-center  gap-10 font-semibold max-md:justify-center'>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/" ><HomeIcon/></Link></li>
-                <li onClick={()=>{setIsOpen(false)}}> <Link href="https://premiumetal.fillout.com/konfiguratorcz">Garážový konfigurátor</Link></li>
+                <li onClick={()=>{setIsOpen(false)}}> <Link href="https://backend.premiumetal.pl/backed/konfigurator-cz/">Garážový konfigurátor</Link></li>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/galeria">Galerie</Link></li>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/smietniki">Přístřešky na popelnice</Link></li>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/kojce">Kotec pro psy</Link></li>
