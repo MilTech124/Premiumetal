@@ -15,9 +15,9 @@ function Header() {
     <div className='mx-auto container flex w-full pr-5 min-h-[50px] justify-between items-center max-md:flex-col text-white shadow-xl '>
        <img src="/PREMIUM.jpg" alt="logo" className='w-[80px] max-md:absolute left-0 max-md:w-[50px] ' />
         <nav className='md:ml-auto md:pr-4 md:!flex'style={{ display: isOpen ? "flex" : "none" }}>
-            <ul className='md:flex text-xl max-sm:flex-col max-sm:flex max-sm:gap-2 items-center  gap-10 font-semibold max-md:justify-center'>
-                <li onClick={()=>{setIsOpen(false)}}> <Link href="https://backend.premiumetal.pl/backed/konfigurator-pl/" >Konfigurator</Link></li>
+            <ul className='md:flex text-xl max-sm:flex-col max-sm:flex max-sm:gap-2 items-center  gap-10 font-semibold max-md:justify-center'>                
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/" ><HomeIcon/></Link></li>
+                <li onClick={()=>{setIsOpen(false)}}> <Link href="https://backend.premiumetal.pl/backed/konfigurator-pl/" >Konfigurator</Link></li>
                 {/* <li onClick={()=>{setIsOpen(false)}}> <Link href="/garaze-z-brama" >Garaże z Bramą Segmentową</Link></li> */}
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/galeria">Galeria</Link></li>
                 <li onClick={()=>{setIsOpen(false)}}> <Link href="/smietniki">Wiaty Śmietnikowe</Link></li>
