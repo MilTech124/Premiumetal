@@ -45,7 +45,7 @@ export default function RootLayout({ children }) {
           data-cbid="1b624268-5ae5-49d9-992c-056c08ec8467"
           type="text/javascript"
         ></Script>
-        <Script id="facebook-pixel" strategy="afterInteractive">
+        {/* <Script id="facebook-pixel" strategy="afterInteractive">
           {`
     !function(f,b,e,v,n,t,s)
     {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
@@ -58,21 +58,21 @@ export default function RootLayout({ children }) {
     fbq('init', '501850559493535');
     fbq('track', 'PageView');
   `}
-        </Script>
+        </Script> */}
       </head>
 
       <body className={inter.className}>
         <Header />
         {children}
         <Footer />
-        <noscript>
+        {/* <noscript>
           <img
             height="1"
             width="1"
             style="display:none"
             src="https://www.facebook.com/tr?id=501850559493535&ev=PageView&noscript=1"
           />
-        </noscript>
+        </noscript> */}
       </body>
     </html>
   );
